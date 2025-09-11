@@ -1,0 +1,290 @@
+{
+  "batch_timestamp": "2025-08-24T15:48:39.361313",
+  "total_queries": 2,
+  "queries_run": [
+    "What is 2+2?",
+    "What is the capital of France?"
+  ],
+  "all_results": [
+    {
+      "query": "What is 2+2?",
+      "results": [
+        {
+          "provider": "OpenAI",
+          "response": "2 + 2 = 4",
+          "model": "gpt-4.1-2025-04-14",
+          "success": true,
+          "analysis": {
+            "companies_mentioned": [],
+            "mention_reasons": {},
+            "authority_signals": [],
+            "key_features": [],
+            "sources_cited": [],
+            "ranking_factors": [],
+            "sentiment": "neutral",
+            "optimization_insights": [
+              "The response is extremely brief and does not mention any companies, products, or authoritative sources.",
+              "For AISEO optimization, include references to authoritative sources, relevant products, or industry standards where possible, even for simple queries.",
+              "Incorporate authority signals (e.g., 'according to', 'trusted source', 'industry standard') to enhance credibility.",
+              "Highlight key features or benefits if applicable, even for basic factual answers.",
+              "Where relevant, cite explicit sources, data, or references to improve trust and SEO value."
+            ],
+            "timestamp": "2025-08-24T15:48:21.865520",
+            "query": "What is 2+2?",
+            "provider": "OpenAI"
+          }
+        },
+        {
+          "provider": "Anthropic",
+          "response": "2 + 2 = 4",
+          "model": "claude-sonnet-4-20250514",
+          "success": true,
+          "analysis": {
+            "companies_mentioned": [],
+            "mention_reasons": {},
+            "authority_signals": [],
+            "key_features": [],
+            "sources_cited": [],
+            "ranking_factors": [],
+            "sentiment": "neutral",
+            "optimization_insights": [
+              "The response is purely factual and contains no SEO-relevant entities, brands, or authority signals.",
+              "For AISEO optimization, consider adding context, referencing authoritative mathematical sources (e.g., Wikipedia, MathWorld), or providing additional information such as real-world applications or related concepts.",
+              "Incorporate relevant keywords (e.g., 'basic arithmetic', 'addition', 'math facts') to improve discoverability.",
+              "Use structured data or FAQ schema if applicable to enhance search visibility for educational queries.",
+              "Include references or links to reputable educational resources to boost authority and trustworthiness."
+            ],
+            "timestamp": "2025-08-24T15:48:24.060834",
+            "query": "What is 2+2?",
+            "provider": "Anthropic"
+          }
+        },
+        {
+          "provider": "Google",
+          "response": "2 + 2 = 4",
+          "model": "gemini-2.5-flash",
+          "success": true,
+          "analysis": {
+            "companies_mentioned": [],
+            "mention_reasons": {},
+            "authority_signals": [],
+            "key_features": [],
+            "sources_cited": [],
+            "ranking_factors": [],
+            "sentiment": "neutral",
+            "optimization_insights": [
+              "The response is extremely brief and factual, lacking any SEO optimization elements.",
+              "No companies, products, or authoritative sources are mentioned; consider including references or context if relevant to the query.",
+              "For AISEO, even simple factual answers can be enhanced with additional context, related entities, or links to authoritative sources to improve search visibility.",
+              "Include structured data or schema markup where appropriate to help search engines understand the content.",
+              "Incorporate relevant keywords and semantic variations if the query allows for broader interpretation."
+            ],
+            "timestamp": "2025-08-24T15:48:26.062979",
+            "query": "What is 2+2?",
+            "provider": "Google"
+          }
+        },
+        {
+          "provider": "Google Search",
+          "response": [
+            {
+              "title": "What does 2/2 mean? ( I have seen it a lot and never knew what it ...",
+              "link": "https://www.reddit.com/r/medicalschoolanki/comments/1aisldj/what_does_22_mean_i_have_seen_it_a_lot_and_never/",
+              "snippet": "Feb 4, 2024 ... What does 2/2 mean? ( I have seen it a lot and never knew what it meant). newbie \u00b7 r/medicalschoolanki - What does 2/2 mean?"
+            },
+            {
+              "title": "2 + 2 = 5 - Wikipedia",
+              "link": "https://en.wikipedia.org/wiki/2_%2B_2_%3D_5",
+              "snippet": "2 + 2 = 5 or two plus two equals five is a mathematical falsehood which is used as an example of a simple logical error that is obvious to anyone familiar with\u00a0..."
+            },
+            {
+              "title": "About Form W-2, Wage and Tax Statement | Internal Revenue Service",
+              "link": "https://www.irs.gov/forms-pubs/about-form-w-2",
+              "snippet": "Jan 17, 2025 ... Important information on employment tax withholding obligations and Form W-2 filing obligations of federal employers with employees who work in the\u00a0..."
+            },
+            {
+              "title": "2 CFR Part 200 -- Uniform Administrative Requirements ... - eCFR",
+              "link": "https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200",
+              "snippet": "(1) This part establishes uniform administrative requirements, cost principles, and audit requirements for Federal awards. Federal agencies must not impose\u00a0..."
+            },
+            {
+              "title": "What is -2^2? - Math Central",
+              "link": "http://mathcentral.uregina.ca/QQ/database/QQ.09.09/h/alex5.html",
+              "snippet": "With (-2)2 the parentheses tell you to consider -2 as a single quantity and square it so (-2)2 = (-2) \u00d7 (-2) = 4. ... It's -4. Please note that this is not really\u00a0..."
+            },
+            {
+              "title": "What is 2+2? - Quora",
+              "link": "https://www.quora.com/What-is-2-2-8",
+              "snippet": "Jan 19, 2018 ... 2 + 2 or in words the sum of two and two, would be four. If you have two candy bars and someone gave you another two, you would have four candy\u00a0..."
+            },
+            {
+              "title": "Turn on 2-Step Verification - Android - Google Account Help",
+              "link": "https://support.google.com/accounts/answer/185839?hl=en&co=GENIE.Platform%3DAndroid",
+              "snippet": "With 2-Step Verification, or two-factor authentication, you can add an extra layer of security to your account in case your password is stolen."
+            },
+            {
+              "title": "The UK Honours Degree System for Undergraduates | Students ...",
+              "link": "https://www.ucl.ac.uk/students/certificates-results/uk-honours-degree-system-undergraduates",
+              "snippet": "Upper Second-Class Honours (60-70%): there are two levels of second class degree. An upper second class, known as a 2:1 or two-one, is the higher of the two\u00a0..."
+            },
+            {
+              "title": "2 For 2X - Applebee's\u00ae Menu",
+              "link": "https://www.applebees.com/en/menu/2-for-2x",
+              "snippet": "2 for $2X. Applebee's 2 for $25 just got better! Dig into two tasty entr\u00e9es like the NEW Chicken Parmesan Fettuccine, NEW Big Bangin' Burger, or our signature\u00a0..."
+            },
+            {
+              "title": "PrEP 2-1-1: \"On-Demand\" Pre-Exposure Prophylaxis (PrEP) for ...",
+              "link": "https://www.cdph.ca.gov/Programs/CID/DOA/CDPH%20Document%20Library/PrEP211_101019_ADA.pdf",
+              "snippet": "What is the Difference Between PrEP and PrEP 2-1-1? Daily PrEP is the FDA-approved use of a daily pill (Truvada\u00ae or Descovy\u00ae) that combines two drugs to prevent\u00a0..."
+            }
+          ],
+          "query": "What is 2+2?",
+          "total_results": "55590000000",
+          "success": true
+        }
+      ]
+    },
+    {
+      "query": "What is the capital of France?",
+      "results": [
+        {
+          "provider": "OpenAI",
+          "response": "The capital of France is **Paris**.",
+          "model": "gpt-4.1-2025-04-14",
+          "success": true,
+          "analysis": {
+            "companies_mentioned": [],
+            "mention_reasons": {},
+            "authority_signals": [],
+            "key_features": [],
+            "sources_cited": [],
+            "ranking_factors": [],
+            "sentiment": "neutral",
+            "optimization_insights": [
+              "The response is factually correct but extremely brief and lacks depth.",
+              "No companies, brands, products, or authoritative sources are mentioned; adding reputable sources (e.g., Britannica, CIA World Factbook) could improve authority.",
+              "No authority signals or trust-building language are present; including phrases like 'widely recognized' or 'according to...' would enhance perceived reliability.",
+              "No features or benefits are highlighted; consider expanding with contextual or historical information for richer content.",
+              "To optimize for AISEO, provide additional context, cite authoritative sources, and use structured data (e.g., FAQ schema) to improve search relevance and trust."
+            ],
+            "timestamp": "2025-08-24T15:48:34.458876",
+            "query": "What is the capital of France?",
+            "provider": "OpenAI"
+          }
+        },
+        {
+          "provider": "Anthropic",
+          "response": "The capital of France is Paris.",
+          "model": "claude-sonnet-4-20250514",
+          "success": true,
+          "analysis": {
+            "companies_mentioned": [],
+            "mention_reasons": {},
+            "authority_signals": [],
+            "key_features": [],
+            "sources_cited": [],
+            "ranking_factors": [],
+            "sentiment": "neutral",
+            "optimization_insights": [
+              "The response is extremely brief and lacks depth, which limits its SEO value.",
+              "No companies, brands, or authoritative sources are mentioned; adding references to official French government sites or reputable encyclopedias (e.g., Britannica, CIA World Factbook) would improve authority.",
+              "Including relevant keywords such as 'French capital', 'Paris', and 'France's capital city' can help with search optimization.",
+              "Expanding the answer with additional context (e.g., Paris's significance, population, or cultural importance) would increase relevance and ranking potential.",
+              "Utilize authority signals by referencing Paris as the 'largest city in France' or 'world-renowned capital'.",
+              "Cite sources or provide links for factual verification to enhance trustworthiness and meet AISEO best practices."
+            ],
+            "timestamp": "2025-08-24T15:48:36.963216",
+            "query": "What is the capital of France?",
+            "provider": "Anthropic"
+          }
+        },
+        {
+          "provider": "Google",
+          "response": "The capital of France is **Paris**.",
+          "model": "gemini-2.5-flash",
+          "success": true,
+          "analysis": {
+            "companies_mentioned": [],
+            "mention_reasons": {},
+            "authority_signals": [],
+            "key_features": [],
+            "sources_cited": [],
+            "ranking_factors": [
+              "Directness and relevance to the user query"
+            ],
+            "sentiment": "neutral",
+            "optimization_insights": [
+              "The response is concise but lacks depth, context, and authoritative references.",
+              "For improved AISEO, include authoritative sources (e.g., official French government sites, encyclopedias like Britannica, or reputable travel guides).",
+              "Add brief supporting details (e.g., Paris as the political, economic, and cultural center of France) to increase informational value.",
+              "Incorporate authority signals (e.g., 'Paris is internationally recognized as the capital of France').",
+              "Use structured data or schema markup if applicable to highlight factual answers for search engines.",
+              "Consider adding related entities or facts to enhance topical relevance and semantic richness."
+            ],
+            "timestamp": "2025-08-24T15:48:39.360067",
+            "query": "What is the capital of France?",
+            "provider": "Google"
+          }
+        },
+        {
+          "provider": "Google Search",
+          "response": [
+            {
+              "title": "Paris, France - Intercultural City - Intercultural Cities Programme",
+              "link": "https://www.coe.int/en/web/interculturalcities/paris",
+              "snippet": "Paris is the capital and most populous city of France. Situated on the Seine River, in the north of the country, it is in the centre of the \u00cele-de-France\u00a0..."
+            },
+            {
+              "title": "Paris - Wikipedia",
+              "link": "https://en.wikipedia.org/wiki/Paris",
+              "snippet": "The City of Paris is the centre of the \u00cele-de-France region, or Paris Region, with an official estimated population of 12,271,794 in January 2023, or about 19%\u00a0..."
+            },
+            {
+              "title": "Paris facts: the capital of France in history",
+              "link": "https://home.adelphi.edu/~ca19535/page%204.html",
+              "snippet": "Paris is the capital of France, the largest country of Europe with 550 000 km2 (65 millions inhabitants). Paris has 2.234 million inhabitants end 2011."
+            },
+            {
+              "title": "Me: What is the capital of France? Qwen3-30b-a3b: <think> Okay, so ...",
+              "link": "https://www.linkedin.com/posts/sanand0_me-what-is-the-capital-of-france-qwen3-activity-7324655268640829444-Qm1Q",
+              "snippet": "May 3, 2025 ... For instance, when people talk about France's cultural aspects, they often mention Paris as the center. I think I'm pretty confident that the\u00a0..."
+            },
+            {
+              "title": "Why does Perplexity often search for \"Capital of France\" after totally ...",
+              "link": "https://www.reddit.com/r/perplexity_ai/comments/1k2vyfa/why_does_perplexity_often_search_for_capital_of/",
+              "snippet": "Apr 19, 2025 ... Sounds like a bug. Funnily enough, the \"What is the capital of France\" is a test question that's occasionally found in LLM basics and tutorials."
+            },
+            {
+              "title": "What is the Capital of France? - WorldAtlas",
+              "link": "https://www.worldatlas.com/articles/what-is-the-capital-of-france.html",
+              "snippet": "Jun 29, 2018 ... Paris is the capital city of France, as well as the country's largest city."
+            },
+            {
+              "title": "I was asking llama3.1 what is the capital of France ... : r/LocalLLaMA",
+              "link": "https://www.reddit.com/r/LocalLLaMA/comments/1evcvpr/i_was_asking_llama31_what_is_the_capital_of_france/",
+              "snippet": "Aug 18, 2024 ... What is the capital of France. Answer only in JSON without summary and without introduction, using the key 'city'. Answers: Paris, Londen, Paris."
+            },
+            {
+              "title": "Marseille, the Secret Capital of France - The New York Times",
+              "link": "https://www.nytimes.com/2013/10/04/t-magazine/marseille-the-secret-capital-of-france.html",
+              "snippet": "Oct 4, 2013 ... Marseille is France's second biggest city, with 850,000 people, about a third of them Muslim, more than a third under 30; the unemployment rate\u00a0..."
+            },
+            {
+              "title": "ChatGPT C What's the capital of France? Paris My wife says it's ...",
+              "link": "https://www.facebook.com/groups/wholesomememeposting/posts/2214015192450404/",
+              "snippet": "Jun 10, 2025 ... Sticker, Avatar is rocking back and forth, with their eyes closed and laughing,. 2 mos. Sahaba Arshady. Arxu Bakshi welcome\u00a0..."
+            },
+            {
+              "title": "France | History, Maps, Flag, Population, Cities, Capital, & Facts ...",
+              "link": "https://www.britannica.com/place/France",
+              "snippet": "France, country of northwestern Europe. Historically and culturally among the most important nations in the Western world."
+            }
+          ],
+          "query": "What is the capital of France?",
+          "total_results": "720000000",
+          "success": true
+        }
+      ]
+    }
+  ]
+}

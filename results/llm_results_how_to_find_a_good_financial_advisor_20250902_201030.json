@@ -1,0 +1,317 @@
+{
+  "query": "How to find a good financial advisor?",
+  "timestamp": "2025-09-02T20:10:30.822309",
+  "date": "2025-09-02",
+  "time": "20:10:30",
+  "results": [
+    {
+      "provider": "OpenAI",
+      "response": "Finding a good financial advisor is an important step toward achieving your financial goals. Here are some practical steps to help you find a trustworthy and competent advisor:\n\n---\n\n### 1. **Understand Your Needs**\nDecide what kind of help you need:\n- **Investment planning**\n- **Retirement planning**\n- **Tax strategies**\n- **Estate planning**\n- **Comprehensive financial planning**\n\n---\n\n### 2. **Check Credentials**\nLook for advisors with recognized certifications:\n- **CFP\u00ae (Certified Financial Planner)**\n- **CPA/PFS (Certified Public Accountant/Personal Financial Specialist)**\n- **CFA (Chartered Financial Analyst)**\n\n---\n\n### 3. **Look for Fiduciary Duty**\nChoose an advisor who is a **fiduciary**\u2014legally required to act in your best interest. Ask directly:  \n*\"Are you a fiduciary, and will you put that in writing?\"*\n\n---\n\n### 4. **Research Compensation Structure**\nUnderstand how the advisor gets paid:\n- **Fee-only:** Paid only by you (hourly, flat fee, or % of assets).\n- **Commission-based:** Paid by selling products (beware of possible conflicts of interest).\n- **Fee-based:** Combination of both.\n\n**Fee-only** advisors usually have fewer conflicts of interest.\n\n---\n\n### 5. **Check Background and Experience**\n- Use databases like [FINRA\u2019s BrokerCheck](https://brokercheck.finra.org/) or [SEC Advisor Search](https://adviserinfo.sec.gov/).\n- Look for complaints, disciplinary actions, or employment history.\n- Prefer advisors with at least 3\u20135 years of experience.\n\n---\n\n### 6. **Ask for Referrals and Read Reviews**\n- Ask friends, family, or colleagues for recommendations.\n- Check independent review sites (e.g., NAPFA, Garrett Planning Network, XY Planning Network).\n\n---\n\n### 7. **Interview Multiple Advisors**\nPrepare questions such as:\n- What services do you provide?\n- How are you compensated?\n- Are you a fiduciary?\n- What experience do you have with clients like me?\n- Can you provide references?\n\n---\n\n### 8. **Understand Their Approach**\n- How do they create a financial plan?\n- What investment philosophy do they follow?\n- How often will you meet or communicate?\n- How do they measure success?\n\n---\n\n### 9. **Watch for Red Flags**\n- Guaranteeing high returns\n- Pressuring you to buy products\n- Not providing clear, written explanations of fees and services\n\n---\n\n### 10. **Start Small**\nIf possible, start with a limited engagement or a small project before committing long-term.\n\n---\n\n**Remember:** A good advisor is a partner in your financial journey, not a salesperson. Take your time to find someone you trust and feel comfortable working with.\n\n---\n\n**Useful resources:**\n- [CFP Board\u2019s Find a CFP\u00ae Professional](https://www.letsmakeaplan.org/)\n- [NAPFA Find an Advisor](https://www.napfa.org/find-an-advisor)\n- [Garrett Planning Network](https://www.garrettplanningnetwork.com/)\n\nLet me know if you want a checklist or sample interview questions!",
+      "model": "gpt-4.1-2025-04-14",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "CFP Board",
+          "NAPFA",
+          "Garrett Planning Network",
+          "XY Planning Network",
+          "FINRA",
+          "SEC",
+          "Garrett Planning Network"
+        ],
+        "mention_reasons": {
+          "CFP Board": "Referenced as an authority for finding certified financial planners; provides a professional directory.",
+          "NAPFA": "Mentioned as an independent review site and resource for finding fee-only advisors.",
+          "Garrett Planning Network": "Listed as a network of advisors and a resource for reviews and finding advisors.",
+          "XY Planning Network": "Cited as an independent review site for finding advisors, especially those serving younger clients or those with specific needs.",
+          "FINRA": "Referenced as a regulatory authority providing BrokerCheck, a database for checking advisor backgrounds.",
+          "SEC": "Mentioned as a regulatory authority offering Advisor Search to check advisor credentials and disciplinary history."
+        },
+        "authority_signals": [
+          "recognized certifications",
+          "legally required to act in your best interest",
+          "independent review sites",
+          "use databases like FINRA\u2019s BrokerCheck or SEC Advisor Search",
+          "prefer advisors with at least 3\u20135 years of experience",
+          "trustworthy and competent advisor",
+          "fiduciary"
+        ],
+        "key_features": [
+          "Recognized professional credentials (CFP\u00ae, CPA/PFS, CFA)",
+          "Fiduciary duty (acting in your best interest)",
+          "Transparent compensation structure (fee-only preferred)",
+          "Clean background and sufficient experience",
+          "Positive referrals and independent reviews",
+          "Clear communication and investment philosophy",
+          "Avoidance of red flags (guaranteed returns, pressure tactics, unclear fees)",
+          "Ability to start with a small or limited engagement"
+        ],
+        "sources_cited": [
+          "FINRA\u2019s BrokerCheck (https://brokercheck.finra.org/)",
+          "SEC Advisor Search (https://adviserinfo.sec.gov/)",
+          "CFP Board\u2019s Find a CFP\u00ae Professional (https://www.letsmakeaplan.org/)",
+          "NAPFA Find an Advisor (https://www.napfa.org/find-an-advisor)",
+          "Garrett Planning Network (https://www.garrettplanningnetwork.com/)",
+          "NAPFA",
+          "Garrett Planning Network",
+          "XY Planning Network",
+          "https://brokercheck.finra.org/)",
+          "https://adviserinfo.sec.gov/).",
+          "https://www.letsmakeaplan.org/)",
+          "https://www.napfa.org/find-an-advisor)",
+          "https://www.garrettplanningnetwork.com/)"
+        ],
+        "ranking_factors": [
+          "Relevance to the advisor selection process (e.g., credentials, fiduciary status, compensation)",
+          "Authority and trustworthiness of the source (regulatory bodies and professional organizations are prioritized)",
+          "Practicality and actionability for the user (steps are ordered from self-assessment to verification and engagement)"
+        ],
+        "sentiment": "Positive toward regulatory bodies, professional organizations, and networks; neutral toward general advisor population with cautionary notes about potential conflicts of interest and red flags.",
+        "optimization_insights": [
+          "Incorporate more specific brand and product mentions where relevant (e.g., leading financial planning software, top-rated advisor platforms).",
+          "Add authoritative statistics or data points (e.g., 'According to a 2023 CFP Board survey, X% of clients...') to increase trust signals.",
+          "Use more explicit authority phrases (e.g., 'industry standard', 'most trusted', 'top-rated') to reinforce credibility.",
+          "Include more internal and external links to authoritative resources (e.g., Investopedia, SEC educational pages) for enhanced SEO.",
+          "Structure information with clear subheadings and bullet points for readability and featured snippet optimization.",
+          "Add a concise FAQ or checklist at the end to target long-tail queries and increase user engagement.",
+          "Mention specific advisor search tools or directories by name and link to them directly for higher topical authority.",
+          "Reference recent industry reports or studies to provide up-to-date context and further authority."
+        ],
+        "timestamp": "2025-09-02T20:10:09.416395",
+        "query": "How to find a good financial advisor?",
+        "provider": "OpenAI"
+      }
+    },
+    {
+      "provider": "Anthropic",
+      "response": "Here are key steps to find a quality financial advisor:\n\n## Define Your Needs First\n- Determine what services you need (investment management, retirement planning, tax advice, etc.)\n- Consider your financial complexity and assets\n- Decide if you want ongoing management or project-based help\n\n## Look for Proper Credentials\n- **CFP (Certified Financial Planner)** - comprehensive training\n- **CPA/PFS** - tax expertise combined with financial planning\n- **CFA (Chartered Financial Analyst)** - investment focus\n- **ChFC** - insurance and estate planning emphasis\n\n## Understand Fee Structures\n- **Fee-only**: Transparent, no commissions (often preferable)\n- **Fee-based**: Combination of fees and commissions\n- **Commission-based**: Paid through product sales (potential conflicts)\n\n## Research and Vet Candidates\n- Check **FINRA BrokerCheck** and **SEC Investment Adviser Search**\n- Look up any disciplinary history\n- Verify their fiduciary status (legally required to act in your best interest)\n- Read reviews and ask for references\n\n## Interview Multiple Advisors\nAsk about:\n- Their investment philosophy and process\n- How they're compensated\n- Typical client profile and minimum assets\n- Communication frequency and methods\n- Their team and succession planning\n\n## Red Flags to Avoid\n- Guaranteed returns or \"get rich quick\" promises\n- High-pressure sales tactics\n- Lack of transparency about fees\n- No clear credentials or experience\n\nStart with referrals from trusted sources, but always do your own research.",
+      "model": "claude-sonnet-4-20250514",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "CFP (Certified Financial Planner)",
+          "CPA/PFS",
+          "CFA (Chartered Financial Analyst)",
+          "ChFC",
+          "FINRA BrokerCheck",
+          "SEC Investment Adviser Search"
+        ],
+        "mention_reasons": {
+          "CFP (Certified Financial Planner)": "Mentioned as a key credential indicating comprehensive financial planning training.",
+          "CPA/PFS": "Highlighted for tax expertise combined with financial planning.",
+          "CFA (Chartered Financial Analyst)": "Referenced for investment-focused expertise.",
+          "ChFC": "Noted for emphasis on insurance and estate planning.",
+          "FINRA BrokerCheck": "Cited as a tool to research and vet financial advisors for disciplinary history.",
+          "SEC Investment Adviser Search": "Mentioned as an authoritative source to verify advisor registration and background."
+        },
+        "authority_signals": [
+          "comprehensive training",
+          "tax expertise",
+          "investment focus",
+          "insurance and estate planning emphasis",
+          "legally required to act in your best interest",
+          "trusted sources"
+        ],
+        "key_features": [
+          "Proper credentials (CFP, CPA/PFS, CFA, ChFC)",
+          "Transparent fee structures (fee-only preferred)",
+          "Verification of fiduciary status",
+          "Researching disciplinary history",
+          "Interviewing multiple advisors",
+          "Clear communication and succession planning",
+          "Avoiding red flags (guaranteed returns, high-pressure tactics, lack of transparency)"
+        ],
+        "sources_cited": [
+          "CFP (Certified Financial Planner)",
+          "CPA/PFS",
+          "CFA (Chartered Financial Analyst)",
+          "ChFC",
+          "FINRA BrokerCheck",
+          "SEC Investment Adviser Search",
+          "referrals from trusted sources"
+        ],
+        "ranking_factors": [
+          "Relevance to consumer needs (credentials and services listed first)",
+          "Authority and trustworthiness (regulatory tools and fiduciary status)",
+          "Transparency and safety (fee structures and red flags)",
+          "Actionability (step-by-step process, interview questions)"
+        ],
+        "sentiment": "positive",
+        "optimization_insights": [
+          "Incorporate authoritative credentials and regulatory resources (e.g., CFP, FINRA BrokerCheck) as keywords for trust and expertise.",
+          "Use clear, scannable formatting (bullet points, headings) to improve readability and featured snippet potential.",
+          "Highlight actionable steps and red flags to increase user engagement and time on page.",
+          "Emphasize transparency, fiduciary duty, and fee structures to align with user search intent for trustworthy financial advice.",
+          "Include internal links to resources like FINRA BrokerCheck and SEC Adviser Search for added value and SEO relevance.",
+          "Target long-tail keywords such as 'how to vet a financial advisor', 'financial advisor credentials', and 'fee-only vs commission-based advisors'.",
+          "Encourage user interaction by suggesting questions to ask advisors, improving dwell time and engagement metrics."
+        ],
+        "timestamp": "2025-09-02T20:10:17.817254",
+        "query": "How to find a good financial advisor?",
+        "provider": "Anthropic"
+      }
+    },
+    {
+      "provider": "Google",
+      "response": "Finding a good financial advisor is a significant decision that can have a profound impact on your financial future. It requires careful research and due diligence. Here's a step-by-step guide to help you find the right one:\n\n## Step 1: Define Your Needs and Goals\n\nBefore you start looking, understand what you need help with.\n\n1.  **What are your financial goals?**\n    *   Saving for retirement?\n    *   Paying off debt?\n    *   Buying a house?\n    *   Saving for college?\n    *   Estate planning?\n    *   Investment management?\n    *   Budgeting and cash flow?\n    *   Tax planning?\n    *   Starting a business?\n    *   Dealing with a major life event (marriage, divorce, inheritance)?\n\n2.  **What is your current financial situation?**\n    *   Are you just starting out, mid-career, or nearing retirement?\n    *   What's your income, assets, and liabilities?\n    *   How complex are your finances? (Simple investments vs. multiple businesses, trusts, etc.)\n\n3.  **What kind of relationship do you want?**\n    *   Do you need comprehensive financial planning or just help with investments?\n    *   How often do you want to meet or communicate?\n    *   Do you prefer in-person meetings, virtual, or a hybrid?\n\n## Step 2: Understand Key Advisor Types and Compensation Models\n\nThis is crucial for avoiding conflicts of interest.\n\n1.  **Fiduciary Duty (THIS IS PARAMOUNT):**\n    *   **What it means:** A fiduciary is legally and ethically obligated to act in your best financial interest *at all times*. This is the gold standard you should look for.\n    *   **Contrast with \"Suitability Standard\":** Brokers who operate under a suitability standard only have to recommend products that are \"suitable\" for you, which may not be the *best* option for you, and could earn them a higher commission.\n    *   **Always ask: \"Are you a fiduciary 100% of the time?\"**\n\n2.  **Compensation Models:**\n    *   **Fee-Only:** The advisor is paid directly by you, typically an hourly rate, a flat fee for a specific plan, or a percentage of assets under management (AUM). They receive no commissions from selling products. This is generally considered the most transparent and conflict-free model.\n    *   **Fee-Based:** This is a hybrid and can be confusing. It means the advisor charges fees *and* can also earn commissions from selling products (e.g., mutual funds, annuities, insurance). This creates potential conflicts of interest because they might recommend products that pay them a higher commission.\n    *   **Commission-Based:** The advisor is paid solely by commissions from the products they sell to you. This is the least desirable model as it creates the most significant conflict of interest.\n\n## Step 3: Where to Look for Advisors\n\nStart your search in reputable places.\n\n1.  **Referrals:**\n    *   **Friends, Family, Colleagues:** Ask people you trust who they use and what their experience has been.\n    *   **Other Professionals:** Your accountant, attorney, or even a trusted insurance agent might have good recommendations.\n    *   *Caveat:* While a good starting point, personal fit and your specific needs are key, so don't just go with a referral without vetting.\n\n2.  **Professional Organizations & Directories (Focus on Fee-Only/Fiduciary):**\n    *   **Certified Financial Planner (CFP Board):** The gold standard credential. Look for advisors at [www.letsmakeaplan.org](http://www.letsmakeaplan.org/). CFPs must meet education, examination, experience, and ethical requirements.\n    *   **National Association of Personal Financial Advisors (NAPFA):** This organization exclusively lists fee-only financial advisors who are fiduciaries. [www.napfa.org](http://www.napfa.org/)\n    *   **Garrett Planning Network:** A network of fee-only advisors who offer hourly financial planning services, often good for those with less complex needs or just starting out. [www.garrettplanningnetwork.com](http://www.garrettplanningnetwork.com/)\n    *   **XY Planning Network:** Focuses on fee-only financial planning for Gen X and Gen Y clients, often with a monthly retainer model. [www.xyplanningnetwork.com](http://www.xyplanningnetwork.com/)\n    *   **FPA PlannerSearch (Financial Planning Association):** You can search for advisors, but verify their compensation model. [www.plannersearch.org](http://www.plannersearch.org/)\n\n3.  **Regulatory Websites for Background Checks:**\n    *   **FINRA BrokerCheck:** Use this to check the background and disciplinary history of brokers and brokerage firms. [brokercheck.finra.org](http://brokercheck.finra.org/)\n    *   **SEC Investment Adviser Public Disclosure (IAPD):** Use this to check the background and disciplinary history of investment advisors and firms. This will show their Form ADV, which provides detailed information about their services, fees, and any conflicts of interest. [adviserinfo.sec.gov](http://adviserinfo.sec.gov/)\n\n## Step 4: Interview Potential Advisors (Meet with 2-3)\n\nOnce you have a few candidates, schedule initial consultations. Think of it like a job interview where you're the employer.\n\n**Key Questions to Ask:**\n\n1.  **\"Are you a fiduciary? Are you legally and ethically obligated to act in my best interest 100% of the time?\"** (If they hesitate or say \"sometimes,\" walk away.)\n2.  **\"How are you compensated?\"** (Confirm they are Fee-Only. Get a clear breakdown of all potential costs.)\n3.  **\"What are your credentials?\"** (Look for CFP\u00ae. Other good ones include CFA, ChFC, PFS.)\n4.  **\"What is your experience? Who are your typical clients?\"** (Do they work with people like you in your situation?)\n5.  **\"What is your investment philosophy?\"** (Does it align with your risk tolerance and goals?)\n6.  **\"What services do you provide?\"** (Comprehensive planning, investment management, tax, estate, etc.?)\n7.  **\"Can I see a copy of your Form ADV Part 2?\"** (This document fully discloses their business practices, fees, conflicts, and disciplinary history. Read it carefully.)\n8.  **\"Do you have any disciplinary history or complaints against you or your firm?\"** (Then verify this on BrokerCheck/IAPD.)\n9.  **\"How often will we meet, and how will we communicate?\"**\n10. **\"Will I be working with you directly, or will I be passed to a junior advisor?\"**\n11. **\"What is your client-to-advisor ratio?\"** (A very high ratio might indicate less personalized service.)\n12. **\"Can you provide client references?\"** (Some advisors will, some won't due to privacy. If they do, follow up.)\n\n## Step 5: Look for Red Flags\n\nBe wary of advisors who:\n\n*   **Guarantee specific returns:** No legitimate advisor can guarantee investment returns.\n*   **Pressure you into quick decisions:** A good advisor will give you time to think.\n*   **Push specific products, especially proprietary ones:** This is a sign of a commission-driven approach.\n*   **Are vague about fees or compensation:** Transparency is essential.\n*   **Are not fiduciaries, or claim to be but can't clearly explain what that means to them.**\n*   **Have a history of complaints or disciplinary actions (check BrokerCheck/IAPD).**\n*   **Lack proper credentials or experience for your needs.**\n*   **Claim to have \"secret\" strategies or offer \"exclusive\" opportunities.**\n\n## Step 6: Make Your Decision\n\nAfter interviewing, consider the following:\n\n*   **Trust and Comfort:** Do you feel comfortable with them? Do you trust their advice? Your gut feeling matters.\n*   **Competence:** Do they clearly understand your situation and goals, and can they articulate a plan?\n*   **Transparency:** Are they open and honest about everything, especially fees and potential conflicts?\n*   **Fit:** Do their services, communication style, and philosophy align with your needs?\n\nDon't rush the decision. Choosing a financial advisor is a long-term relationship, and selecting the right one can make a huge difference in achieving your financial goals.",
+      "model": "gemini-2.5-flash",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "Certified Financial Planner (CFP Board)",
+          "National Association of Personal Financial Advisors (NAPFA)",
+          "Garrett Planning Network",
+          "XY Planning Network",
+          "FPA PlannerSearch (Financial Planning Association)",
+          "FINRA BrokerCheck",
+          "SEC Investment Adviser Public Disclosure (IAPD)"
+        ],
+        "mention_reasons": {
+          "Certified Financial Planner (CFP Board)": "Referenced as the gold standard credential for financial advisors and as a reputable directory for finding qualified professionals.",
+          "National Association of Personal Financial Advisors (NAPFA)": "Highlighted as an organization listing exclusively fee-only fiduciary advisors, emphasizing transparency and client-first approach.",
+          "Garrett Planning Network": "Mentioned as a network of fee-only advisors offering hourly services, suitable for those with less complex needs or just starting out.",
+          "XY Planning Network": "Cited for its focus on Gen X and Gen Y clients, offering fee-only planning with a monthly retainer model.",
+          "FPA PlannerSearch (Financial Planning Association)": "Provided as a searchable directory for finding financial advisors, with a note to verify compensation models.",
+          "FINRA BrokerCheck": "Recommended as a regulatory tool to check the background and disciplinary history of brokers and brokerage firms.",
+          "SEC Investment Adviser Public Disclosure (IAPD)": "Suggested for background checks on investment advisors and firms, including access to Form ADV for full disclosure."
+        },
+        "authority_signals": [
+          "gold standard",
+          "paramount",
+          "trusted",
+          "reputable",
+          "comprehensive",
+          "transparent",
+          "conflict-free",
+          "legally and ethically obligated",
+          "the most significant conflict of interest",
+          "the least desirable model",
+          "the most transparent"
+        ],
+        "key_features": [
+          "Fiduciary duty (acting in client's best interest at all times)",
+          "Fee-only compensation (transparency, no commissions)",
+          "Credential verification (CFP, CFA, ChFC, PFS)",
+          "Background and disciplinary checks (BrokerCheck, IAPD)",
+          "Comprehensive financial planning services",
+          "Personal fit and communication style",
+          "Transparency about fees and potential conflicts",
+          "Experience with similar clients",
+          "Clear investment philosophy",
+          "Client-to-advisor ratio",
+          "References and client testimonials",
+          "Avoidance of red flags (guaranteed returns, pressure tactics, proprietary products)"
+        ],
+        "sources_cited": [
+          "www.letsmakeaplan.org",
+          "www.napfa.org",
+          "www.garrettplanningnetwork.com",
+          "www.xyplanningnetwork.com",
+          "www.plannersearch.org",
+          "brokercheck.finra.org",
+          "adviserinfo.sec.gov",
+          "Certified Financial Planner (CFP Board)",
+          "National Association of Personal Financial Advisors (NAPFA)",
+          "Garrett Planning Network",
+          "XY Planning Network",
+          "FPA PlannerSearch (Financial Planning Association)",
+          "FINRA BrokerCheck",
+          "SEC Investment Adviser Public Disclosure (IAPD)",
+          "Form ADV",
+          "Step 1",
+          "Step 2",
+          "Step 3",
+          "Step 4",
+          "http://www.letsmakeaplan.org/).",
+          "http://www.napfa.org/)",
+          "http://www.garrettplanningnetwork.com/)",
+          "http://www.xyplanningnetwork.com/)",
+          "http://www.plannersearch.org/)",
+          "http://brokercheck.finra.org/)",
+          "http://adviserinfo.sec.gov/)"
+        ],
+        "ranking_factors": [
+          "Reputation and authority of the organization or credential (e.g., CFP Board listed first as 'gold standard')",
+          "Transparency and fiduciary status (fee-only and fiduciary organizations prioritized)",
+          "Relevance to user needs (networks focused on specific demographics or service models highlighted)",
+          "Regulatory authority (regulatory sources for background checks listed after directories)",
+          "Comprehensiveness of services offered"
+        ],
+        "sentiment": "Positive toward organizations promoting fiduciary, fee-only, and transparent practices; neutral to negative toward commission-based models and non-fiduciary practices.",
+        "optimization_insights": [
+          "Use authoritative, specific organization names and credentials (e.g., CFP Board, NAPFA) to boost trust and relevance.",
+          "Include direct links to reputable directories and regulatory sites for user action and SEO value.",
+          "Highlight authority signals and superlatives (e.g., 'gold standard', 'trusted', 'transparent') to reinforce expertise and trustworthiness.",
+          "Structure content in clear, step-by-step guides with actionable checklists and key questions to increase engagement and dwell time.",
+          "Explicitly compare models (fee-only vs. fee-based vs. commission) to address user intent and reduce ambiguity.",
+          "Emphasize red flags and due diligence steps to provide comprehensive, user-focused advice.",
+          "Cite regulatory and credentialing bodies as sources to enhance E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness).",
+          "Use bullet points and bolding for key terms and questions to improve readability and featured snippet potential.",
+          "Encourage users to verify information with official sources, linking directly to those resources.",
+          "Address different user personas (e.g., Gen X/Y, beginners, complex needs) to broaden relevance and search coverage."
+        ],
+        "timestamp": "2025-09-02T20:10:30.821080",
+        "query": "How to find a good financial advisor?",
+        "provider": "Google"
+      }
+    },
+    {
+      "provider": "Google Search",
+      "response": [
+        {
+          "title": "How to find a financial advisor : r/FinancialPlanning",
+          "link": "https://www.reddit.com/r/FinancialPlanning/comments/13md15b/how_to_find_a_financial_advisor/",
+          "snippet": "May 20, 2023 ... Finding someone who has their CFP is a good start. It means they have at least the minimum required knowledge to be able to provide\u00a0..."
+        },
+        {
+          "title": "How to Choose a Financial Advisor - NerdWallet",
+          "link": "https://www.nerdwallet.com/article/investing/how-to-choose-a-financial-advisor",
+          "snippet": "5 days ago ... Financial advisors \u00b7 Good when: You want specialized services, your situation is complex, or you want to develop a long-term relationship with\u00a0..."
+        },
+        {
+          "title": "What is the best way to find a financial advisor? : r/personalfinance",
+          "link": "https://www.reddit.com/r/personalfinance/comments/1ja3zwy/what_is_the_best_way_to_find_a_financial_advisor/",
+          "snippet": "Mar 13, 2025 ... You'll want a fee-only (NOT fee-based, there's a sneaky difference) Certified Financial Planner (CFP). I recommend looking at the NAPFA search and https://www.\u00a0..."
+        },
+        {
+          "title": "How to find a financial advisor or financial planner | Fidelity",
+          "link": "https://www.fidelity.com/learning-center/smart-money/how-to-find-a-financial-advisor",
+          "snippet": "Key takeaways \u00b7 Learn the meaning of fiduciary \u00b7 Know the difference between fee-only and fee-based \u00b7 Use your network and online resources \u00b7 Consider the\u00a0..."
+        },
+        {
+          "title": "Find an Advisor | NAPFA",
+          "link": "https://www.napfa.org/find-an-advisor",
+          "snippet": "Find a fee-only financial advisor near you with the Find an Advisor tool from the National Association of Personal Financial Advisors."
+        },
+        {
+          "title": "What's the best way to find a financial advisor? - Quora",
+          "link": "https://www.quora.com/Whats-the-best-way-to-find-a-financial-advisor",
+          "snippet": "Apr 19, 2010 ... Asking friends and family is definitely a starting point. One could also find an advisor in their particular area using the Financial Planning\u00a0..."
+        },
+        {
+          "title": "NAPFA: The National Association of Personal Financial Advisors",
+          "link": "https://www.napfa.org/",
+          "snippet": "The National Association of Personal Financial Advisors is the leading association of fee-only financial advisors. Visit us today to find an advisor near\u00a0..."
+        },
+        {
+          "title": "How to Find a Good Financial Planner - Consumer Reports",
+          "link": "https://www.consumerreports.org/money/financial-planning/how-to-find-a-good-financial-planner-a5822372703/",
+          "snippet": "Oct 6, 2022 ... How to Find a Good Financial Planner \u00b7 1. Consider Your Priorities \u00b7 2. Identify Planners Who Fit Your Needs \u00b7 3. Figure Out the Costs \u00b7 4. Vet\u00a0..."
+        },
+        {
+          "title": "CFP Board | Certified Financial Planner Board of Standards, Inc.",
+          "link": "https://www.cfp.net/",
+          "snippet": "Financial Advisor Ranked #2 Best Business Job for 2025. REPORTS. Read the Latest ... financial planners, where to find jobs and much more. Read the Guide\u00a0..."
+        },
+        {
+          "title": "Choosing a financial adviser | MoneyHelper",
+          "link": "https://www.moneyhelper.org.uk/en/getting-help-and-advice/financial-advisers/choosing-a-financial-adviser",
+          "snippet": "Personal recommendation from friends or family is one way to find a financial adviser. But even if you get on well with an adviser it's hard to judge in the\u00a0..."
+        }
+      ],
+      "query": "How to find a good financial advisor?",
+      "total_results": "704000000",
+      "success": true
+    }
+  ]
+}

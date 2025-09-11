@@ -6,7 +6,7 @@
 # Test results and analysis data
 llm_test_results_*.json
 analysis_results.csv
-results/
+# Note: results/ folder is intentionally tracked for this repository
 
 # Python
 __pycache__/
