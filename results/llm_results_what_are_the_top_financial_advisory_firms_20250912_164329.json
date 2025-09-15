@@ -1,0 +1,1917 @@
+{
+  "query": "what are the top financial advisory firms?",
+  "timestamp": "2025-09-12T16:43:29.462613",
+  "date": "2025-09-12",
+  "time": "16:43:29",
+  "results": [
+    {
+      "provider": "OpenAI",
+      "response": "The \"top\" financial advisory firms can vary depending on the context\u2014whether you mean global investment banks, independent wealth management firms, fee-only financial planners, or Registered Investment Advisors (RIAs). Here\u2019s a breakdown of some of the leading firms in different categories as of 2024:\n\n---\n\n### **1. Global Investment Banks with Financial Advisory Services**\nThese firms often provide M&A, restructuring, and other financial advisory services to corporations and institutions:\n\n- **Goldman Sachs**\n- **J.P. Morgan**\n- **Morgan Stanley**\n- **Bank of America Merrill Lynch**\n- **Citi**\n- **Credit Suisse**\n- **Evercore**\n- **Lazard**\n- **Rothschild & Co**\n- **Moelis & Company**\n\n**Source:** League tables by Refinitiv, Bloomberg, and Dealogic.\n\n---\n\n### **2. Wealth Management Firms (U.S. Focus)**\nThese firms manage assets for high-net-worth individuals and families:\n\n- **Morgan Stanley Wealth Management**\n- **UBS Wealth Management**\n- **Bank of America Private Bank**\n- **Wells Fargo Private Bank**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Vanguard Personal Advisor Services**\n\n---\n\n### **3. Independent Registered Investment Advisors (RIAs)**\nThese are fee-only or fee-based firms providing fiduciary financial advice:\n\n- **Creative Planning**\n- **Fisher Investments**\n- **Mariner Wealth Advisors**\n- **Captrust**\n- **Edelman Financial Engines**\n- **Mercer Advisors**\n- **Wealth Enhancement Group**\n\n**Source:** Barron's Top RIAs, Financial Advisor Magazine Top RIA Rankings (2023/2024).\n\n---\n\n### **4. Top Fee-Only Financial Planning Firms**\nThese provide personalized planning and are not tied to selling financial products:\n\n- **Facet Wealth**\n- **Abacus Wealth Partners**\n- **Plancorp**\n- **BakerAvenue Wealth Management**\n- **Aspiriant**\n\n---\n\n### **Notable Mentions:**\n- **Deloitte, PwC, KPMG, and EY** (Big 4 accounting firms also provide financial advisory, especially for corporate clients)\n\n---\n\n### **How to Choose?**\n- **For individuals:** Look for firms that are fiduciaries, well-reviewed, and whose services match your financial needs.\n- **For businesses/corporations:** Top investment banks and specialized advisors in your sector.\n\n---\n\n**Tip:** Always check for up-to-date reviews, regulatory registrations (SEC, FINRA), and ask about fee structures.\n\nLet me know if you want rankings for a specific country, client type, or service!",
+      "model": "gpt-4.1-2025-04-14",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "Goldman Sachs",
+          "J.P. Morgan",
+          "Morgan Stanley",
+          "Bank of America Merrill Lynch",
+          "Citi",
+          "Credit Suisse",
+          "Evercore",
+          "Lazard",
+          "Rothschild & Co",
+          "Moelis & Company",
+          "Morgan Stanley Wealth Management",
+          "UBS Wealth Management",
+          "Bank of America Private Bank",
+          "Wells Fargo Private Bank",
+          "Charles Schwab",
+          "Fidelity Investments",
+          "Vanguard Personal Advisor Services",
+          "Creative Planning",
+          "Fisher Investments",
+          "Mariner Wealth Advisors",
+          "Captrust",
+          "Edelman Financial Engines",
+          "Mercer Advisors",
+          "Wealth Enhancement Group",
+          "Facet Wealth",
+          "Abacus Wealth Partners",
+          "Plancorp",
+          "BakerAvenue Wealth Management",
+          "Aspiriant",
+          "Deloitte",
+          "PwC",
+          "KPMG",
+          "EY"
+        ],
+        "mention_reasons": {
+          "Goldman Sachs": "Leading global investment bank; authority in M&A and financial advisory services.",
+          "J.P. Morgan": "Leading global investment bank; authority in financial advisory.",
+          "Morgan Stanley": "Leading global investment bank; also mentioned as a top U.S. wealth management firm.",
+          "Bank of America Merrill Lynch": "Leading global investment bank; authority in financial advisory.",
+          "Citi": "Leading global investment bank; authority in financial advisory.",
+          "Credit Suisse": "Leading global investment bank; authority in financial advisory.",
+          "Evercore": "Specialized in financial advisory; recognized for M&A expertise.",
+          "Lazard": "Specialized in financial advisory; recognized for M&A expertise.",
+          "Rothschild & Co": "Specialized in financial advisory; recognized for M&A expertise.",
+          "Moelis & Company": "Specialized in financial advisory; recognized for M&A expertise.",
+          "Morgan Stanley Wealth Management": "Top U.S. wealth management firm for high-net-worth individuals.",
+          "UBS Wealth Management": "Top U.S. wealth management firm for high-net-worth individuals.",
+          "Bank of America Private Bank": "Top U.S. wealth management firm for high-net-worth individuals.",
+          "Wells Fargo Private Bank": "Top U.S. wealth management firm for high-net-worth individuals.",
+          "Charles Schwab": "Top U.S. wealth management firm for high-net-worth individuals.",
+          "Fidelity Investments": "Top U.S. wealth management firm for high-net-worth individuals.",
+          "Vanguard Personal Advisor Services": "Top U.S. wealth management firm for high-net-worth individuals.",
+          "Creative Planning": "Leading independent RIA; fee-only fiduciary advice.",
+          "Fisher Investments": "Leading independent RIA; fee-only fiduciary advice.",
+          "Mariner Wealth Advisors": "Leading independent RIA; fee-only fiduciary advice.",
+          "Captrust": "Leading independent RIA; fee-only fiduciary advice.",
+          "Edelman Financial Engines": "Leading independent RIA; fee-only fiduciary advice.",
+          "Mercer Advisors": "Leading independent RIA; fee-only fiduciary advice.",
+          "Wealth Enhancement Group": "Leading independent RIA; fee-only fiduciary advice.",
+          "Facet Wealth": "Top fee-only financial planning firm; personalized planning.",
+          "Abacus Wealth Partners": "Top fee-only financial planning firm; personalized planning.",
+          "Plancorp": "Top fee-only financial planning firm; personalized planning.",
+          "BakerAvenue Wealth Management": "Top fee-only financial planning firm; personalized planning.",
+          "Aspiriant": "Top fee-only financial planning firm; personalized planning.",
+          "Deloitte": "Big 4 accounting firm; notable for corporate financial advisory.",
+          "PwC": "Big 4 accounting firm; notable for corporate financial advisory.",
+          "KPMG": "Big 4 accounting firm; notable for corporate financial advisory.",
+          "EY": "Big 4 accounting firm; notable for corporate financial advisory."
+        },
+        "authority_signals": [
+          "leading",
+          "top",
+          "notable",
+          "specialized",
+          "well-reviewed",
+          "fiduciary",
+          "trusted",
+          "industry"
+        ],
+        "key_features": [
+          "M&A and restructuring expertise",
+          "Wealth management for high-net-worth individuals",
+          "Fee-only or fee-based fiduciary advice",
+          "Personalized financial planning",
+          "Not tied to selling financial products",
+          "Regulatory registrations (SEC, FINRA)",
+          "Up-to-date reviews",
+          "Specialization for corporate clients"
+        ],
+        "sources_cited": [
+          "Refinitiv",
+          "Bloomberg",
+          "Dealogic",
+          "Barron's Top RIAs",
+          "Financial Advisor Magazine Top RIA Rankings (2023/2024)",
+          "SEC",
+          "FINRA",
+          "Big 4",
+          "Vanguard Personal Advisor Services"
+        ],
+        "ranking_factors": [
+          "Industry category (investment banks, wealth management, RIAs, fee-only planners)",
+          "Reputation and authority (league tables, industry rankings)",
+          "Client type focus (individuals vs. corporations)",
+          "Recent rankings and data sources",
+          "Fiduciary status and regulatory compliance"
+        ],
+        "sentiment": "Positive",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction",
+          "Multiple competitors mentioned (5) - Differentiate with unique value props"
+        ],
+        "timestamp": "2025-09-12T16:43:09.159914",
+        "query": "what are the top financial advisory firms?",
+        "provider": "OpenAI",
+        "domain_statistics": {
+          "total_sources": 9,
+          "unique_domains": 9,
+          "categories": {
+            "third-party": 9
+          },
+          "platforms": {},
+          "ugc_count": 0,
+          "owned_count": 0,
+          "competitor_count": 0,
+          "authority_count": 0,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 9,
+            "variable": 0,
+            "owned": 0
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 0.0,
+          "authority_percentage": 0.0
+        },
+        "domain_classifications": [
+          {
+            "url": "Refinitiv",
+            "domain": "refinitiv",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Bloomberg",
+            "domain": "bloomberg",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Dealogic",
+            "domain": "dealogic",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Barron's Top RIAs",
+            "domain": "barron's top rias",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Financial Advisor Magazine Top RIA Rankings (2023/2024)",
+            "domain": "financial advisor magazine top ria rankings (2023",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "SEC",
+            "domain": "sec",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "FINRA",
+            "domain": "finra",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Big 4",
+            "domain": "big 4",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Vanguard Personal Advisor Services",
+            "domain": "vanguard personal advisor services",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [
+            "Regulatory body mentioned: SEC",
+            "Regulatory body mentioned: FINRA"
+          ],
+          "contextual_factors": [
+            {
+              "type": "amplifiers",
+              "modifier": "especially"
+            },
+            {
+              "type": "mitigators",
+              "modifier": "some"
+            }
+          ],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "Goldman Sachs": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Global Investment Banks with Financial Advisory Services**\nThese firms often provide M&A, restructuring, and other financial advisory services to corporations and institutions:\n\n- **Goldman Sachs**\n- **J"
+            ]
+          },
+          "J.P. Morgan": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "Morgan Stanley": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Morgan**\n- **Morgan Stanley**\n- **Bank of America Merrill Lynch**\n- **Citi**\n- **Credit Suisse**\n- **Evercore**\n- **Lazard**\n- **Rothschild & Co**\n- **Moelis & Company**\n\n**Source:** League tables by Refinitiv, Bloomberg, and Dealogic",
+              "Focus)**\nThese firms manage assets for high-net-worth individuals and families:\n\n- **Morgan Stanley Wealth Management**\n- **UBS Wealth Management**\n- **Bank of America Private Bank**\n- **Wells Fargo Private Bank**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Vanguard Personal Advisor Services**\n\n---\n\n### **3"
+            ]
+          },
+          "Bank of America Merrill Lynch": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Morgan**\n- **Morgan Stanley**\n- **Bank of America Merrill Lynch**\n- **Citi**\n- **Credit Suisse**\n- **Evercore**\n- **Lazard**\n- **Rothschild & Co**\n- **Moelis & Company**\n\n**Source:** League tables by Refinitiv, Bloomberg, and Dealogic"
+            ]
+          },
+          "Citi": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Morgan**\n- **Morgan Stanley**\n- **Bank of America Merrill Lynch**\n- **Citi**\n- **Credit Suisse**\n- **Evercore**\n- **Lazard**\n- **Rothschild & Co**\n- **Moelis & Company**\n\n**Source:** League tables by Refinitiv, Bloomberg, and Dealogic"
+            ]
+          },
+          "Credit Suisse": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Morgan**\n- **Morgan Stanley**\n- **Bank of America Merrill Lynch**\n- **Citi**\n- **Credit Suisse**\n- **Evercore**\n- **Lazard**\n- **Rothschild & Co**\n- **Moelis & Company**\n\n**Source:** League tables by Refinitiv, Bloomberg, and Dealogic"
+            ]
+          },
+          "Evercore": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Morgan**\n- **Morgan Stanley**\n- **Bank of America Merrill Lynch**\n- **Citi**\n- **Credit Suisse**\n- **Evercore**\n- **Lazard**\n- **Rothschild & Co**\n- **Moelis & Company**\n\n**Source:** League tables by Refinitiv, Bloomberg, and Dealogic"
+            ]
+          },
+          "Lazard": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Morgan**\n- **Morgan Stanley**\n- **Bank of America Merrill Lynch**\n- **Citi**\n- **Credit Suisse**\n- **Evercore**\n- **Lazard**\n- **Rothschild & Co**\n- **Moelis & Company**\n\n**Source:** League tables by Refinitiv, Bloomberg, and Dealogic"
+            ]
+          },
+          "Rothschild & Co": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Morgan**\n- **Morgan Stanley**\n- **Bank of America Merrill Lynch**\n- **Citi**\n- **Credit Suisse**\n- **Evercore**\n- **Lazard**\n- **Rothschild & Co**\n- **Moelis & Company**\n\n**Source:** League tables by Refinitiv, Bloomberg, and Dealogic"
+            ]
+          },
+          "Moelis & Company": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Morgan**\n- **Morgan Stanley**\n- **Bank of America Merrill Lynch**\n- **Citi**\n- **Credit Suisse**\n- **Evercore**\n- **Lazard**\n- **Rothschild & Co**\n- **Moelis & Company**\n\n**Source:** League tables by Refinitiv, Bloomberg, and Dealogic"
+            ]
+          },
+          "Morgan Stanley Wealth Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Focus)**\nThese firms manage assets for high-net-worth individuals and families:\n\n- **Morgan Stanley Wealth Management**\n- **UBS Wealth Management**\n- **Bank of America Private Bank**\n- **Wells Fargo Private Bank**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Vanguard Personal Advisor Services**\n\n---\n\n### **3"
+            ]
+          },
+          "UBS Wealth Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Focus)**\nThese firms manage assets for high-net-worth individuals and families:\n\n- **Morgan Stanley Wealth Management**\n- **UBS Wealth Management**\n- **Bank of America Private Bank**\n- **Wells Fargo Private Bank**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Vanguard Personal Advisor Services**\n\n---\n\n### **3"
+            ]
+          },
+          "Bank of America Private Bank": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Focus)**\nThese firms manage assets for high-net-worth individuals and families:\n\n- **Morgan Stanley Wealth Management**\n- **UBS Wealth Management**\n- **Bank of America Private Bank**\n- **Wells Fargo Private Bank**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Vanguard Personal Advisor Services**\n\n---\n\n### **3"
+            ]
+          },
+          "Wells Fargo Private Bank": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Focus)**\nThese firms manage assets for high-net-worth individuals and families:\n\n- **Morgan Stanley Wealth Management**\n- **UBS Wealth Management**\n- **Bank of America Private Bank**\n- **Wells Fargo Private Bank**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Vanguard Personal Advisor Services**\n\n---\n\n### **3"
+            ]
+          },
+          "Charles Schwab": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Focus)**\nThese firms manage assets for high-net-worth individuals and families:\n\n- **Morgan Stanley Wealth Management**\n- **UBS Wealth Management**\n- **Bank of America Private Bank**\n- **Wells Fargo Private Bank**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Vanguard Personal Advisor Services**\n\n---\n\n### **3"
+            ]
+          },
+          "Fidelity Investments": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Focus)**\nThese firms manage assets for high-net-worth individuals and families:\n\n- **Morgan Stanley Wealth Management**\n- **UBS Wealth Management**\n- **Bank of America Private Bank**\n- **Wells Fargo Private Bank**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Vanguard Personal Advisor Services**\n\n---\n\n### **3"
+            ]
+          },
+          "Vanguard Personal Advisor Services": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Focus)**\nThese firms manage assets for high-net-worth individuals and families:\n\n- **Morgan Stanley Wealth Management**\n- **UBS Wealth Management**\n- **Bank of America Private Bank**\n- **Wells Fargo Private Bank**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Vanguard Personal Advisor Services**\n\n---\n\n### **3"
+            ]
+          },
+          "Creative Planning": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Independent Registered Investment Advisors (RIAs)**\nThese are fee-only or fee-based firms providing fiduciary financial advice:\n\n- **Creative Planning**\n- **Fisher Investments**\n- **Mariner Wealth Advisors**\n- **Captrust**\n- **Edelman Financial Engines**\n- **Mercer Advisors**\n- **Wealth Enhancement Group**\n\n**Source:** Barron's Top RIAs, Financial Advisor Magazine Top RIA Rankings (2023/2024)"
+            ]
+          },
+          "Fisher Investments": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Independent Registered Investment Advisors (RIAs)**\nThese are fee-only or fee-based firms providing fiduciary financial advice:\n\n- **Creative Planning**\n- **Fisher Investments**\n- **Mariner Wealth Advisors**\n- **Captrust**\n- **Edelman Financial Engines**\n- **Mercer Advisors**\n- **Wealth Enhancement Group**\n\n**Source:** Barron's Top RIAs, Financial Advisor Magazine Top RIA Rankings (2023/2024)"
+            ]
+          },
+          "Mariner Wealth Advisors": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Independent Registered Investment Advisors (RIAs)**\nThese are fee-only or fee-based firms providing fiduciary financial advice:\n\n- **Creative Planning**\n- **Fisher Investments**\n- **Mariner Wealth Advisors**\n- **Captrust**\n- **Edelman Financial Engines**\n- **Mercer Advisors**\n- **Wealth Enhancement Group**\n\n**Source:** Barron's Top RIAs, Financial Advisor Magazine Top RIA Rankings (2023/2024)"
+            ]
+          },
+          "Captrust": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Independent Registered Investment Advisors (RIAs)**\nThese are fee-only or fee-based firms providing fiduciary financial advice:\n\n- **Creative Planning**\n- **Fisher Investments**\n- **Mariner Wealth Advisors**\n- **Captrust**\n- **Edelman Financial Engines**\n- **Mercer Advisors**\n- **Wealth Enhancement Group**\n\n**Source:** Barron's Top RIAs, Financial Advisor Magazine Top RIA Rankings (2023/2024)"
+            ]
+          },
+          "Edelman Financial Engines": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Independent Registered Investment Advisors (RIAs)**\nThese are fee-only or fee-based firms providing fiduciary financial advice:\n\n- **Creative Planning**\n- **Fisher Investments**\n- **Mariner Wealth Advisors**\n- **Captrust**\n- **Edelman Financial Engines**\n- **Mercer Advisors**\n- **Wealth Enhancement Group**\n\n**Source:** Barron's Top RIAs, Financial Advisor Magazine Top RIA Rankings (2023/2024)"
+            ]
+          },
+          "Mercer Advisors": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Independent Registered Investment Advisors (RIAs)**\nThese are fee-only or fee-based firms providing fiduciary financial advice:\n\n- **Creative Planning**\n- **Fisher Investments**\n- **Mariner Wealth Advisors**\n- **Captrust**\n- **Edelman Financial Engines**\n- **Mercer Advisors**\n- **Wealth Enhancement Group**\n\n**Source:** Barron's Top RIAs, Financial Advisor Magazine Top RIA Rankings (2023/2024)"
+            ]
+          },
+          "Wealth Enhancement Group": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Independent Registered Investment Advisors (RIAs)**\nThese are fee-only or fee-based firms providing fiduciary financial advice:\n\n- **Creative Planning**\n- **Fisher Investments**\n- **Mariner Wealth Advisors**\n- **Captrust**\n- **Edelman Financial Engines**\n- **Mercer Advisors**\n- **Wealth Enhancement Group**\n\n**Source:** Barron's Top RIAs, Financial Advisor Magazine Top RIA Rankings (2023/2024)"
+            ]
+          },
+          "Facet Wealth": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Top Fee-Only Financial Planning Firms**\nThese provide personalized planning and are not tied to selling financial products:\n\n- **Facet Wealth**\n- **Abacus Wealth Partners**\n- **Plancorp**\n- **BakerAvenue Wealth Management**\n- **Aspiriant**\n\n---\n\n### **Notable Mentions:**\n- **Deloitte, PwC, KPMG, and EY** (Big 4 accounting firms also provide financial advisory, especially for corporate clients)\n\n---\n\n### **How to Choose?**\n- **For individuals:** Look for firms that are fiduciaries, well-reviewed, and whose services match your financial needs"
+            ]
+          },
+          "Abacus Wealth Partners": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Top Fee-Only Financial Planning Firms**\nThese provide personalized planning and are not tied to selling financial products:\n\n- **Facet Wealth**\n- **Abacus Wealth Partners**\n- **Plancorp**\n- **BakerAvenue Wealth Management**\n- **Aspiriant**\n\n---\n\n### **Notable Mentions:**\n- **Deloitte, PwC, KPMG, and EY** (Big 4 accounting firms also provide financial advisory, especially for corporate clients)\n\n---\n\n### **How to Choose?**\n- **For individuals:** Look for firms that are fiduciaries, well-reviewed, and whose services match your financial needs"
+            ]
+          },
+          "Plancorp": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Top Fee-Only Financial Planning Firms**\nThese provide personalized planning and are not tied to selling financial products:\n\n- **Facet Wealth**\n- **Abacus Wealth Partners**\n- **Plancorp**\n- **BakerAvenue Wealth Management**\n- **Aspiriant**\n\n---\n\n### **Notable Mentions:**\n- **Deloitte, PwC, KPMG, and EY** (Big 4 accounting firms also provide financial advisory, especially for corporate clients)\n\n---\n\n### **How to Choose?**\n- **For individuals:** Look for firms that are fiduciaries, well-reviewed, and whose services match your financial needs"
+            ]
+          },
+          "BakerAvenue Wealth Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Top Fee-Only Financial Planning Firms**\nThese provide personalized planning and are not tied to selling financial products:\n\n- **Facet Wealth**\n- **Abacus Wealth Partners**\n- **Plancorp**\n- **BakerAvenue Wealth Management**\n- **Aspiriant**\n\n---\n\n### **Notable Mentions:**\n- **Deloitte, PwC, KPMG, and EY** (Big 4 accounting firms also provide financial advisory, especially for corporate clients)\n\n---\n\n### **How to Choose?**\n- **For individuals:** Look for firms that are fiduciaries, well-reviewed, and whose services match your financial needs"
+            ]
+          },
+          "Aspiriant": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Top Fee-Only Financial Planning Firms**\nThese provide personalized planning and are not tied to selling financial products:\n\n- **Facet Wealth**\n- **Abacus Wealth Partners**\n- **Plancorp**\n- **BakerAvenue Wealth Management**\n- **Aspiriant**\n\n---\n\n### **Notable Mentions:**\n- **Deloitte, PwC, KPMG, and EY** (Big 4 accounting firms also provide financial advisory, especially for corporate clients)\n\n---\n\n### **How to Choose?**\n- **For individuals:** Look for firms that are fiduciaries, well-reviewed, and whose services match your financial needs"
+            ]
+          },
+          "Deloitte": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Top Fee-Only Financial Planning Firms**\nThese provide personalized planning and are not tied to selling financial products:\n\n- **Facet Wealth**\n- **Abacus Wealth Partners**\n- **Plancorp**\n- **BakerAvenue Wealth Management**\n- **Aspiriant**\n\n---\n\n### **Notable Mentions:**\n- **Deloitte, PwC, KPMG, and EY** (Big 4 accounting firms also provide financial advisory, especially for corporate clients)\n\n---\n\n### **How to Choose?**\n- **For individuals:** Look for firms that are fiduciaries, well-reviewed, and whose services match your financial needs"
+            ]
+          },
+          "PwC": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Top Fee-Only Financial Planning Firms**\nThese provide personalized planning and are not tied to selling financial products:\n\n- **Facet Wealth**\n- **Abacus Wealth Partners**\n- **Plancorp**\n- **BakerAvenue Wealth Management**\n- **Aspiriant**\n\n---\n\n### **Notable Mentions:**\n- **Deloitte, PwC, KPMG, and EY** (Big 4 accounting firms also provide financial advisory, especially for corporate clients)\n\n---\n\n### **How to Choose?**\n- **For individuals:** Look for firms that are fiduciaries, well-reviewed, and whose services match your financial needs"
+            ]
+          },
+          "KPMG": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Top Fee-Only Financial Planning Firms**\nThese provide personalized planning and are not tied to selling financial products:\n\n- **Facet Wealth**\n- **Abacus Wealth Partners**\n- **Plancorp**\n- **BakerAvenue Wealth Management**\n- **Aspiriant**\n\n---\n\n### **Notable Mentions:**\n- **Deloitte, PwC, KPMG, and EY** (Big 4 accounting firms also provide financial advisory, especially for corporate clients)\n\n---\n\n### **How to Choose?**\n- **For individuals:** Look for firms that are fiduciaries, well-reviewed, and whose services match your financial needs"
+            ]
+          },
+          "EY": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Morgan**\n- **Morgan Stanley**\n- **Bank of America Merrill Lynch**\n- **Citi**\n- **Credit Suisse**\n- **Evercore**\n- **Lazard**\n- **Rothschild & Co**\n- **Moelis & Company**\n\n**Source:** League tables by Refinitiv, Bloomberg, and Dealogic",
+              "Focus)**\nThese firms manage assets for high-net-worth individuals and families:\n\n- **Morgan Stanley Wealth Management**\n- **UBS Wealth Management**\n- **Bank of America Private Bank**\n- **Wells Fargo Private Bank**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Vanguard Personal Advisor Services**\n\n---\n\n### **3",
+              "Top Fee-Only Financial Planning Firms**\nThese provide personalized planning and are not tied to selling financial products:\n\n- **Facet Wealth**\n- **Abacus Wealth Partners**\n- **Plancorp**\n- **BakerAvenue Wealth Management**\n- **Aspiriant**\n\n---\n\n### **Notable Mentions:**\n- **Deloitte, PwC, KPMG, and EY** (Big 4 accounting firms also provide financial advisory, especially for corporate clients)\n\n---\n\n### **How to Choose?**\n- **For individuals:** Look for firms that are fiduciaries, well-reviewed, and whose services match your financial needs"
+            ]
+          }
+        },
+        "competitor_mentions": [
+          {
+            "name": "Morgan Stanley",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Morgan Stanley Wealth Management",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Charles Schwab",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Fidelity Investments",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Vanguard Personal Advisor Services",
+            "context": "Mentioned in response"
+          }
+        ],
+        "tracking_id": 16,
+        "wow_trends": {
+          "week": "2025-W36",
+          "current": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 0,
+            "total_analyses": 16
+          },
+          "previous": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 0,
+            "total_analyses": 0
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": 0,
+              "percentage": 0
+            },
+            "owned_percentage": {
+              "absolute": 0,
+              "percentage": 0
+            },
+            "authority_percentage": {
+              "absolute": 0,
+              "percentage": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Anthropic",
+      "response": "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs. fee-based vs. fee-only)\n- **Investment minimums**\n- **Services offered** (financial planning, tax planning, estate planning)\n- **Advisor credentials and experience**\n- **Technology and digital tools**\n- **Client service model**\n\nThe \"best\" firm depends on your specific needs, asset level, and preferences for how you want to work with an advisor. Would you like me to elaborate on any particular category or firm?",
+      "model": "claude-sonnet-4-20250514",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "Morgan Stanley Wealth Management",
+          "Merrill Lynch Wealth Management",
+          "Bank of America",
+          "UBS Financial Services",
+          "Wells Fargo Advisors",
+          "LPL Financial",
+          "Ameriprise Financial",
+          "Raymond James",
+          "Edward Jones",
+          "Vanguard Personal Advisor Services",
+          "Charles Schwab",
+          "Fidelity Investments",
+          "Fisher Investments",
+          "Goldman Sachs Private Wealth Management",
+          "JPMorgan Private Bank",
+          "Rockefeller Capital Management"
+        ],
+        "mention_reasons": {
+          "Morgan Stanley Wealth Management": "Listed as a leading large wirehouse firm; recognized for size and reputation.",
+          "Merrill Lynch Wealth Management": "Highlighted as a major wirehouse, with parent company Bank of America noted for authority.",
+          "Bank of America": "Mentioned as the parent company of Merrill Lynch, lending additional authority.",
+          "UBS Financial Services": "Included as a prominent wirehouse firm.",
+          "Wells Fargo Advisors": "Named as a top wirehouse firm.",
+          "LPL Financial": "Cited as a leading independent broker-dealer.",
+          "Ameriprise Financial": "Recognized as a significant independent broker-dealer.",
+          "Raymond James": "Listed among top independent broker-dealers.",
+          "Edward Jones": "Highlighted as a major independent broker-dealer.",
+          "Vanguard Personal Advisor Services": "Featured as a top fee-only/RIA firm, known for low-cost investing.",
+          "Charles Schwab": "Included as a leading fee-only/RIA firm.",
+          "Fidelity Investments": "Named as a top fee-only/RIA firm.",
+          "Fisher Investments": "Recognized as a prominent fee-only/RIA firm.",
+          "Goldman Sachs Private Wealth Management": "Listed as a boutique/high-net-worth focused firm, known for prestige.",
+          "JPMorgan Private Bank": "Featured as a boutique/high-net-worth focused firm.",
+          "Rockefeller Capital Management": "Included as a boutique/high-net-worth focused firm."
+        },
+        "authority_signals": [
+          "top financial advisory firms",
+          "typically categorized by their business models",
+          "key factors when evaluating firms",
+          "best firm depends on your specific needs"
+        ],
+        "key_features": [
+          "Fee structure (commission vs. fee-based vs. fee-only)",
+          "Investment minimums",
+          "Services offered (financial planning, tax planning, estate planning)",
+          "Advisor credentials and experience",
+          "Technology and digital tools",
+          "Client service model"
+        ],
+        "sources_cited": [
+          "Morgan Stanley Wealth Management",
+          "Merrill Lynch Wealth Management",
+          "Bank of America",
+          "UBS Financial Services",
+          "Wells Fargo Advisors",
+          "LPL Financial",
+          "Ameriprise Financial",
+          "Raymond James",
+          "Edward Jones",
+          "Vanguard Personal Advisor Services",
+          "Charles Schwab",
+          "Fidelity Investments",
+          "Fisher Investments",
+          "Goldman Sachs Private Wealth Management",
+          "JPMorgan Private Bank",
+          "Rockefeller Capital Management"
+        ],
+        "ranking_factors": [
+          "Categorization by business model (wirehouse, independent broker-dealer, fee-only/RIA, boutique/high-net-worth)",
+          "Firm size and reputation within each category",
+          "Industry recognition and market presence"
+        ],
+        "sentiment": "positive",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction",
+          "Multiple competitors mentioned (4) - Differentiate with unique value props",
+          "High source diversity - Focus on top-performing channels for optimization"
+        ],
+        "timestamp": "2025-09-12T16:43:16.019275",
+        "query": "what are the top financial advisory firms?",
+        "provider": "Anthropic",
+        "domain_statistics": {
+          "total_sources": 16,
+          "unique_domains": 16,
+          "categories": {
+            "third-party": 16
+          },
+          "platforms": {},
+          "ugc_count": 0,
+          "owned_count": 0,
+          "competitor_count": 0,
+          "authority_count": 0,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 16,
+            "variable": 0,
+            "owned": 0
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 0.0,
+          "authority_percentage": 0.0
+        },
+        "domain_classifications": [
+          {
+            "url": "Morgan Stanley Wealth Management",
+            "domain": "morgan stanley wealth management",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Merrill Lynch Wealth Management",
+            "domain": "merrill lynch wealth management",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Bank of America",
+            "domain": "bank of america",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "UBS Financial Services",
+            "domain": "ubs financial services",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Wells Fargo Advisors",
+            "domain": "wells fargo advisors",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "LPL Financial",
+            "domain": "lpl financial",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Ameriprise Financial",
+            "domain": "ameriprise financial",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Raymond James",
+            "domain": "raymond james",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Edward Jones",
+            "domain": "edward jones",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Vanguard Personal Advisor Services",
+            "domain": "vanguard personal advisor services",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Charles Schwab",
+            "domain": "charles schwab",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Fidelity Investments",
+            "domain": "fidelity investments",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Fisher Investments",
+            "domain": "fisher investments",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Goldman Sachs Private Wealth Management",
+            "domain": "goldman sachs private wealth management",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "JPMorgan Private Bank",
+            "domain": "jpmorgan private bank",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Rockefeller Capital Management",
+            "domain": "rockefeller capital management",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [],
+          "contextual_factors": [
+            {
+              "type": "mitigators",
+              "modifier": "some"
+            }
+          ],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "Morgan Stanley Wealth Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Merrill Lynch Wealth Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Bank of America": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "UBS Financial Services": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Wells Fargo Advisors": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "LPL Financial": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Ameriprise Financial": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Raymond James": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Edward Jones": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Vanguard Personal Advisor Services": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Charles Schwab": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Fidelity Investments": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Fisher Investments": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Goldman Sachs Private Wealth Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "JPMorgan Private Bank": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          },
+          "Rockefeller Capital Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "Here are some of the top financial advisory firms, typically categorized by their business models:\n\n## Large Wirehouse Firms\n- **Morgan Stanley Wealth Management**\n- **Merrill Lynch Wealth Management** (Bank of America)\n- **UBS Financial Services**\n- **Wells Fargo Advisors**\n\n## Independent Broker-Dealers\n- **LPL Financial**\n- **Ameriprise Financial**\n- **Raymond James**\n- **Edward Jones**\n\n## Fee-Only/RIA Firms\n- **Vanguard Personal Advisor Services**\n- **Charles Schwab**\n- **Fidelity Investments**\n- **Fisher Investments**\n\n## Boutique/High-Net-Worth Focused\n- **Goldman Sachs Private Wealth Management**\n- **JPMorgan Private Bank**\n- **Rockefeller Capital Management**\n\n## Key factors when evaluating firms:\n- **Fee structure** (commission vs"
+            ]
+          }
+        },
+        "competitor_mentions": [
+          {
+            "name": "Morgan Stanley Wealth Management",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Vanguard Personal Advisor Services",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Charles Schwab",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Fidelity Investments",
+            "context": "Mentioned in response"
+          }
+        ],
+        "tracking_id": 17,
+        "wow_trends": {
+          "week": "2025-W36",
+          "current": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 0,
+            "total_analyses": 17
+          },
+          "previous": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 0,
+            "total_analyses": 0
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": 0,
+              "percentage": 0
+            },
+            "owned_percentage": {
+              "absolute": 0,
+              "percentage": 0
+            },
+            "authority_percentage": {
+              "absolute": 0,
+              "percentage": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Google",
+      "response": "Defining \"top\" financial advisory firms can be subjective, as the best firm for one person might not be the best for another. It heavily depends on your net worth, the complexity of your financial situation, the specific services you need, and your preferred fee structure.\n\nHowever, we can categorize firms that are widely recognized for their size, reputation, comprehensive services, or innovative models.\n\nHere's a breakdown of some of the leading types of financial advisory firms and examples within those categories:\n\n---\n\n### Key Considerations When Defining \"Top\" for *You*\n\nBefore looking at specific firms, consider what matters most:\n\n1.  **Your Net Worth:** Firms often specialize in different client tiers (mass affluent, high net worth - HNW, ultra-high net worth - UHNW).\n2.  **Services Needed:** Investment management, comprehensive financial planning (retirement, estate, tax, insurance), wealth transfer, business succession, etc.\n3.  **Fee Structure:**\n    *   **Fee-Only:** Advisors are compensated solely by client fees (hourly, flat fee, or AUM percentage). They do not earn commissions. This is generally preferred for avoiding conflicts of interest.\n    *   **Fee-Based (or Hybrid):** Advisors may charge fees *and* earn commissions from selling products.\n    *   **Commission-Based:** Advisors are paid solely by commissions from product sales. This presents significant conflicts of interest.\n4.  **Fiduciary Duty:** Does the advisor act as a fiduciary 100% of the time, meaning they are legally obligated to act in your best interest? Fee-only RIAs (Registered Investment Advisors) are fiduciaries.\n5.  **Advisor Credentials:** Look for designations like CFP\u00ae (Certified Financial Planner), CFA\u00ae (Chartered Financial Analyst), ChFC\u00ae (Chartered Financial Consultant).\n6.  **Technology & Accessibility:** Do you prefer digital tools and online access, or a more traditional in-person relationship?\n\n---\n\n### Categories of Top Financial Advisory Firms\n\nHere are some of the most prominent firms and types of firms, often recognized for different strengths:\n\n**1. Large, Full-Service Wealth Management Firms (Often for HNW/UHNW Individuals)**\nThese firms offer a comprehensive suite of services, from investment management and financial planning to estate planning, tax services, and private banking. They often have global reach and extensive resources.\n\n*   **J.P. Morgan Private Bank / J.P. Morgan Wealth Management:** Known for serving UHNW individuals and institutions globally with sophisticated financial solutions.\n*   **Goldman Sachs Personal Financial Management / Ayco:** Once exclusively institutional, Goldman Sachs has expanded its wealth management offerings significantly, particularly for UHNW and corporate executives (via Ayco).\n*   **Morgan Stanley Wealth Management:** One of the largest and most prominent wealth management divisions, offering a vast array of services.\n*   **UBS Wealth Management:** A global leader in wealth management, particularly strong internationally.\n*   **Bank of America Merrill Lynch:** Combines the banking power of BofA with Merrill Lynch's extensive brokerage and advisory services.\n*   **Wells Fargo Advisors:** Another large wirehouse firm with a significant presence across the U.S.\n\n**2. Independent Registered Investment Advisors (RIAs)**\nThese firms are typically privately owned and operate with a fiduciary duty. They vary greatly in size, from small boutique firms to very large national entities. They are almost always **fee-only**.\n\n*   **Fisher Investments:** One of the largest independent RIAs, known for its direct-to-consumer model and active management.\n*   **Creative Planning:** A rapidly growing fee-only RIA offering comprehensive wealth management, including in-house tax and legal services.\n*   **Mariner Wealth Advisors:** Another large, growing independent RIA providing comprehensive wealth management services.\n*   **Concentrix (e.g., Captrust, Hightower Advisors, Focus Financial Partners):** These are not single firms but rather large *platforms* or *aggregators* that acquire and support independent RIA firms, allowing them to maintain their local presence while benefiting from centralized resources.\n*   **Your Local Fee-Only RIA:** Often, the \"top\" firm for you will be a highly reputable, smaller, local fee-only RIA that aligns perfectly with your specific needs and offers a personalized touch. You can find these through organizations like **NAPFA (National Association of Personal Financial Advisors)** or **FeeOnlyNetwork.com**.\n\n**3. Discount Brokerages with Advisory Services (Often for Mass Affluent / DIY Investors)**\nThese firms started as discount brokerages but have significantly expanded their advisory services, often at lower costs.\n\n*   **Charles Schwab:** A leader in both brokerage and advisory services, offering Schwab Intelligent Portfolios (robo-advisor), Schwab Private Client (hybrid), and various advisor-referred programs.\n*   **Fidelity Investments:** Similar to Schwab, Fidelity offers Fidelity Go (robo-advisor), Fidelity Personal Planning & Advice (hybrid), and private client groups.\n*   **Vanguard Personal Advisor Services:** Known for its low-cost index funds, Vanguard offers a hybrid robo-advisor and human advisor service at a very competitive price, leveraging its passive investment philosophy.\n\n**4. Robo-Advisors (Best for Simpler Needs / Cost-Conscious / Digital-First)**\nThese are automated, algorithm-driven platforms that manage investments at a very low cost, often with limited human interaction (though some offer hybrid models).\n\n*   **Betterment:** One of the original and most popular robo-advisors, known for its user-friendly interface and goal-based planning.\n*   **Wealthfront:** Another leading robo-advisor, often appealing to tech-savvy investors with features like tax-loss harvesting.\n*   **Schwab Intelligent Portfolios:** Schwab's take on robo-advisory, often free for pure investment management (though charges for human advice).\n*   **Fidelity Go:** Fidelity's robo-advisor offering.\n\n---\n\n### How to Find *Your* \"Top\" Firm:\n\n1.  **Define Your Needs:** What exactly do you need help with? How much are you willing to pay?\n2.  **Determine Your Preferred Fee Structure:** Prioritize fee-only advisors to minimize conflicts of interest.\n3.  **Search Online Databases:**\n    *   **NAPFA.org:** For fee-only financial advisors.\n    *   **FeeOnlyNetwork.com:** Another excellent resource for fee-only advisors.\n    *   **GarrettPlanningNetwork.com:** For hourly, fee-only advisors.\n    *   **PaladinRegistry.com:** Vets advisors based on credentials and ethics.\n    *   **SEC.gov/investor/brokers.htm (BrokerCheck & Investment Adviser Public Disclosure):** To check an advisor's background, licenses, and any disciplinary history.\n4.  **Interview Multiple Firms:** Don't settle for the first one. Have initial consultations (many offer them for free) with at least 2-3 advisors to compare their approaches, personalities, and fees.\n5.  **Ask Key Questions:**\n    *   Are you a fiduciary 100% of the time?\n    *   How are you compensated? (Get it in writing!)\n    *   What are your credentials and experience?\n    *   What services do you provide?\n    *   What is your investment philosophy?\n    *   Can you provide references?\n\nBy taking a thoughtful approach, you can identify the \"top\" financial advisory firm that best meets your unique financial goals and preferences.",
+      "model": "gemini-2.5-flash",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "J.P. Morgan Private Bank",
+          "J.P. Morgan Wealth Management",
+          "Goldman Sachs Personal Financial Management",
+          "Ayco",
+          "Morgan Stanley Wealth Management",
+          "UBS Wealth Management",
+          "Bank of America Merrill Lynch",
+          "Wells Fargo Advisors",
+          "Fisher Investments",
+          "Creative Planning",
+          "Mariner Wealth Advisors",
+          "Captrust",
+          "Hightower Advisors",
+          "Focus Financial Partners",
+          "Charles Schwab",
+          "Schwab Intelligent Portfolios",
+          "Schwab Private Client",
+          "Fidelity Investments",
+          "Fidelity Go",
+          "Fidelity Personal Planning & Advice",
+          "Vanguard Personal Advisor Services",
+          "Betterment",
+          "Wealthfront",
+          "NAPFA (National Association of Personal Financial Advisors)",
+          "FeeOnlyNetwork.com",
+          "GarrettPlanningNetwork.com",
+          "PaladinRegistry.com",
+          "SEC.gov/investor/brokers.htm",
+          "BrokerCheck",
+          "Investment Adviser Public Disclosure"
+        ],
+        "mention_reasons": {
+          "J.P. Morgan Private Bank": "Leading global provider for UHNW individuals; comprehensive, sophisticated solutions.",
+          "J.P. Morgan Wealth Management": "Prominent division with wide-ranging services for affluent clients.",
+          "Goldman Sachs Personal Financial Management": "Expanded offerings to UHNW and corporate executives; institutional authority.",
+          "Ayco": "Goldman Sachs subsidiary specializing in corporate executive services.",
+          "Morgan Stanley Wealth Management": "One of the largest, most prominent wealth management divisions.",
+          "UBS Wealth Management": "Global leader, especially strong internationally.",
+          "Bank of America Merrill Lynch": "Combines BofA's banking with Merrill Lynch's advisory expertise.",
+          "Wells Fargo Advisors": "Large wirehouse with significant US presence.",
+          "Fisher Investments": "Large independent RIA, known for direct-to-consumer and active management.",
+          "Creative Planning": "Rapidly growing fee-only RIA with comprehensive, in-house services.",
+          "Mariner Wealth Advisors": "Large, growing independent RIA with comprehensive services.",
+          "Captrust": "Platform/aggregator supporting independent RIA firms.",
+          "Hightower Advisors": "Platform/aggregator supporting independent RIA firms.",
+          "Focus Financial Partners": "Platform/aggregator supporting independent RIA firms.",
+          "Charles Schwab": "Leader in brokerage and advisory; offers robo and hybrid advisory services.",
+          "Schwab Intelligent Portfolios": "Schwab's robo-advisor platform.",
+          "Schwab Private Client": "Hybrid advisory service from Schwab.",
+          "Fidelity Investments": "Major brokerage and advisory provider; offers robo and hybrid options.",
+          "Fidelity Go": "Fidelity's robo-advisor platform.",
+          "Fidelity Personal Planning & Advice": "Hybrid advisory service from Fidelity.",
+          "Vanguard Personal Advisor Services": "Low-cost, hybrid robo/human advisor, leveraging passive investment philosophy.",
+          "Betterment": "Original, popular robo-advisor; user-friendly, goal-based planning.",
+          "Wealthfront": "Leading robo-advisor; appeals to tech-savvy users, tax-loss harvesting.",
+          "NAPFA (National Association of Personal Financial Advisors)": "Resource for finding fee-only fiduciary advisors.",
+          "FeeOnlyNetwork.com": "Directory for fee-only advisors.",
+          "GarrettPlanningNetwork.com": "Resource for hourly, fee-only advisors.",
+          "PaladinRegistry.com": "Vets advisors based on credentials and ethics.",
+          "SEC.gov/investor/brokers.htm": "Official resource for checking advisor background and licenses.",
+          "BrokerCheck": "Tool for checking advisor background and disciplinary history.",
+          "Investment Adviser Public Disclosure": "Official database for advisor background and disclosures."
+        },
+        "authority_signals": [
+          "leading",
+          "widely recognized",
+          "comprehensive suite of services",
+          "global reach",
+          "extensive resources",
+          "one of the largest",
+          "most prominent",
+          "global leader",
+          "particularly strong",
+          "known for",
+          "rapidly growing",
+          "trusted resource",
+          "vets advisors",
+          "excellent resource"
+        ],
+        "key_features": [
+          "Comprehensive wealth management (investment, retirement, estate, tax, insurance, business succession)",
+          "Fee structure transparency (fee-only, fee-based, commission-based)",
+          "Fiduciary duty (acting in clients' best interests)",
+          "Advisor credentials (CFP\u00ae, CFA\u00ae, ChFC\u00ae)",
+          "Technology and accessibility (digital tools, online access, in-person relationships)",
+          "Personalized service",
+          "Global reach and resources",
+          "Low-cost, automated investment management (robo-advisors)",
+          "Hybrid advisory models (human + digital)",
+          "Active management",
+          "In-house tax and legal services",
+          "Vetting and background checks for advisors"
+        ],
+        "sources_cited": [
+          "NAPFA (National Association of Personal Financial Advisors)",
+          "FeeOnlyNetwork.com",
+          "GarrettPlanningNetwork.com",
+          "PaladinRegistry.com",
+          "SEC.gov/investor/brokers.htm",
+          "BrokerCheck",
+          "Investment Adviser Public Disclosure",
+          "Schwab Intelligent Portfolios",
+          "Schwab Private Client",
+          "Fidelity Go",
+          "Fidelity Personal Planning & Advice",
+          "Vanguard Personal Advisor Services",
+          "Ayco",
+          "Focus Financial Partners",
+          "Captrust",
+          "Hightower Advisors"
+        ],
+        "ranking_factors": [
+          "Firm size and prominence",
+          "Client segment focus (HNW/UHNW, mass affluent, DIY)",
+          "Breadth and depth of services",
+          "Fee structure and fiduciary status",
+          "Innovation (robo-advisory, hybrid models)",
+          "Reputation and authority in the industry"
+        ],
+        "sentiment": "positive",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction",
+          "Multiple competitors mentioned (8) - Differentiate with unique value props",
+          "High source diversity - Focus on top-performing channels for optimization"
+        ],
+        "timestamp": "2025-09-12T16:43:29.455522",
+        "query": "what are the top financial advisory firms?",
+        "provider": "Google",
+        "domain_statistics": {
+          "total_sources": 16,
+          "unique_domains": 16,
+          "categories": {
+            "third-party": 15,
+            "authority": 1
+          },
+          "platforms": {
+            "SEC": 1
+          },
+          "ugc_count": 0,
+          "owned_count": 0,
+          "competitor_count": 0,
+          "authority_count": 1,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 1,
+            "medium": 0,
+            "low": 15,
+            "variable": 0,
+            "owned": 0
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 0.0,
+          "authority_percentage": 6.2
+        },
+        "domain_classifications": [
+          {
+            "url": "NAPFA (National Association of Personal Financial Advisors)",
+            "domain": "napfa (national association of personal financial advisors)",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "FeeOnlyNetwork.com",
+            "domain": "feeonlynetwork.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "GarrettPlanningNetwork.com",
+            "domain": "garrettplanningnetwork.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "PaladinRegistry.com",
+            "domain": "paladinregistry.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "SEC.gov/investor/brokers.htm",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "BrokerCheck",
+            "domain": "brokercheck",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Investment Adviser Public Disclosure",
+            "domain": "investment adviser public disclosure",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Schwab Intelligent Portfolios",
+            "domain": "schwab intelligent portfolios",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Schwab Private Client",
+            "domain": "schwab private client",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Fidelity Go",
+            "domain": "fidelity go",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Fidelity Personal Planning & Advice",
+            "domain": "fidelity personal planning & advice",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Vanguard Personal Advisor Services",
+            "domain": "vanguard personal advisor services",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Ayco",
+            "domain": "ayco",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Focus Financial Partners",
+            "domain": "focus financial partners",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Captrust",
+            "domain": "captrust",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Hightower Advisors",
+            "domain": "hightower advisors",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [],
+          "contextual_factors": [
+            {
+              "type": "amplifiers",
+              "modifier": "very"
+            },
+            {
+              "type": "amplifiers",
+              "modifier": "highly"
+            },
+            {
+              "type": "amplifiers",
+              "modifier": "particularly"
+            },
+            {
+              "type": "mitigators",
+              "modifier": "small"
+            },
+            {
+              "type": "mitigators",
+              "modifier": "some"
+            }
+          ],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "J.P. Morgan Private Bank": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "J.P. Morgan Wealth Management": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "Goldman Sachs Personal Financial Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Goldman Sachs Personal Financial Management / Ayco:** Once exclusively institutional, Goldman Sachs has expanded its wealth management offerings significantly, particularly for UHNW and corporate executives (via Ayco)"
+            ]
+          },
+          "Ayco": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Goldman Sachs Personal Financial Management / Ayco:** Once exclusively institutional, Goldman Sachs has expanded its wealth management offerings significantly, particularly for UHNW and corporate executives (via Ayco)"
+            ]
+          },
+          "Morgan Stanley Wealth Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Morgan Stanley Wealth Management:** One of the largest and most prominent wealth management divisions, offering a vast array of services"
+            ]
+          },
+          "UBS Wealth Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **UBS Wealth Management:** A global leader in wealth management, particularly strong internationally"
+            ]
+          },
+          "Bank of America Merrill Lynch": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Bank of America Merrill Lynch:** Combines the banking power of BofA with Merrill Lynch's extensive brokerage and advisory services"
+            ]
+          },
+          "Wells Fargo Advisors": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Wells Fargo Advisors:** Another large wirehouse firm with a significant presence across the U"
+            ]
+          },
+          "Fisher Investments": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Fisher Investments:** One of the largest independent RIAs, known for its direct-to-consumer model and active management"
+            ]
+          },
+          "Creative Planning": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Creative Planning:** A rapidly growing fee-only RIA offering comprehensive wealth management, including in-house tax and legal services"
+            ]
+          },
+          "Mariner Wealth Advisors": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Mariner Wealth Advisors:** Another large, growing independent RIA providing comprehensive wealth management services"
+            ]
+          },
+          "Captrust": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              ", Captrust, Hightower Advisors, Focus Financial Partners):** These are not single firms but rather large *platforms* or *aggregators* that acquire and support independent RIA firms, allowing them to maintain their local presence while benefiting from centralized resources"
+            ]
+          },
+          "Hightower Advisors": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              ", Captrust, Hightower Advisors, Focus Financial Partners):** These are not single firms but rather large *platforms* or *aggregators* that acquire and support independent RIA firms, allowing them to maintain their local presence while benefiting from centralized resources"
+            ]
+          },
+          "Focus Financial Partners": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              ", Captrust, Hightower Advisors, Focus Financial Partners):** These are not single firms but rather large *platforms* or *aggregators* that acquire and support independent RIA firms, allowing them to maintain their local presence while benefiting from centralized resources"
+            ]
+          },
+          "Charles Schwab": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Charles Schwab:** A leader in both brokerage and advisory services, offering Schwab Intelligent Portfolios (robo-advisor), Schwab Private Client (hybrid), and various advisor-referred programs"
+            ]
+          },
+          "Schwab Intelligent Portfolios": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Charles Schwab:** A leader in both brokerage and advisory services, offering Schwab Intelligent Portfolios (robo-advisor), Schwab Private Client (hybrid), and various advisor-referred programs"
+            ]
+          },
+          "Schwab Private Client": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Charles Schwab:** A leader in both brokerage and advisory services, offering Schwab Intelligent Portfolios (robo-advisor), Schwab Private Client (hybrid), and various advisor-referred programs"
+            ]
+          },
+          "Fidelity Investments": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Fidelity Investments:** Simila"
+            ]
+          },
+          "Fidelity Go": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "Fidelity Personal Planning & Advice": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "Vanguard Personal Advisor Services": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "Betterment": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "Wealthfront": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "NAPFA (National Association of Personal Financial Advisors)": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "You can find these through organizations like **NAPFA (National Association of Personal Financial Advisors)** or **FeeOnlyNetwork"
+            ]
+          },
+          "FeeOnlyNetwork.com": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "GarrettPlanningNetwork.com": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "PaladinRegistry.com": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "SEC.gov/investor/brokers.htm": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "BrokerCheck": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "Investment Adviser Public Disclosure": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          }
+        },
+        "competitor_mentions": [
+          {
+            "name": "Morgan Stanley Wealth Management",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Charles Schwab",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Schwab Intelligent Portfolios",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Schwab Private Client",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Fidelity Investments",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Fidelity Go",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Fidelity Personal Planning & Advice",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Vanguard Personal Advisor Services",
+            "context": "Mentioned in response"
+          }
+        ],
+        "tracking_id": 18,
+        "wow_trends": {
+          "week": "2025-W36",
+          "current": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 0.34444444444444444,
+            "total_analyses": 18
+          },
+          "previous": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 0,
+            "total_analyses": 0
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": 0,
+              "percentage": 0
+            },
+            "owned_percentage": {
+              "absolute": 0,
+              "percentage": 0
+            },
+            "authority_percentage": {
+              "absolute": 0.34,
+              "percentage": 100
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Google Search",
+      "response": [
+        {
+          "title": "America's Top Financial Advisory Firms 2025",
+          "link": "https://rankings.newsweek.com/americas-top-financial-advisory-firms-2025",
+          "snippet": "Companies like Facet Wealth, Sarofim Trust Co. and Shade Tree Advisors exemplify what it means to be a financial leader in today's market. When clients feel\u00a0..."
+        },
+        {
+          "title": "Best Financial Advisors: Top Firms For 2025 | Bankrate",
+          "link": "https://www.bankrate.com/investing/financial-advisors/best-financial-advisors/",
+          "snippet": "Best financial advisors: Top firms to consider \u00b7 Charles Schwab \u00b7 Vanguard \u00b7 Fidelity Investments \u00b7 Facet \u00b7 J.P. Morgan Private Client Advisor \u00b7 Edward Jones\u00a0..."
+        },
+        {
+          "title": "2025 Top 100 Financial Advisors Ranked by Barron's",
+          "link": "https://www.barrons.com/advisor/report/top-financial-advisors/100",
+          "snippet": "Large financial advisor teams often can offer more services and investment strategies than their smaller peers. But sometimes being too big can backfire."
+        },
+        {
+          "title": "Top 8 financial advisor companies & firms in the US (2025 ...",
+          "link": "https://www.unbiased.com/discover/financial-advice/best-financial-advisor",
+          "snippet": "Dec 22, 2023 ... 8 best financial advisory firms 2025 \u00b7 1. Fidelity Investments \u00b7 2. Fisher Investments \u00b7 3. Facet \u00b7 4. Vanguard \u00b7 5. Mercer \u00b7 6. Edward Jones."
+        },
+        {
+          "title": "FA 100: CNBC ranks the top-rated financial advisory firms of 2024",
+          "link": "https://www.cnbc.com/2024/10/02/fa-100-cnbc-ranks-the-top-rated-financial-advisory-firms-of-2024.html",
+          "snippet": "Oct 2, 2024 ... For the sixth year, CNBC unveils its ranking of top financial advisors. The CNBC FA 100 recognizes firms that best help clients navigate\u00a0..."
+        },
+        {
+          "title": "Top 50 Financial Advisory firm in the United States (2025)",
+          "link": "https://www.50pros.com/top-50/financial-advisory",
+          "snippet": "Discover and find the official Top 50 listing by 50Pros of the highest-ranking Financial Advisory firms & agencies that our experts vetted."
+        },
+        {
+          "title": "The 5 Biggest Financial Advisory Firms in the U.S.",
+          "link": "https://www.investopedia.com/articles/professionals/080615/5-biggest-financial-advisory-firms-us.asp",
+          "snippet": "Merrill Lynch, Morgan Stanley, Edward Jones, LPL Financial, and Wells Fargo Advisors are the five largest financial advisory firms in the U.S., ranked by their\u00a0..."
+        },
+        {
+          "title": "Savant Wealth Management Named One of America's Top Financial ...",
+          "link": "https://savantwealth.com/press-room/savant-wealth-management-named-one-of-americas-top-financial-advisory-firms-by-newsweek/",
+          "snippet": "Nov 21, 2024 ... To qualify for the ranking, firms must manage at least $20 million in assets, employ a minimum of three wealth advisors, have at least five\u00a0..."
+        },
+        {
+          "title": "How to choose a financial adviser? We rank the top firms.",
+          "link": "https://www.usatoday.com/story/money/2025/04/22/top-financial-adviser-firms/78030977007/",
+          "snippet": "Apr 22, 2025 ... The top-ranked company, Baltimore-based Facet, saw its assets grow 86% in a year and 91% over five years. Ranking fifth, Santa Monica-based\u00a0..."
+        },
+        {
+          "title": "Top Finance consulting firms in the world",
+          "link": "https://www.consultancy.org/rankings/top-consulting-firms-by-area-of-expertise/finance",
+          "snippet": "The leading consulting firms for Finance services: 1. KPMG. KPMG international operates as a network of member firms offering audit, tax and advisory services."
+        }
+      ],
+      "query": "what are the top financial advisory firms?",
+      "total_results": "1470000000",
+      "success": true
+    }
+  ]
+}

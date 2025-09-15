@@ -13,6 +13,13 @@ import re
 from datetime import datetime
 from analyzer import ResponseAnalyzer
 
+# Import tracker for weekly report generation (optional)
+try:
+    from tracker import HistoricalTracker
+    TRACKER_AVAILABLE = True
+except ImportError:
+    TRACKER_AVAILABLE = False
+
 print("=" * 60)
 print("LLM Multi-Query Script - Fixed Version")
 print("=" * 60)
@@ -139,6 +146,17 @@ class FixedLLMTester:
         self.has_openai = has_openai
         self.has_anthropic = has_anthropic
         self.has_google = has_google
+        
+        # Source citation settings
+        self.request_sources = os.getenv('REQUEST_SOURCES', 'false').lower() == 'true'
+        self.source_instruction = os.getenv('SOURCE_INSTRUCTION', 
+            'Please cite your sources with specific URLs or domain names where this information can be verified.')
+    
+    def _enhance_prompt_with_sources(self, prompt):
+        """Add source citation request to prompt if enabled"""
+        if self.request_sources:
+            return f"{prompt}\n\n{self.source_instruction}"
+        return prompt
     
     def test_openai(self, prompt):
         """Test OpenAI API with version detection"""
@@ -148,6 +166,9 @@ class FixedLLMTester:
         try:
             import openai
             print("Testing OpenAI...")
+            
+            # Enhance prompt with source request if enabled
+            enhanced_prompt = self._enhance_prompt_with_sources(prompt)
             
             # Check OpenAI library version
             openai_version = getattr(openai, '__version__', '0.0.0')
@@ -160,9 +181,9 @@ class FixedLLMTester:
                     client = OpenAI(api_key=self.api_keys['openai'])
                     
                     response = client.chat.completions.create(
-                        model=os.getenv('OPENAI_MODEL', 'gpt-4o-mini'),
-                        messages=[{"role": "user", "content": prompt}],
-                        max_tokens=int(os.getenv('MAX_TOKENS', 1000)),
+                        model=os.getenv('OPENAI_MODEL', 'gpt-4.1'),
+                        messages=[{"role": "user", "content": enhanced_prompt}],
+                        max_tokens=int(os.getenv('MAX_TOKENS', 4000)),
                         temperature=0.7
                     )
                     
@@ -176,9 +197,9 @@ class FixedLLMTester:
                     # Fallback to old style if import fails
                     openai.api_key = self.api_keys['openai']
                     response = openai.ChatCompletion.create(
-                        model=os.getenv('OPENAI_MODEL', 'gpt-3.5-turbo'),
-                        messages=[{"role": "user", "content": prompt}],
-                        max_tokens=int(os.getenv('MAX_TOKENS', 1000)),
+                        model=os.getenv('OPENAI_MODEL', 'gpt-4.1'),
+                        messages=[{"role": "user", "content": enhanced_prompt}],
+                        max_tokens=int(os.getenv('MAX_TOKENS', 4000)),
                         temperature=0.7
                     )
                     
@@ -192,9 +213,9 @@ class FixedLLMTester:
                 # Old OpenAI library (v0.x)
                 openai.api_key = self.api_keys['openai']
                 response = openai.ChatCompletion.create(
-                    model=os.getenv('OPENAI_MODEL', 'gpt-3.5-turbo'),
-                    messages=[{"role": "user", "content": prompt}],
-                    max_tokens=int(os.getenv('MAX_TOKENS', 1000)),
+                    model=os.getenv('OPENAI_MODEL', 'gpt-4.1'),
+                    messages=[{"role": "user", "content": enhanced_prompt}],
+                    max_tokens=int(os.getenv('MAX_TOKENS', 4000)),
                     temperature=0.7
                 )
                 
@@ -221,12 +242,15 @@ class FixedLLMTester:
             import anthropic
             print("Testing Anthropic...")
             
+            # Enhance prompt with source request if enabled
+            enhanced_prompt = self._enhance_prompt_with_sources(prompt)
+            
             client = anthropic.Anthropic(api_key=self.api_keys['anthropic'])
             
             response = client.messages.create(
-                model=os.getenv('ANTHROPIC_MODEL', 'claude-3-5-sonnet-20241022'),
-                max_tokens=int(os.getenv('MAX_TOKENS', 1000)),
-                messages=[{"role": "user", "content": prompt}]
+                model=os.getenv('ANTHROPIC_MODEL', 'claude-sonnet-4-20250514'),
+                max_tokens=int(os.getenv('MAX_TOKENS', 4000)),
+                messages=[{"role": "user", "content": enhanced_prompt}]
             )
             
             result = {
@@ -251,6 +275,9 @@ class FixedLLMTester:
             import openai
             print("Testing Perplexity...")
             
+            # Enhance prompt with source request if enabled
+            enhanced_prompt = self._enhance_prompt_with_sources(prompt)
+            
             # Check OpenAI library version for Perplexity (uses OpenAI-compatible API)
             openai_version = getattr(openai, '__version__', '0.0.0')
             major_version = int(openai_version.split('.')[0])
@@ -266,7 +293,7 @@ class FixedLLMTester:
                     
                     response = client.chat.completions.create(
                         model=os.getenv('PERPLEXITY_MODEL', 'llama-3.1-sonar-small-128k-online'),
-                        messages=[{"role": "user", "content": prompt}],
+                        messages=[{"role": "user", "content": enhanced_prompt}],
                         max_tokens=int(os.getenv('MAX_TOKENS', 1000))
                     )
                     
@@ -331,14 +358,14 @@ class FixedLLMTester:
                 print("Using legacy google.generativeai library...")
                 
                 genai.configure(api_key=self.api_keys['google'])
-                model = genai.GenerativeModel(os.getenv('GOOGLE_MODEL', 'gemini-1.5-flash'))
+                model = genai.GenerativeModel(os.getenv('GOOGLE_MODEL', 'gemini-2.5-flash'))
                 
                 response = model.generate_content(prompt)
                 
                 result = {
                     'provider': 'Google',
                     'response': response.text,
-                    'model': os.getenv('GOOGLE_MODEL', 'gemini-1.5-flash'),
+                    'model': os.getenv('GOOGLE_MODEL', 'gemini-2.5-flash'),
                     'success': True
                 }
                 print(f"[OK] Google responded successfully (legacy client)")
@@ -605,13 +632,77 @@ def run_single_query(tester, query, analyzer=None, save_individual=True):
 # Main execution
 if __name__ == "__main__":
     # Set up argument parser
-    parser = argparse.ArgumentParser(description='Multi-LLM Query Testing Tool')
+    parser = argparse.ArgumentParser(description='Multi-LLM Query Testing Tool with Enhanced AI Analysis')
     parser.add_argument('--query', '-q', type=str, help='Single query to test')
     parser.add_argument('--batch', '-b', action='store_true', help='Run all questions from questions.txt')
     parser.add_argument('--select', '-s', action='store_true', help='Select questions interactively')
     parser.add_argument('--file', '-f', type=str, default='questions.txt', help='Questions file to use (default: questions.txt)')
     
+    # Enhanced analysis flags
+    parser.add_argument('--enhanced-analysis', action='store_true', 
+                       help='Enable enhanced analysis features (domain classification, negative signals, etc.)')
+    parser.add_argument('--weekly-report', action='store_true',
+                       help='Generate weekly report from tracked data')
+    parser.add_argument('--track-history', action='store_true',
+                       help='Enable historical tracking in database')
+    parser.add_argument('--show-trends', action='store_true',
+                       help='Show historical trends from tracking database')
+    parser.add_argument('--request-sources', action='store_true',
+                       help='Ask LLMs to cite their sources with URLs and domain names')
+    
     args = parser.parse_args()
+    
+    # Set enhanced analysis environment variables based on flags
+    if args.enhanced_analysis:
+        os.environ['ENABLE_ENHANCED_ANALYSIS'] = 'true'
+        os.environ['DOMAIN_CLASSIFICATION'] = 'true'
+        os.environ['NEGATIVE_SIGNAL_DETECTION'] = 'true'
+        os.environ['ACCURACY_VERIFICATION'] = 'true'
+        print("[OK] Enhanced analysis features enabled")
+    
+    if args.track_history:
+        os.environ['TRACK_HISTORY'] = 'true'
+        print("[OK] Historical tracking enabled")
+    
+    if args.request_sources:
+        os.environ['REQUEST_SOURCES'] = 'true'
+        print("[OK] Source citation requests enabled")
+    
+    # Handle weekly report generation
+    if args.weekly_report:
+        os.environ['WEEKLY_REPORTING'] = 'true'
+        os.environ['TRACK_HISTORY'] = 'true'  # Required for reports
+        analyzer = ResponseAnalyzer()
+        
+        if analyzer.tracker and analyzer.reporter:
+            print("\nGenerating weekly report...")
+            report_path = analyzer.generate_weekly_report()
+            if report_path:
+                print(f"[OK] Report saved to: {report_path}")
+        else:
+            print("[ERROR] Weekly reporting requires enhanced analysis to be enabled")
+            print("       Use: python3 run.py --enhanced-analysis --weekly-report")
+        sys.exit(0)
+    
+    # Handle trends display
+    if args.show_trends:
+        if TRACKER_AVAILABLE:
+            tracker = HistoricalTracker()
+            trends = tracker.get_historical_trends(4)
+            
+            print("\nHistorical Trends (Last 4 Weeks):")
+            print("-" * 60)
+            for week_data in trends:
+                week = week_data['week_start']
+                summary = week_data['summary']
+                print(f"\nWeek of {week}:")
+                print(f"  UGC: {summary.get('avg_ugc_percentage', 0):.1f}%")
+                print(f"  Owned: {summary.get('avg_owned_percentage', 0):.1f}%")
+                print(f"  Authority: {summary.get('avg_authority_percentage', 0):.1f}%")
+                print(f"  Negative content: {summary.get('negative_content_count', 0)}")
+        else:
+            print("[ERROR] Historical tracking module not available")
+        sys.exit(0)
     
     print("\n" + "=" * 60)
     print("STARTING TESTS")

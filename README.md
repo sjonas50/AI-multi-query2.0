@@ -1,9 +1,14 @@
-# Multi-LLM Query Tool
+# Multi-LLM Query Tool with AI-Powered AISEO Analysis
 
-A unified interface for testing and comparing responses from multiple Large Language Model providers (OpenAI, Anthropic, Perplexity, and Google Gemini).
+A unified interface for testing and comparing responses from multiple Large Language Model providers (OpenAI, Anthropic, Perplexity, and Google Gemini) with optional enterprise-grade AI optimization intelligence.
+
+## 🚀 Enhanced with Fisher Investments-Level AI Intelligence
+
+This tool now includes **sophisticated AI optimization tracking** matching enterprise-level AISEO strategies. All enhanced features are **100% backward compatible** and **opt-in**.
 
 ## Quick Start
 
+### Standard Usage (Original Functionality)
 ```bash
 # Clone the repository
 git clone <repository-url>
@@ -21,6 +26,37 @@ python3 run.py --batch
 # Or run a specific query
 python3 run.py --query "What are the best ETFs?"
 ```
+
+### Enhanced Analysis Mode (New!)
+```bash
+
+# Run batch with enhanced analysis AND request sources from LLMs - Add additional queries to questions.txt
+python3 run.py --batch --enhanced-analysis --track-history --request-sources
+
+# Run batch from a specific file with enhanced analysis
+python3 run.py --batch --enhanced-analysis --track-history --file custom_questions.txt
+
+# Interactive selection with enhanced analysis
+python3 run.py --select --enhanced-analysis --track-history --request-sources
+
+# Generate weekly Fisher-style report after collecting data
+python3 run.py --enhanced-analysis --weekly-report
+
+# View historical trends
+python3 run.py --show-trends
+```
+
+### Enhanced Features Include:
+- **URL Extraction**: Comprehensive extraction of all URLs and domains from AI responses
+- **Source Citation Requests**: Option to ask LLMs to cite their sources (`--request-sources`)
+- **Domain Classification**: Categorizes sources (UGC, owned, authority, competitor)
+- **Negative Signal Detection**: Identifies criticism patterns and sentiment
+- **Accuracy Verification**: Flags factual errors and misattributions
+- **Historical Tracking**: SQLite database for trend analysis
+- **Weekly Reports**: Fisher Investments-style reports with WoW changes
+- **UGC Monitoring**: Tracks Reddit, Yelp, and platform-specific growth
+
+📖 See [ENHANCED_FEATURES.md](ENHANCED_FEATURES.md) for complete documentation of enhanced capabilities.
 
 ## Features
 
