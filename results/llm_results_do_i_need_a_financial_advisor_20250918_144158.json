@@ -1,0 +1,1569 @@
+{
+  "query": "Do I need a financial advisor?",
+  "timestamp": "2025-09-18T14:41:58.791399",
+  "date": "2025-09-18",
+  "time": "14:41:58",
+  "results": [
+    {
+      "provider": "OpenAI",
+      "response": "Whether you need a financial advisor depends on your personal financial situation, goals, and comfort level managing your finances. Here are some factors to consider, along with reputable sources:\n\n### When You Might Need a Financial Advisor\n\n1. **Complex Financial Situation**  \n   If you have complex financial needs\u2014such as estate planning, tax optimization, business ownership, or managing significant assets\u2014a financial advisor can offer expertise.  \n   *Source: [NerdWallet - Do I Need a Financial Advisor?](https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor)*\n\n2. **Major Life Changes**  \n   Life events such as marriage, divorce, inheritance, or retirement planning often require professional guidance.  \n   *Source: [Investopedia - Do You Need a Financial Advisor?](https://www.investopedia.com/articles/personal-finance/091015/do-you-need-financial-advisor.asp)*\n\n3. **Lack of Time or Expertise**  \n   If you lack the time, interest, or knowledge to manage your finances effectively, hiring an advisor can help ensure your financial plan stays on track.  \n   *Source: [Fidelity - When to Hire a Financial Advisor](https://www.fidelity.com/learning-center/personal-finance/when-to-hire-financial-advisor)*\n\n4. **Emotional Investing**  \n   An advisor can provide objective advice and help prevent emotional decisions\u2014like panic selling during market downturns.  \n   *Source: [Charles Schwab - Should I Hire a Financial Advisor?](https://www.schwab.com/learn/story/should-i-hire-financial-advisor)*\n\n### When You May NOT Need a Financial Advisor\n\n- **Simple Finances**: If your finances are straightforward\u2014few assets, no dependents, simple tax situation\u2014you might be able to manage on your own with online tools.\n- **DIY Interest**: If you enjoy learning about investing and financial planning, there are free resources and robo-advisors available.\n  *Source: [NerdWallet - Do I Need a Financial Advisor?](https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor)*\n\n### Additional Considerations\n\n- **Cost**: Advisors often charge fees (either as a percentage of assets, hourly, or flat fee). Make sure the value provided outweighs the cost.  \n  *Source: [SEC - Investor Bulletin: How Fees and Expenses Affect Your Investment Portfolio](https://www.sec.gov/oiea/investor-alerts-bulletins/ib_fees)*\n\n- **Fiduciary Duty**: Look for advisors who act as fiduciaries, meaning they are legally required to act in your best interest.  \n  *Source: [Investor.gov - What is a Fiduciary?](https://www.investor.gov/introduction-investing/investing-basics/glossary/fiduciary)*\n\n---\n\n**Summary:**  \nYou may benefit from a financial advisor if your finances are complex, you\u2019re facing major life changes, don\u2019t have time or interest to manage your money, or want help avoiding emotional decisions. If your finances are simple and you\u2019re comfortable managing them, you may not need one.\n\n*For more details, see:*  \n- [NerdWallet](https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor)  \n- [Investopedia](https://www.investopedia.com/articles/personal-finance/091015/do-you-need-financial-advisor.asp)  \n- [SEC.gov](https://www.sec.gov/oiea/investor-alerts-bulletins/ib_fees)  \n- [Fidelity.com](https://www.fidelity.com/learning-center/personal-finance/when-to-hire-financial-advisor)",
+      "model": "gpt-4.1-2025-04-14",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "NerdWallet",
+          "Investopedia",
+          "Fidelity",
+          "Charles Schwab",
+          "SEC",
+          "Investor.gov"
+        ],
+        "mention_reasons": {
+          "NerdWallet": "Cited as a reputable source for guidance on when a financial advisor is needed; provides consumer-focused financial advice.",
+          "Investopedia": "Referenced for its authoritative articles on personal finance and financial advisors.",
+          "Fidelity": "Mentioned as a source for educational content on hiring financial advisors; also a well-known financial services provider.",
+          "Charles Schwab": "Cited for its advice on hiring financial advisors; recognized as a major investment and brokerage firm.",
+          "SEC": "Referenced for regulatory and investor education materials, specifically regarding fees and fiduciary duty.",
+          "Investor.gov": "Mentioned as an official SEC website offering investor education, particularly about fiduciary duty."
+        },
+        "authority_signals": [
+          "reputable sources",
+          "expertise",
+          "professional guidance",
+          "objective advice",
+          "official SEC website",
+          "legally required to act in your best interest"
+        ],
+        "key_features": [
+          "Expertise in complex financial situations (estate planning, tax optimization, business ownership, significant assets)",
+          "Guidance during major life changes (marriage, divorce, inheritance, retirement)",
+          "Time and knowledge savings for those lacking expertise or interest",
+          "Objective advice to prevent emotional investing",
+          "Availability of online tools and robo-advisors for simple finances",
+          "Cost considerations (fees: percentage of assets, hourly, flat fee)",
+          "Fiduciary duty (advisors legally required to act in your best interest)"
+        ],
+        "sources_cited": [
+          "https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor",
+          "nerdwallet.com",
+          "https://www.investopedia.com/articles/personal-finance/091015/do-you-need-financial-advisor.asp",
+          "investopedia.com",
+          "https://www.fidelity.com/learning-center/personal-finance/when-to-hire-financial-advisor",
+          "fidelity.com",
+          "https://www.schwab.com/learn/story/should-i-hire-financial-advisor",
+          "schwab.com",
+          "https://www.sec.gov/oiea/investor-alerts-bulletins/ib_fees",
+          "sec.gov",
+          "https://www.investor.gov/introduction-investing/investing-basics/glossary/fiduciary",
+          "investor.gov",
+          "https://SEC.gov",
+          "https://Fidelity.com",
+          "https://Investor.gov",
+          "Advisor\n\n1",
+          "[NerdWallet - Do I Need a Financial Advisor?](https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor)*",
+          "[Investopedia - Do You Need a Financial Advisor?](https://www.investopedia.com/articles/personal-finance/091015/do-you-need-financial-advisor.asp)*",
+          "[Fidelity - When to Hire a Financial Advisor](https://www.fidelity.com/learning-center/personal-finance/when-to-hire-financial-advisor)*",
+          "[Charles Schwab - Should I Hire a Financial Advisor?](https://www.schwab.com/learn/story/should-i-hire-financial-advisor)*",
+          "[SEC - Investor Bulletin: How Fees and Expenses Affect Your Investment Portfolio](https://www.sec.gov/oiea/investor-alerts-bulletins/ib_fees)*",
+          "[Investor.gov - What is a Fiduciary?](https://www.investor.gov/introduction-investing/investing-basics/glossary/fiduciary)*",
+          "Investopedia"
+        ],
+        "ranking_factors": [
+          "Reputability and authority of the source",
+          "Relevance to the specific financial topic discussed",
+          "Frequency of citation within the response",
+          "Diversity of perspectives (consumer, regulatory, industry)",
+          "Directness of the source to the user\u2019s question"
+        ],
+        "sentiment": "Positive/Neutral (All entities are presented as reputable, authoritative, and helpful; no negative sentiment is expressed.)",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction",
+          "Multiple competitors mentioned (10) - Differentiate with unique value props",
+          "High source diversity - Focus on top-performing channels for optimization"
+        ],
+        "extracted_urls": [
+          "https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor",
+          "https://www.investopedia.com/articles/personal-finance/091015/do-you-need-financial-advisor.asp",
+          "https://www.fidelity.com/learning-center/personal-finance/when-to-hire-financial-advisor",
+          "https://www.schwab.com/learn/story/should-i-hire-financial-advisor",
+          "https://www.sec.gov/oiea/investor-alerts-bulletins/ib_fees",
+          "https://www.investor.gov/introduction-investing/investing-basics/glossary/fiduciary",
+          "https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor)*",
+          "https://www.investopedia.com/articles/personal-finance/091015/do-you-need-financial-advisor.asp)*",
+          "https://www.fidelity.com/learning-center/personal-finance/when-to-hire-financial-advisor)*",
+          "https://www.schwab.com/learn/story/should-i-hire-financial-advisor)*",
+          "https://www.sec.gov/oiea/investor-alerts-bulletins/ib_fees)*",
+          "https://www.investor.gov/introduction-investing/investing-basics/glossary/fiduciary)*",
+          "https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor)",
+          "https://www.investopedia.com/articles/personal-finance/091015/do-you-need-financial-advisor.asp)",
+          "https://www.sec.gov/oiea/investor-alerts-bulletins/ib_fees)",
+          "https://www.fidelity.com/learning-center/personal-finance/when-to-hire-financial-advisor)",
+          "https://SEC.gov",
+          "https://Fidelity.com",
+          "https://nerdwallet.com",
+          "https://investopedia.com",
+          "https://fidelity.com",
+          "https://schwab.com",
+          "https://sec.gov",
+          "https://Investor.gov",
+          "https://investor.gov"
+        ],
+        "url_statistics": {
+          "total_urls": 31,
+          "unique_domains": 6,
+          "domains": [
+            "nerdwallet.com",
+            "investopedia.com",
+            "sec.gov",
+            "schwab.com",
+            "fidelity.com",
+            "investor.gov"
+          ]
+        },
+        "timestamp": "2025-09-18T14:41:42.123348",
+        "query": "Do I need a financial advisor?",
+        "provider": "OpenAI",
+        "domain_statistics": {
+          "total_sources": 39,
+          "unique_domains": 10,
+          "categories": {
+            "authority": 11,
+            "unknown": 4,
+            "institutional": 5,
+            "competitor": 10,
+            "third-party": 9
+          },
+          "platforms": {
+            "SEC": 6,
+            "Charles Schwab": 4,
+            "Fidelity": 6,
+            "Investopedia": 5
+          },
+          "ugc_count": 0,
+          "owned_count": 0,
+          "competitor_count": 10,
+          "authority_count": 11,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 26,
+            "medium": 0,
+            "low": 13,
+            "variable": 0,
+            "owned": 0
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 0.0,
+          "authority_percentage": 28.2
+        },
+        "domain_classifications": [
+          {
+            "url": "https://www.sec.gov/oiea/investor-alerts-bulletins/ib_fees",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "[Investopedia - Do You Need a Financial Advisor?](https://www.investopedia.com/articles/personal-finance/091015/do-you-need-financial-advisor.asp)*",
+            "domain": "",
+            "category": "unknown",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/fiduciary",
+            "domain": "investor.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "schwab.com",
+            "domain": "schwab.com",
+            "category": "competitor",
+            "platform": "Charles Schwab",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor)",
+            "domain": "nerdwallet.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.fidelity.com/learning-center/personal-finance/when-to-hire-financial-advisor)",
+            "domain": "fidelity.com",
+            "category": "competitor",
+            "platform": "Fidelity",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor",
+            "domain": "nerdwallet.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/fiduciary)*",
+            "domain": "investor.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://SEC.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "[SEC - Investor Bulletin: How Fees and Expenses Affect Your Investment Portfolio](https://www.sec.gov/oiea/investor-alerts-bulletins/ib_fees)*",
+            "domain": "[sec - investor bulletin: how fees and expenses affect your investment portfolio](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor)*",
+            "domain": "nerdwallet.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.investopedia.com/articles/personal-finance/091015/do-you-need-financial-advisor.asp",
+            "domain": "investopedia.com",
+            "category": "authority",
+            "platform": "Investopedia",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "Investopedia",
+            "domain": "investopedia",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.fidelity.com/learning-center/personal-finance/when-to-hire-financial-advisor)*",
+            "domain": "fidelity.com",
+            "category": "competitor",
+            "platform": "Fidelity",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.schwab.com/learn/story/should-i-hire-financial-advisor)*",
+            "domain": "schwab.com",
+            "category": "competitor",
+            "platform": "Charles Schwab",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.schwab.com/learn/story/should-i-hire-financial-advisor",
+            "domain": "schwab.com",
+            "category": "competitor",
+            "platform": "Charles Schwab",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "nerdwallet.com",
+            "domain": "nerdwallet.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://www.investopedia.com/articles/personal-finance/091015/do-you-need-financial-advisor.asp)",
+            "domain": "investopedia.com",
+            "category": "authority",
+            "platform": "Investopedia",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "[Investor.gov - What is a Fiduciary?](https://www.investor.gov/introduction-investing/investing-basics/glossary/fiduciary)*",
+            "domain": "",
+            "category": "unknown",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "fidelity.com",
+            "domain": "fidelity.com",
+            "category": "competitor",
+            "platform": "Fidelity",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.sec.gov/oiea/investor-alerts-bulletins/ib_fees)*",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://fidelity.com",
+            "domain": "fidelity.com",
+            "category": "competitor",
+            "platform": "Fidelity",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://investor.gov",
+            "domain": "investor.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://Fidelity.com",
+            "domain": "fidelity.com",
+            "category": "competitor",
+            "platform": "Fidelity",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Advisor\n\n1",
+            "domain": "advisor1",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "[Charles Schwab - Should I Hire a Financial Advisor?](https://www.schwab.com/learn/story/should-i-hire-financial-advisor)*",
+            "domain": "",
+            "category": "unknown",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "[NerdWallet - Do I Need a Financial Advisor?](https://www.nerdwallet.com/article/investing/do-i-need-financial-advisor)*",
+            "domain": "",
+            "category": "unknown",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://Investor.gov",
+            "domain": "investor.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "[Fidelity - When to Hire a Financial Advisor](https://www.fidelity.com/learning-center/personal-finance/when-to-hire-financial-advisor)*",
+            "domain": "[fidelity - when to hire a financial advisor](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.sec.gov/oiea/investor-alerts-bulletins/ib_fees)",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://www.investopedia.com/articles/personal-finance/091015/do-you-need-financial-advisor.asp)*",
+            "domain": "investopedia.com",
+            "category": "authority",
+            "platform": "Investopedia",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "investopedia.com",
+            "domain": "investopedia.com",
+            "category": "authority",
+            "platform": "Investopedia",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://nerdwallet.com",
+            "domain": "nerdwallet.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://schwab.com",
+            "domain": "schwab.com",
+            "category": "competitor",
+            "platform": "Charles Schwab",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "investor.gov",
+            "domain": "investor.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.fidelity.com/learning-center/personal-finance/when-to-hire-financial-advisor",
+            "domain": "fidelity.com",
+            "category": "competitor",
+            "platform": "Fidelity",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://investopedia.com",
+            "domain": "investopedia.com",
+            "category": "authority",
+            "platform": "Investopedia",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [
+            "Regulatory body mentioned: SEC",
+            "Regulatory body mentioned: SEC"
+          ],
+          "contextual_factors": [
+            {
+              "type": "mitigators",
+              "modifier": "some"
+            }
+          ],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "NerdWallet": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*Source: [NerdWallet - Do I Need a Financial Advisor?](https://www",
+              "nerdwallet",
+              "*Source: [NerdWallet - Do I Need a Financial Advisor?](https://www",
+              "nerdwallet",
+              "*For more details, see:*  \n- [NerdWallet](https://www",
+              "nerdwallet"
+            ]
+          },
+          "Investopedia": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*Source: [Investopedia - Do You Need a Financial Advisor?](https://www",
+              "investopedia",
+              "com/article/investing/do-i-need-financial-advisor)  \n- [Investopedia](https://www",
+              "investopedia"
+            ]
+          },
+          "Fidelity": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*Source: [Fidelity - When to Hire a Financial Advisor](https://www",
+              "fidelity",
+              "gov/oiea/investor-alerts-bulletins/ib_fees)  \n- [Fidelity",
+              "fidelity"
+            ]
+          },
+          "Charles Schwab": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*Source: [Charles Schwab - Should I Hire a Financial Advisor?](https://www"
+            ]
+          },
+          "SEC": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*Source: [SEC - Investor Bulletin: How Fees and Expenses Affect Your Investment Portfolio](https://www",
+              "sec",
+              "asp)  \n- [SEC",
+              "sec"
+            ]
+          },
+          "Investor.gov": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          }
+        },
+        "competitor_mentions": [
+          {
+            "name": "Charles Schwab",
+            "domain": "schwab.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Fidelity",
+            "domain": "fidelity.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Fidelity",
+            "domain": "fidelity.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Charles Schwab",
+            "domain": "schwab.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Charles Schwab",
+            "domain": "schwab.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Fidelity",
+            "domain": "fidelity.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Fidelity",
+            "domain": "fidelity.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Fidelity",
+            "domain": "fidelity.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Charles Schwab",
+            "domain": "schwab.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Fidelity",
+            "domain": "fidelity.com",
+            "context": "Found in sources"
+          }
+        ],
+        "tracking_id": 58,
+        "wow_trends": {
+          "week": "2025-W37",
+          "current": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 20.85,
+            "total_analyses": 4
+          },
+          "previous": {
+            "ugc_percentage": 0.2851851851851852,
+            "owned_percentage": 0.1462962962962963,
+            "authority_percentage": 7.10925925925926,
+            "total_analyses": 54
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": -0.29,
+              "percentage": -100.0
+            },
+            "owned_percentage": {
+              "absolute": -0.15,
+              "percentage": -100.0
+            },
+            "authority_percentage": {
+              "absolute": 13.74,
+              "percentage": 193.28
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Anthropic",
+      "response": "Whether you need a financial advisor depends on several factors. Here are key considerations to help you decide:\n\n## You might benefit from a financial advisor if you:\n- Have complex financial situations (multiple income sources, business ownership, inheritance)\n- Lack time or interest to manage investments yourself\n- Are approaching major life transitions (retirement, divorce, job loss)\n- Have significant assets (typically $100,000+ in investable assets)\n- Need help with tax planning, estate planning, or insurance decisions\n- Feel overwhelmed by financial decisions or lack confidence\n\n## You might not need one if you:\n- Have simple financial needs and enjoy learning about investing\n- Are comfortable with basic investment tools like index funds\n- Have limited assets or are just starting to build wealth\n- Prefer to maintain full control over your money\n\n## Key considerations:\n- **Costs**: Financial advisors typically charge 0.5-2% of assets annually or hourly fees ($200-400/hour)\n- **Services**: They can provide investment management, financial planning, tax advice, and emotional guidance during market volatility\n- **Alternatives**: Robo-advisors, online planning tools, and self-directed investing through brokerages\n\n**Sources where this information can be verified:**\n- schwab.com (Charles Schwab's financial planning resources)\n- vanguard.com (Vanguard's advisor services information)\n- sec.gov (SEC investor guidance on financial advisors)\n- cfp.net (Certified Financial Planner Board standards)\n- morningstar.com (independent financial research and advisor guidance)\n\nConsider starting with a fee-only financial planner for a one-time consultation to assess your specific needs.",
+      "model": "claude-sonnet-4-20250514",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "Charles Schwab",
+          "Vanguard",
+          "SEC",
+          "Certified Financial Planner Board",
+          "Morningstar"
+        ],
+        "mention_reasons": {
+          "Charles Schwab": "Referenced as a source for financial planning resources.",
+          "Vanguard": "Referenced for advisor services information.",
+          "SEC": "Referenced for investor guidance on financial advisors.",
+          "Certified Financial Planner Board": "Referenced for standards for financial planners.",
+          "Morningstar": "Referenced for independent financial research and advisor guidance."
+        },
+        "authority_signals": [
+          "independent financial research",
+          "advisor guidance",
+          "standards",
+          "investor guidance"
+        ],
+        "key_features": [
+          "Investment management",
+          "Financial planning",
+          "Tax advice",
+          "Emotional guidance during market volatility",
+          "Fee-only financial planner for one-time consultation",
+          "Robo-advisors as alternatives",
+          "Online planning tools",
+          "Self-directed investing through brokerages",
+          "Typical advisor costs (0.5-2% of assets annually or $200-400/hour)"
+        ],
+        "sources_cited": [
+          "schwab.com",
+          "https://www.schwab.com",
+          "vanguard.com",
+          "https://www.vanguard.com",
+          "sec.gov",
+          "https://www.sec.gov",
+          "cfp.net",
+          "https://www.cfp.net",
+          "morningstar.com",
+          "https://www.morningstar.com",
+          "Morningstar"
+        ],
+        "ranking_factors": [
+          "Relevance to financial advice and planning",
+          "Authority and trustworthiness in the financial industry",
+          "Direct mention as a source for verification",
+          "Breadth of services and information provided"
+        ],
+        "sentiment": "Positive/Neutral",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction",
+          "Multiple competitors mentioned (6) - Differentiate with unique value props",
+          "High source diversity - Focus on top-performing channels for optimization"
+        ],
+        "extracted_urls": [
+          "https://schwab.com",
+          "https://vanguard.com",
+          "https://sec.gov",
+          "https://cfp.net",
+          "https://morningstar.com"
+        ],
+        "url_statistics": {
+          "total_urls": 5,
+          "unique_domains": 5,
+          "domains": [
+            "vanguard.com",
+            "sec.gov",
+            "schwab.com",
+            "cfp.net",
+            "morningstar.com"
+          ]
+        },
+        "timestamp": "2025-09-18T14:41:49.286959",
+        "query": "Do I need a financial advisor?",
+        "provider": "Anthropic",
+        "domain_statistics": {
+          "total_sources": 16,
+          "unique_domains": 6,
+          "categories": {
+            "competitor": 6,
+            "authority": 6,
+            "third-party": 4
+          },
+          "platforms": {
+            "Vanguard": 3,
+            "SEC": 3,
+            "Charles Schwab": 3,
+            "Morningstar": 3
+          },
+          "ugc_count": 0,
+          "owned_count": 0,
+          "competitor_count": 6,
+          "authority_count": 6,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 12,
+            "medium": 0,
+            "low": 4,
+            "variable": 0,
+            "owned": 0
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 0.0,
+          "authority_percentage": 37.5
+        },
+        "domain_classifications": [
+          {
+            "url": "vanguard.com",
+            "domain": "vanguard.com",
+            "category": "competitor",
+            "platform": "Vanguard",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://www.schwab.com",
+            "domain": "schwab.com",
+            "category": "competitor",
+            "platform": "Charles Schwab",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://www.vanguard.com",
+            "domain": "vanguard.com",
+            "category": "competitor",
+            "platform": "Vanguard",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://schwab.com",
+            "domain": "schwab.com",
+            "category": "competitor",
+            "platform": "Charles Schwab",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://cfp.net",
+            "domain": "cfp.net",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "schwab.com",
+            "domain": "schwab.com",
+            "category": "competitor",
+            "platform": "Charles Schwab",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.morningstar.com",
+            "domain": "morningstar.com",
+            "category": "authority",
+            "platform": "Morningstar",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "cfp.net",
+            "domain": "cfp.net",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Morningstar",
+            "domain": "morningstar",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.cfp.net",
+            "domain": "cfp.net",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://morningstar.com",
+            "domain": "morningstar.com",
+            "category": "authority",
+            "platform": "Morningstar",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://www.sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://vanguard.com",
+            "domain": "vanguard.com",
+            "category": "competitor",
+            "platform": "Vanguard",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "morningstar.com",
+            "domain": "morningstar.com",
+            "category": "authority",
+            "platform": "Morningstar",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [
+            "Specific amount mentioned: $100,000",
+            "Specific amount mentioned: $200",
+            "Regulatory body mentioned: SEC"
+          ],
+          "contextual_factors": [],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "Charles Schwab": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "com (Charles Schwab's financial planning resources)\n- vanguard"
+            ]
+          },
+          "Vanguard": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "com (Charles Schwab's financial planning resources)\n- vanguard",
+              "com (Vanguard's advisor services information)\n- sec"
+            ]
+          },
+          "SEC": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "com (Vanguard's advisor services information)\n- sec",
+              "gov (SEC investor guidance on financial advisors)\n- cfp"
+            ]
+          },
+          "Certified Financial Planner Board": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "net (Certified Financial Planner Board standards)\n- morningstar"
+            ]
+          },
+          "Morningstar": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "net (Certified Financial Planner Board standards)\n- morningstar"
+            ]
+          }
+        },
+        "accuracy_issues": [
+          {
+            "type": "incorrect_minimum",
+            "found": "$100,000",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$200",
+            "correct": "$1,000,000"
+          }
+        ],
+        "corrections_needed": [
+          "Incorrect minimum investment: Found '$100,000', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$200', should be '$1,000,000'"
+        ],
+        "competitor_mentions": [
+          {
+            "name": "Vanguard",
+            "domain": "vanguard.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Charles Schwab",
+            "domain": "schwab.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Vanguard",
+            "domain": "vanguard.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Charles Schwab",
+            "domain": "schwab.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Charles Schwab",
+            "domain": "schwab.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Vanguard",
+            "domain": "vanguard.com",
+            "context": "Found in sources"
+          }
+        ],
+        "tracking_id": 59,
+        "wow_trends": {
+          "week": "2025-W37",
+          "current": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 24.18,
+            "total_analyses": 5
+          },
+          "previous": {
+            "ugc_percentage": 0.2851851851851852,
+            "owned_percentage": 0.1462962962962963,
+            "authority_percentage": 7.10925925925926,
+            "total_analyses": 54
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": -0.29,
+              "percentage": -100.0
+            },
+            "owned_percentage": {
+              "absolute": -0.15,
+              "percentage": -100.0
+            },
+            "authority_percentage": {
+              "absolute": 17.07,
+              "percentage": 240.12
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Google",
+      "response": "Whether you need a financial advisor is a very personal question, and there's no single \"yes\" or \"no\" answer. It depends heavily on your unique financial situation, knowledge, time, goals, and even your personality.\n\nHere's a breakdown of factors to consider to help you decide:\n\n---\n\n### You Might Benefit From a Financial Advisor If:\n\n1.  **Your Financial Situation is Complex:**\n    *   You have high income, significant assets, or multiple investment accounts.\n    *   You own a business or have complex employee compensation (stock options, restricted stock units).\n    *   You've received an inheritance or a large sum of money.\n    *   You have complex tax situations or need tax planning advice.\n\n2.  **You're Nearing or In Retirement:**\n    *   You need help transitioning from saving to spending your retirement funds.\n    *   You're concerned about generating income, healthcare costs, Social Security strategies, or long-term care.\n    *   You want to ensure your money lasts throughout retirement.\n\n3.  **You Have Specific, Important Financial Goals:**\n    *   Saving for a child's education.\n    *   Buying a home.\n    *   Planning for early retirement.\n    *   Creating an estate plan or legacy for your family.\n    *   Wanting to optimize charitable giving.\n\n4.  **You Lack the Time or Interest to Manage Your Own Finances:**\n    *   You're busy with work, family, or other commitments.\n    *   You find financial planning overwhelming or boring.\n    *   You prefer to delegate these tasks to a professional.\n\n5.  **You Lack Financial Knowledge or Confidence:**\n    *   You don't understand basic investment principles, asset allocation, or risk management.\n    *   You're unsure how to create a budget, manage debt, or save effectively.\n    *   You want an objective, expert opinion on your financial decisions.\n\n6.  **You Struggle with Financial Discipline or Emotional Investing:**\n    *   You tend to make impulsive financial decisions (buying high, selling low).\n    *   You have trouble sticking to a budget or savings plan.\n    *   You want someone to hold you accountable and provide a steady hand during market volatility.\n\n7.  **You're Going Through a Major Life Event:**\n    *   Marriage or divorce.\n    *   Having children.\n    *   A career change or job loss.\n    *   Death of a spouse or loved one.\n\n8.  **You Want a \"Second Opinion\":**\n    *   Even if you're quite knowledgeable, an advisor can offer an objective review of your plan and identify blind spots.\n\n---\n\n### You Might Be Able to Self-Manage (For Now) If:\n\n1.  **Your Financial Situation is Relatively Simple:**\n    *   You're early in your career with limited assets and straightforward goals (e.g., building an emergency fund, paying off student loans, contributing to a 401k/IRA).\n    *   You have manageable debt and good saving habits.\n\n2.  **You Have the Time and Interest to Learn:**\n    *   You enjoy researching personal finance topics, reading books, and using online tools.\n    *   You're willing to dedicate time to budgeting, investing, and planning.\n\n3.  **You're Disciplined and Knowledgeable:**\n    *   You have a clear understanding of your financial goals and how to achieve them.\n    *   You can stick to a budget, manage your investments without emotional interference, and regularly review your progress.\n\n4.  **You Utilize Low-Cost, Automated Solutions:**\n    *   Robo-advisors can be a great, low-cost option for basic investment management and goal setting.\n    *   Budgeting apps and software can help keep you on track.\n\n---\n\n### Types of Financial Advisors to Consider:\n\nIf you decide an advisor is right for you, it's crucial to understand the different types:\n\n*   **Fee-Only Fiduciaries:** These are generally considered the \"gold standard.\" They are legally obligated to act in your best interest (fiduciary duty) and are compensated solely by the fees you pay (hourly, flat fee, or percentage of assets under management). This minimizes conflicts of interest.\n*   **Fee-Based Advisors:** They charge fees, but can also earn commissions from selling specific products (insurance, mutual funds). This can create potential conflicts of interest.\n*   **Commission-Based Advisors:** They are primarily compensated by commissions on products they sell. This creates the highest potential for conflicts of interest, as their recommendation might be influenced by how much they earn.\n\n**Always ask an advisor if they are a Fiduciary 100% of the time.**\n\n---\n\n### How to Decide:\n\n1.  **Assess Your Current Situation:** Go through the lists above. Where do you fall?\n2.  **Define Your Needs:** What specific financial challenges or goals do you need help with?\n3.  **Consider the Cost vs. Value:** Advisors charge fees. Will the value they provide (peace of mind, better returns, tax savings, time saved) outweigh the cost? For some, the cost of *not* having an advisor can be higher.\n4.  **Start Small (if unsure):** You could consider a one-time financial planning session with a fee-only advisor to get a personalized financial plan, which you can then implement yourself.\n\nUltimately, deciding whether you need a financial advisor is about weighing your comfort level, knowledge, time availability, and the complexity of your financial life against the potential benefits and costs of professional guidance.",
+      "model": "gemini-2.5-flash",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "Robo-advisors",
+          "401k",
+          "IRA",
+          "Fee-Only Fiduciaries",
+          "Fee-Based Advisors",
+          "Commission-Based Advisors"
+        ],
+        "mention_reasons": {
+          "Robo-advisors": "Mentioned as a low-cost, automated solution for basic investment management and goal setting.",
+          "401k": "Referenced as a common retirement savings account in the context of self-managing finances.",
+          "IRA": "Referenced as a common retirement savings account in the context of self-managing finances.",
+          "Fee-Only Fiduciaries": "Highlighted as the 'gold standard' for financial advisors due to their fiduciary duty and fee structure.",
+          "Fee-Based Advisors": "Explained as a type of advisor who charges fees but may also earn commissions, creating potential conflicts of interest.",
+          "Commission-Based Advisors": "Described as advisors compensated primarily by commissions, with the highest potential for conflicts of interest."
+        },
+        "authority_signals": [
+          "gold standard",
+          "legally obligated to act in your best interest",
+          "fiduciary duty",
+          "objective, expert opinion",
+          "objective review"
+        ],
+        "key_features": [
+          "Fiduciary duty",
+          "Fee-only compensation",
+          "Objective advice",
+          "Low-cost, automated solutions",
+          "Accountability",
+          "Personalized financial planning",
+          "Expertise in complex financial situations",
+          "Help with retirement planning",
+          "Tax planning advice",
+          "Assistance with major life events",
+          "Budgeting and debt management",
+          "Emotional discipline in investing"
+        ],
+        "sources_cited": [
+          "Robo-advisors",
+          "401k",
+          "IRA",
+          "Fiduciary 100"
+        ],
+        "ranking_factors": [
+          "Complexity of financial situation",
+          "Stage of life (retirement, major life events)",
+          "Level of financial knowledge and discipline",
+          "Time and interest in managing finances",
+          "Cost vs. value of professional advice",
+          "Type of advisor and compensation structure"
+        ],
+        "sentiment": "neutral",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction"
+        ],
+        "extracted_urls": [],
+        "url_statistics": {
+          "total_urls": 0,
+          "unique_domains": 0,
+          "domains": []
+        },
+        "timestamp": "2025-09-18T14:41:58.785532",
+        "query": "Do I need a financial advisor?",
+        "provider": "Google",
+        "domain_statistics": {
+          "total_sources": 4,
+          "unique_domains": 4,
+          "categories": {
+            "third-party": 4
+          },
+          "platforms": {},
+          "ugc_count": 0,
+          "owned_count": 0,
+          "competitor_count": 0,
+          "authority_count": 0,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 4,
+            "variable": 0,
+            "owned": 0
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 0.0,
+          "authority_percentage": 0.0
+        },
+        "domain_classifications": [
+          {
+            "url": "IRA",
+            "domain": "ira",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Fiduciary 100",
+            "domain": "fiduciary 100",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "401k",
+            "domain": "401k",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Robo-advisors",
+            "domain": "robo-advisors",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [],
+          "contextual_factors": [
+            {
+              "type": "amplifiers",
+              "modifier": "very"
+            },
+            {
+              "type": "mitigators",
+              "modifier": "small"
+            },
+            {
+              "type": "mitigators",
+              "modifier": "some"
+            }
+          ],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "Robo-advisors": {
+            "mentioned": true,
+            "sentiment": "positive",
+            "negative_signals": [],
+            "positive_signals": [
+              "great"
+            ],
+            "context": [
+              "**You Utilize Low-Cost, Automated Solutions:**\n    *   Robo-advisors can be a great, low-cost option for basic investment management and goal setting"
+            ]
+          },
+          "401k": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              ", building an emergency fund, paying off student loans, contributing to a 401k/IRA)"
+            ]
+          },
+          "IRA": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              ", building an emergency fund, paying off student loans, contributing to a 401k/IRA)"
+            ]
+          },
+          "Fee-Only Fiduciaries": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "---\n\n### Types of Financial Advisors to Consider:\n\nIf you decide an advisor is right for you, it's crucial to understand the different types:\n\n*   **Fee-Only Fiduciaries:** These are generally considered the \"gold standard"
+            ]
+          },
+          "Fee-Based Advisors": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Fee-Based Advisors:** They charge fees, but can also earn commissions from selling specific products (insurance, mutual funds)"
+            ]
+          },
+          "Commission-Based Advisors": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Commission-Based Advisors:** They are primarily compensated by commissions on products they sell"
+            ]
+          }
+        },
+        "tracking_id": 60,
+        "wow_trends": {
+          "week": "2025-W37",
+          "current": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 20.150000000000002,
+            "total_analyses": 6
+          },
+          "previous": {
+            "ugc_percentage": 0.2851851851851852,
+            "owned_percentage": 0.1462962962962963,
+            "authority_percentage": 7.10925925925926,
+            "total_analyses": 54
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": -0.29,
+              "percentage": -100.0
+            },
+            "owned_percentage": {
+              "absolute": -0.15,
+              "percentage": -100.0
+            },
+            "authority_percentage": {
+              "absolute": 13.04,
+              "percentage": 183.43
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Google Search",
+      "response": [
+        {
+          "title": "Exactly what is a financial advisor for and what age should you ...",
+          "link": "https://www.reddit.com/r/FinancialPlanning/comments/106hh6i/exactly_what_is_a_financial_advisor_for_and_what/",
+          "snippet": "Jan 8, 2023 ... You don't need a financial planner if you are knowledgeable enough. A lot of the more complicated financial moves that shield your money and tax\u00a0..."
+        },
+        {
+          "title": "Do you need a financial advisor Five signs that point to yes. | TIAA",
+          "link": "https://www.tiaa.org/public/invest/services/wealth-management/perspectives/needanadvisor",
+          "snippet": "Ready to upgrade your financial plan? Learn five signs you need professional guidance, from growing tax burdens to complex investing decisions."
+        },
+        {
+          "title": "Do I need a financial advisor? : r/FinancialPlanning",
+          "link": "https://www.reddit.com/r/FinancialPlanning/comments/1ebyax4/do_i_need_a_financial_advisor/",
+          "snippet": "Jul 25, 2024 ... No you don't need a financial advisor. Most people don't actually need financial advisors unless they have several million in assets."
+        },
+        {
+          "title": "When Do You Need a Financial Advisor? 9 Signs It's Time to ...",
+          "link": "https://www.cnbil.com/Blog/Posts/141/Blog/2025/3/When-Do-You-Need-a-Financial-Advisor-9-Signs-Its-Time-to-Consult-One/blog-post/",
+          "snippet": "Mar 27, 2025 ... A financial advisor is not only for the super-rich; anyone facing major life transitions, nearing retirement, or feeling overwhelmed by financial decisions\u00a0..."
+        },
+        {
+          "title": "Do You Need A Financial Advisor? When To Consider Getting One ...",
+          "link": "https://www.bankrate.com/investing/financial-advisors/when-to-get-a-financial-advisor/",
+          "snippet": "Aug 29, 2025 ... When to get a financial advisor \u00b7 1. You're navigating a financial turning point \u00b7 2. Financial stress is affecting your mental health and\u00a0..."
+        },
+        {
+          "title": "Ask Yourself These 5 Questions Before You Look for a Financial ...",
+          "link": "https://www.morningstar.com/financial-advisors/ask-yourself-these-5-questions-before-you-look-financial-advisor",
+          "snippet": "Apr 26, 2023 ... If you need investment advice first and foremost: If you think your financial ... Do you want your advisor to be strategic in managing your asset\u00a0..."
+        },
+        {
+          "title": "Do I Need a Financial Advisor?",
+          "link": "https://smartasset.com/financial-advisor/do-i-need-a-financial-advisor",
+          "snippet": "Jul 11, 2025 ... If you have enough money in your bank account to start investing, you might want to find an advisor. Another sign you need an advisor is if you'\u00a0..."
+        },
+        {
+          "title": "Do I Need A Financial Advisor Or Should I Go It Alone?",
+          "link": "https://www.forbes.com/sites/investopedia/2022/08/15/do-i-need-a-financial-advisor-or-should-i-go-it-alone/",
+          "snippet": "Aug 15, 2022 ... The answer depends on different factors \u2014 the complexity of your finances, how comfortable you are managing investments, where you are in your\u00a0..."
+        },
+        {
+          "title": "Why would I need a financial advisor? | CSU",
+          "link": "https://www.charlestonsouthern.edu/why-would-i-need-a-financial-advisor/",
+          "snippet": "1. They are experts on money. They know what to get and what to avoid, and many will have a vested financial interest in your success."
+        },
+        {
+          "title": "Is a Financial Planner Worth It? Here's Our Honest Answer",
+          "link": "https://www.ellevest.com/magazine/is-a-financial-planner-worth-it",
+          "snippet": "Mar 7, 2025 ... A financial plan can give you the tactical support you need to recover from a crisis and the reassurance that you can reclaim your financial\u00a0..."
+        }
+      ],
+      "query": "Do I need a financial advisor?",
+      "total_results": "641000000",
+      "success": true
+    }
+  ]
+}

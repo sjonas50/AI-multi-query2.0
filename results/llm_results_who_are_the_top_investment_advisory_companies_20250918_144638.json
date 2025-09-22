@@ -1,0 +1,2495 @@
+{
+  "query": "who are the top investment advisory companies?",
+  "timestamp": "2025-09-18T14:46:38.686194",
+  "date": "2025-09-18",
+  "time": "14:46:38",
+  "results": [
+    {
+      "provider": "OpenAI",
+      "response": "Certainly! The landscape of top investment advisory companies (often called Registered Investment Advisors, or RIAs, in the U.S.) can be measured by assets under management (AUM), reputation, or client base. Here are some of the largest and most reputable firms as of 2023-2024, along with sources where you can verify this information:\n\n---\n\n### 1. **Fisher Investments**\n- **AUM:** Over $200 billion (2023)\n- **Source:** [fisherinvestments.com](https://www.fisherinvestments.com/en-us/about-us)\n- **Reference:** [Barron's Top RIA Firms 2023](https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023)\n\n---\n\n### 2. **Captrust**\n- **AUM:** Over $714 billion (2023)\n- **Source:** [captrust.com](https://www.captrust.com/about/)\n- **Reference:** [Barron's Top 100 RIA Firms 2023](https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023)\n\n---\n\n### 3. **Creative Planning**\n- **AUM:** Over $245 billion (2023)\n- **Source:** [creativeplanning.com](https://creativeplanning.com/about/)\n- **Reference:** [Forbes Top RIA Firms 2023](https://www.forbes.com/lists/top-ria-firms/)\n\n---\n\n### 4. **Mariner Wealth Advisors**\n- **AUM:** Over $114 billion (2023)\n- **Source:** [marinerwealthadvisors.com](https://www.marinerwealthadvisors.com/about-us/)\n- **Reference:** [Barron's Top 100 RIA Firms 2023](https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023)\n\n---\n\n### 5. **Wealth Enhancement Group**\n- **AUM:** Over $70 billion (2023)\n- **Source:** [wealthenhancement.com](https://www.wealthenhancement.com/about-us)\n- **Reference:** [InvestmentNews Top Fee-Only RIAs 2023](https://www.investmentnews.com/best-practices/top-fee-only-ria-firms/)\n\n---\n\n### Comprehensive Rankings & Sources\n\n- **Barron\u2019s Top 100 RIA Firms (2023):**\n  - [barrons.com/advisor/report/top-financial-advisors/ria/2023](https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023)\n- **Forbes Top RIA Firms (2023):**\n  - [forbes.com/lists/top-ria-firms/](https://www.forbes.com/lists/top-ria-firms/)\n- **InvestmentNews Top Fee-Only RIAs:**\n  - [investmentnews.com/best-practices/top-fee-only-ria-firms/](https://www.investmentnews.com/best-practices/top-fee-only-ria-firms/)\n\n---\n\nThese firms are consistently recognized for their size, client satisfaction, and industry influence. For the most current rankings, check the annual lists from Barron\u2019s, Forbes, or InvestmentNews (links above).",
+      "model": "gpt-4.1-2025-04-14",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "Fisher Investments",
+          "Captrust",
+          "Creative Planning",
+          "Mariner Wealth Advisors",
+          "Wealth Enhancement Group",
+          "Barron's",
+          "Forbes",
+          "InvestmentNews"
+        ],
+        "mention_reasons": {
+          "Fisher Investments": "Highlighted for its large assets under management (AUM), reputation, and inclusion in industry rankings.",
+          "Captrust": "Mentioned due to its high AUM and recognition in Barron's rankings.",
+          "Creative Planning": "Cited for its significant AUM and inclusion in Forbes' top RIA firms list.",
+          "Mariner Wealth Advisors": "Noted for its AUM and ranking in Barron's Top 100 RIA Firms.",
+          "Wealth Enhancement Group": "Included for its AUM and recognition by InvestmentNews.",
+          "Barron's": "Referenced as an authoritative source for RIA firm rankings.",
+          "Forbes": "Cited as a source for top RIA firm lists.",
+          "InvestmentNews": "Mentioned as a source for top fee-only RIA firm rankings."
+        },
+        "authority_signals": [
+          "largest",
+          "most reputable",
+          "consistently recognized",
+          "industry influence",
+          "top",
+          "comprehensive rankings",
+          "client satisfaction"
+        ],
+        "key_features": [
+          "Assets under management (AUM)",
+          "Reputation",
+          "Client base",
+          "Industry influence",
+          "Client satisfaction",
+          "Inclusion in industry rankings"
+        ],
+        "sources_cited": [
+          "https://www.fisherinvestments.com/en-us/about-us",
+          "fisherinvestments.com",
+          "https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023",
+          "barrons.com",
+          "https://www.captrust.com/about/",
+          "captrust.com",
+          "https://creativeplanning.com/about/",
+          "creativeplanning.com",
+          "https://www.forbes.com/lists/top-ria-firms/",
+          "forbes.com",
+          "https://www.marinerwealthadvisors.com/about-us/",
+          "marinerwealthadvisors.com",
+          "https://www.wealthenhancement.com/about-us",
+          "wealthenhancement.com",
+          "https://www.investmentnews.com/best-practices/top-fee-only-ria-firms/",
+          "investmentnews.com",
+          "Firms 2023",
+          "Top 100",
+          "RIAs 2023",
+          "** [fisherinvestments.com](https://www.fisherinvestments.com/en-us/about-us)",
+          "** [captrust.com](https://www.captrust.com/about/)",
+          "** [creativeplanning.com](https://creativeplanning.com/about/)",
+          "** [marinerwealthadvisors.com](https://www.marinerwealthadvisors.com/about-us/)",
+          "** [wealthenhancement.com](https://www.wealthenhancement.com/about-us)",
+          "** [Barron's Top RIA Firms 2023](https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023)",
+          "** [Barron's Top 100 RIA Firms 2023](https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023)",
+          "** [Forbes Top RIA Firms 2023](https://www.forbes.com/lists/top-ria-firms/)",
+          "** [InvestmentNews Top Fee-Only RIAs 2023](https://www.investmentnews.com/best-practices/top-fee-only-ria-firms/)",
+          "Forbes",
+          "Barron's"
+        ],
+        "ranking_factors": [
+          "Assets under management (AUM)",
+          "Inclusion in reputable industry rankings (Barron's, Forbes, InvestmentNews)",
+          "Reputation and client satisfaction",
+          "Industry influence"
+        ],
+        "sentiment": "Positive",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction",
+          "High source diversity - Focus on top-performing channels for optimization"
+        ],
+        "extracted_urls": [
+          "https://www.fisherinvestments.com/en-us/about-us",
+          "https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023",
+          "https://www.captrust.com/about/",
+          "https://creativeplanning.com/about/",
+          "https://www.forbes.com/lists/top-ria-firms/",
+          "https://www.marinerwealthadvisors.com/about-us/",
+          "https://www.wealthenhancement.com/about-us",
+          "https://www.investmentnews.com/best-practices/top-fee-only-ria-firms/",
+          "https://www.fisherinvestments.com/en-us/about-us)",
+          "https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023)",
+          "https://www.captrust.com/about/)",
+          "https://www.forbes.com/lists/top-ria-firms/)",
+          "https://www.marinerwealthadvisors.com/about-us/)",
+          "https://www.wealthenhancement.com/about-us)",
+          "https://www.investmentnews.com/best-practices/top-fee-only-ria-firms/)",
+          "https://fisherinvestments.com",
+          "https://captrust.com",
+          "https://creativeplanning.com",
+          "https://marinerwealthadvisors.com",
+          "https://wealthenhancement.com",
+          "https://barrons.com",
+          "https://forbes.com",
+          "https://investmentnews.com"
+        ],
+        "url_statistics": {
+          "total_urls": 33,
+          "unique_domains": 8,
+          "domains": [
+            "marinerwealthadvisors.com",
+            "fisherinvestments.com",
+            "wealthenhancement.com",
+            "barrons.com",
+            "investmentnews.com",
+            "captrust.com",
+            "forbes.com",
+            "creativeplanning.com"
+          ]
+        },
+        "timestamp": "2025-09-18T14:46:09.998396",
+        "query": "who are the top investment advisory companies?",
+        "provider": "OpenAI",
+        "domain_statistics": {
+          "total_sources": 45,
+          "unique_domains": 22,
+          "categories": {
+            "third-party": 27,
+            "authority": 8,
+            "owned": 5,
+            "news": 5
+          },
+          "platforms": {
+            "Barron's": 4,
+            "Forbes": 4
+          },
+          "ugc_count": 0,
+          "owned_count": 5,
+          "competitor_count": 0,
+          "authority_count": 8,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 8,
+            "medium": 5,
+            "low": 27,
+            "variable": 0,
+            "owned": 5
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 11.1,
+          "authority_percentage": 17.8
+        },
+        "domain_classifications": [
+          {
+            "url": "https://www.marinerwealthadvisors.com/about-us/",
+            "domain": "marinerwealthadvisors.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "RIAs 2023",
+            "domain": "rias 2023",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.marinerwealthadvisors.com/about-us/)",
+            "domain": "marinerwealthadvisors.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023)",
+            "domain": "barrons.com",
+            "category": "authority",
+            "platform": "Barron's",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023",
+            "domain": "barrons.com",
+            "category": "authority",
+            "platform": "Barron's",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://www.fisherinvestments.com/en-us/about-us",
+            "domain": "fisherinvestments.com",
+            "category": "owned",
+            "platform": null,
+            "authority_score": "owned",
+            "is_ugc": false,
+            "is_owned": true,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "** [Barron's Top 100 RIA Firms 2023](https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023)",
+            "domain": "** [barron's top 100 ria firms 2023](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.investmentnews.com/best-practices/top-fee-only-ria-firms/",
+            "domain": "investmentnews.com",
+            "category": "news",
+            "platform": null,
+            "authority_score": "medium",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Barron's",
+            "domain": "barron's",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.wealthenhancement.com/about-us)",
+            "domain": "wealthenhancement.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://fisherinvestments.com",
+            "domain": "fisherinvestments.com",
+            "category": "owned",
+            "platform": null,
+            "authority_score": "owned",
+            "is_ugc": false,
+            "is_owned": true,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "** [InvestmentNews Top Fee-Only RIAs 2023](https://www.investmentnews.com/best-practices/top-fee-only-ria-firms/)",
+            "domain": "** [investmentnews top fee-only rias 2023](https:",
+            "category": "news",
+            "platform": null,
+            "authority_score": "medium",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.investmentnews.com/best-practices/top-fee-only-ria-firms/)",
+            "domain": "investmentnews.com",
+            "category": "news",
+            "platform": null,
+            "authority_score": "medium",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "fisherinvestments.com",
+            "domain": "fisherinvestments.com",
+            "category": "owned",
+            "platform": null,
+            "authority_score": "owned",
+            "is_ugc": false,
+            "is_owned": true,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://wealthenhancement.com",
+            "domain": "wealthenhancement.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "** [wealthenhancement.com](https://www.wealthenhancement.com/about-us)",
+            "domain": "** [wealthenhancement.com](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "investmentnews.com",
+            "domain": "investmentnews.com",
+            "category": "news",
+            "platform": null,
+            "authority_score": "medium",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Forbes",
+            "domain": "forbes",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://investmentnews.com",
+            "domain": "investmentnews.com",
+            "category": "news",
+            "platform": null,
+            "authority_score": "medium",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "** [Barron's Top RIA Firms 2023](https://www.barrons.com/advisor/report/top-financial-advisors/ria/2023)",
+            "domain": "** [barron's top ria firms 2023](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://creativeplanning.com",
+            "domain": "creativeplanning.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.forbes.com/lists/top-ria-firms/",
+            "domain": "forbes.com",
+            "category": "authority",
+            "platform": "Forbes",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "wealthenhancement.com",
+            "domain": "wealthenhancement.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "barrons.com",
+            "domain": "barrons.com",
+            "category": "authority",
+            "platform": "Barron's",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://captrust.com",
+            "domain": "captrust.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "captrust.com",
+            "domain": "captrust.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.wealthenhancement.com/about-us",
+            "domain": "wealthenhancement.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://creativeplanning.com/about/",
+            "domain": "creativeplanning.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "creativeplanning.com",
+            "domain": "creativeplanning.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "** [creativeplanning.com](https://creativeplanning.com/about/)",
+            "domain": "** [creativeplanning.com](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://marinerwealthadvisors.com",
+            "domain": "marinerwealthadvisors.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.forbes.com/lists/top-ria-firms/)",
+            "domain": "forbes.com",
+            "category": "authority",
+            "platform": "Forbes",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "marinerwealthadvisors.com",
+            "domain": "marinerwealthadvisors.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Top 100",
+            "domain": "top 100",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.captrust.com/about/",
+            "domain": "captrust.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "** [Forbes Top RIA Firms 2023](https://www.forbes.com/lists/top-ria-firms/)",
+            "domain": "** [forbes top ria firms 2023](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://barrons.com",
+            "domain": "barrons.com",
+            "category": "authority",
+            "platform": "Barron's",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://www.captrust.com/about/)",
+            "domain": "captrust.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Firms 2023",
+            "domain": "firms 2023",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://forbes.com",
+            "domain": "forbes.com",
+            "category": "authority",
+            "platform": "Forbes",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "** [marinerwealthadvisors.com](https://www.marinerwealthadvisors.com/about-us/)",
+            "domain": "** [marinerwealthadvisors.com](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "forbes.com",
+            "domain": "forbes.com",
+            "category": "authority",
+            "platform": "Forbes",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "** [fisherinvestments.com](https://www.fisherinvestments.com/en-us/about-us)",
+            "domain": "** [fisherinvestments.com](https:",
+            "category": "owned",
+            "platform": null,
+            "authority_score": "owned",
+            "is_ugc": false,
+            "is_owned": true,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "** [captrust.com](https://www.captrust.com/about/)",
+            "domain": "** [captrust.com](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.fisherinvestments.com/en-us/about-us)",
+            "domain": "fisherinvestments.com",
+            "category": "owned",
+            "platform": null,
+            "authority_score": "owned",
+            "is_ugc": false,
+            "is_owned": true,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [
+            "Specific amount mentioned: $200",
+            "Specific amount mentioned: $714",
+            "Specific amount mentioned: $245",
+            "Specific amount mentioned: $114",
+            "Specific amount mentioned: $70"
+          ],
+          "contextual_factors": [
+            {
+              "type": "mitigators",
+              "modifier": "some"
+            },
+            {
+              "type": "past",
+              "modifier": "had"
+            }
+          ],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "Fisher Investments": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Fisher Investments**\n- **AUM:** Over $200 billion (2023)\n- **Source:** [fisherinvestments"
+            ]
+          },
+          "Captrust": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Captrust**\n- **AUM:** Over $714 billion (2023)\n- **Source:** [captrust",
+              "captrust"
+            ]
+          },
+          "Creative Planning": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Creative Planning**\n- **AUM:** Over $245 billion (2023)\n- **Source:** [creativeplanning"
+            ]
+          },
+          "Mariner Wealth Advisors": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Mariner Wealth Advisors**\n- **AUM:** Over $114 billion (2023)\n- **Source:** [marinerwealthadvisors"
+            ]
+          },
+          "Wealth Enhancement Group": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Wealth Enhancement Group**\n- **AUM:** Over $70 billion (2023)\n- **Source:** [wealthenhancement"
+            ]
+          },
+          "Barron's": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "com/en-us/about-us)\n- **Reference:** [Barron's Top RIA Firms 2023](https://www",
+              "com/about/)\n- **Reference:** [Barron's Top 100 RIA Firms 2023](https://www",
+              "com/about-us/)\n- **Reference:** [Barron's Top 100 RIA Firms 2023](https://www"
+            ]
+          },
+          "Forbes": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "com/about/)\n- **Reference:** [Forbes Top RIA Firms 2023](https://www",
+              "forbes",
+              "com/advisor/report/top-financial-advisors/ria/2023)\n- **Forbes Top RIA Firms (2023):**\n  - [forbes",
+              "forbes",
+              "For the most current rankings, check the annual lists from Barron\u2019s, Forbes, or InvestmentNews (links above)"
+            ]
+          },
+          "InvestmentNews": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "com/about-us)\n- **Reference:** [InvestmentNews Top Fee-Only RIAs 2023](https://www",
+              "investmentnews",
+              "com/lists/top-ria-firms/)\n- **InvestmentNews Top Fee-Only RIAs:**\n  - [investmentnews",
+              "investmentnews",
+              "For the most current rankings, check the annual lists from Barron\u2019s, Forbes, or InvestmentNews (links above)"
+            ]
+          }
+        },
+        "accuracy_issues": [
+          {
+            "type": "incorrect_minimum",
+            "found": "$200",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$714",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$245",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$114",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$70",
+            "correct": "$1,000,000"
+          }
+        ],
+        "corrections_needed": [
+          "Incorrect minimum investment: Found '$200', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$714', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$245', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$114', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$70', should be '$1,000,000'"
+        ],
+        "tracking_id": 67,
+        "wow_trends": {
+          "week": "2025-W37",
+          "current": {
+            "ugc_percentage": 0.6384615384615385,
+            "owned_percentage": 0.8538461538461538,
+            "authority_percentage": 18.430769230769233,
+            "total_analyses": 13
+          },
+          "previous": {
+            "ugc_percentage": 0.2851851851851852,
+            "owned_percentage": 0.1462962962962963,
+            "authority_percentage": 7.10925925925926,
+            "total_analyses": 54
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": 0.35,
+              "percentage": 123.88
+            },
+            "owned_percentage": {
+              "absolute": 0.71,
+              "percentage": 483.64
+            },
+            "authority_percentage": {
+              "absolute": 11.32,
+              "percentage": 159.25
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Anthropic",
+      "response": "Here are some of the top investment advisory companies, typically measured by assets under management (AUM):\n\n## Largest Global Asset Managers:\n1. **BlackRock** - ~$9+ trillion AUM\n2. **Vanguard Group** - ~$7+ trillion AUM\n3. **Fidelity Investments** - ~$4+ trillion AUM\n4. **State Street Global Advisors** - ~$3+ trillion AUM\n5. **BNY Mellon Investment Management** - ~$2+ trillion AUM\n6. **Capital Group** - ~$2+ trillion AUM\n7. **JPMorgan Asset Management** - ~$2+ trillion AUM\n8. **Goldman Sachs Asset Management** - ~$2+ trillion AUM\n9. **Morgan Stanley Investment Management** - ~$1+ trillion AUM\n10. **T. Rowe Price** - ~$1+ trillion AUM\n\n## Sources for verification:\n- **Pensions & Investments**: www.pionline.com (publishes annual largest money managers rankings)\n- **Investment News**: www.investmentnews.com \n- **Financial Planning Magazine**: www.financial-planning.com\n- **ThinkAdvisor**: www.thinkadvisor.com\n- **Individual company websites** for their latest AUM figures in investor relations sections\n- **SEC Form ADV filings** available at www.adviserinfo.sec.gov\n\n**Note**: AUM figures fluctuate with market conditions and are approximate. Rankings can vary depending on whether you include only advisory services or broader asset management. For the most current figures, check the companies' quarterly earnings reports or SEC filings directly.",
+      "model": "claude-sonnet-4-20250514",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "BlackRock",
+          "Vanguard Group",
+          "Fidelity Investments",
+          "State Street Global Advisors",
+          "BNY Mellon Investment Management",
+          "Capital Group",
+          "JPMorgan Asset Management",
+          "Goldman Sachs Asset Management",
+          "Morgan Stanley Investment Management",
+          "T. Rowe Price"
+        ],
+        "mention_reasons": {
+          "BlackRock": "Largest global asset manager by assets under management (AUM)",
+          "Vanguard Group": "Second largest by AUM; recognized for index funds",
+          "Fidelity Investments": "Major investment advisory and asset management firm",
+          "State Street Global Advisors": "Large institutional asset manager",
+          "BNY Mellon Investment Management": "Significant global investment management firm",
+          "Capital Group": "Major active investment manager",
+          "JPMorgan Asset Management": "Large, diversified asset manager",
+          "Goldman Sachs Asset Management": "Prominent investment management division of Goldman Sachs",
+          "Morgan Stanley Investment Management": "Key division of Morgan Stanley for asset management",
+          "T. Rowe Price": "Well-known mutual fund and investment advisory company"
+        },
+        "authority_signals": [
+          "top investment advisory companies",
+          "Largest Global Asset Managers",
+          "measured by assets under management (AUM)",
+          "annual largest money managers rankings",
+          "For the most current figures, check the companies' quarterly earnings reports or SEC filings directly"
+        ],
+        "key_features": [
+          "Assets under management (AUM)",
+          "Global reach",
+          "Reputation for size and influence",
+          "Availability of public financial data (SEC filings, earnings reports)",
+          "Industry rankings and verification by reputable sources"
+        ],
+        "sources_cited": [
+          "www.pionline.com",
+          "pionline.com",
+          "www.investmentnews.com",
+          "investmentnews.com",
+          "www.financial-planning.com",
+          "financial-planning.com",
+          "www.thinkadvisor.com",
+          "thinkadvisor.com",
+          "SEC Form ADV filings",
+          "www.adviserinfo.sec.gov",
+          "adviserinfo.sec.gov",
+          "Individual company websites",
+          "company investor relations sections",
+          "SEC filings",
+          "quarterly earnings reports",
+          "https://sec.gov",
+          "AUM\n2",
+          "AUM\n3",
+          "AUM\n4",
+          "AUM\n5",
+          "AUM\n6",
+          "AUM\n7",
+          "AUM\n8",
+          "AUM\n9",
+          "AUM\n10"
+        ],
+        "ranking_factors": [
+          "Assets under management (AUM)",
+          "Global presence",
+          "Industry reputation",
+          "Verification from authoritative industry publications"
+        ],
+        "sentiment": "positive",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction",
+          "Multiple competitors mentioned (4) - Differentiate with unique value props",
+          "High source diversity - Focus on top-performing channels for optimization"
+        ],
+        "extracted_urls": [
+          "https://www.pionline.com",
+          "https://www.investmentnews.com",
+          "https://www.financial-planning.com",
+          "https://www.thinkadvisor.com",
+          "https://www.adviserinfo.sec.gov",
+          "https://pionline.com",
+          "https://investmentnews.com",
+          "https://financial-planning.com",
+          "https://thinkadvisor.com",
+          "https://sec.gov"
+        ],
+        "url_statistics": {
+          "total_urls": 10,
+          "unique_domains": 6,
+          "domains": [
+            "thinkadvisor.com",
+            "sec.gov",
+            "adviserinfo.sec.gov",
+            "investmentnews.com",
+            "pionline.com",
+            "financial-planning.com"
+          ]
+        },
+        "timestamp": "2025-09-18T14:46:22.349126",
+        "query": "who are the top investment advisory companies?",
+        "provider": "Anthropic",
+        "domain_statistics": {
+          "total_sources": 34,
+          "unique_domains": 20,
+          "categories": {
+            "news": 4,
+            "third-party": 26,
+            "authority": 1,
+            "institutional": 3
+          },
+          "platforms": {
+            "SEC": 1
+          },
+          "ugc_count": 0,
+          "owned_count": 0,
+          "competitor_count": 0,
+          "authority_count": 1,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 4,
+            "medium": 4,
+            "low": 26,
+            "variable": 0,
+            "owned": 0
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 0.0,
+          "authority_percentage": 2.9
+        },
+        "domain_classifications": [
+          {
+            "url": "www.investmentnews.com",
+            "domain": "investmentnews.com",
+            "category": "news",
+            "platform": null,
+            "authority_score": "medium",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://financial-planning.com",
+            "domain": "financial-planning.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "AUM\n10",
+            "domain": "aum10",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "www.financial-planning.com",
+            "domain": "financial-planning.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "AUM\n2",
+            "domain": "aum2",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "AUM\n9",
+            "domain": "aum9",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.pionline.com",
+            "domain": "pionline.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "AUM\n4",
+            "domain": "aum4",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "AUM\n5",
+            "domain": "aum5",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "AUM\n6",
+            "domain": "aum6",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "AUM\n3",
+            "domain": "aum3",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "SEC filings",
+            "domain": "sec filings",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "investmentnews.com",
+            "domain": "investmentnews.com",
+            "category": "news",
+            "platform": null,
+            "authority_score": "medium",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.thinkadvisor.com",
+            "domain": "thinkadvisor.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://pionline.com",
+            "domain": "pionline.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://investmentnews.com",
+            "domain": "investmentnews.com",
+            "category": "news",
+            "platform": null,
+            "authority_score": "medium",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.adviserinfo.sec.gov",
+            "domain": "adviserinfo.sec.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "thinkadvisor.com",
+            "domain": "thinkadvisor.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "adviserinfo.sec.gov",
+            "domain": "adviserinfo.sec.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "www.thinkadvisor.com",
+            "domain": "thinkadvisor.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://thinkadvisor.com",
+            "domain": "thinkadvisor.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.investmentnews.com",
+            "domain": "investmentnews.com",
+            "category": "news",
+            "platform": null,
+            "authority_score": "medium",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "pionline.com",
+            "domain": "pionline.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "company investor relations sections",
+            "domain": "company investor relations sections",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "www.adviserinfo.sec.gov",
+            "domain": "adviserinfo.sec.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "financial-planning.com",
+            "domain": "financial-planning.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "SEC Form ADV filings",
+            "domain": "sec form adv filings",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "quarterly earnings reports",
+            "domain": "quarterly earnings reports",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "AUM\n7",
+            "domain": "aum7",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "AUM\n8",
+            "domain": "aum8",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "www.pionline.com",
+            "domain": "pionline.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.financial-planning.com",
+            "domain": "financial-planning.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Individual company websites",
+            "domain": "individual company websites",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [
+            "Specific amount mentioned: $9",
+            "Specific amount mentioned: $7",
+            "Specific amount mentioned: $4",
+            "Specific amount mentioned: $3",
+            "Specific amount mentioned: $2",
+            "Specific amount mentioned: $2",
+            "Specific amount mentioned: $2",
+            "Specific amount mentioned: $2",
+            "Specific amount mentioned: $1",
+            "Specific amount mentioned: $1",
+            "Regulatory body mentioned: SEC",
+            "Regulatory body mentioned: SEC"
+          ],
+          "contextual_factors": [
+            {
+              "type": "mitigators",
+              "modifier": "some"
+            }
+          ],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "BlackRock": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**BlackRock** - ~$9+ trillion AUM\n2"
+            ]
+          },
+          "Vanguard Group": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Vanguard Group** - ~$7+ trillion AUM\n3"
+            ]
+          },
+          "Fidelity Investments": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Fidelity Investments** - ~$4+ trillion AUM\n4"
+            ]
+          },
+          "State Street Global Advisors": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**State Street Global Advisors** - ~$3+ trillion AUM\n5"
+            ]
+          },
+          "BNY Mellon Investment Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**BNY Mellon Investment Management** - ~$2+ trillion AUM\n6"
+            ]
+          },
+          "Capital Group": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Capital Group** - ~$2+ trillion AUM\n7"
+            ]
+          },
+          "JPMorgan Asset Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**JPMorgan Asset Management** - ~$2+ trillion AUM\n8"
+            ]
+          },
+          "Goldman Sachs Asset Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Goldman Sachs Asset Management** - ~$2+ trillion AUM\n9"
+            ]
+          },
+          "Morgan Stanley Investment Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Morgan Stanley Investment Management** - ~$1+ trillion AUM\n10"
+            ]
+          },
+          "T. Rowe Price": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          }
+        },
+        "accuracy_issues": [
+          {
+            "type": "incorrect_minimum",
+            "found": "$9",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$7",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$4",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$3",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$2",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$2",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$2",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$2",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$1",
+            "correct": "$1,000,000"
+          },
+          {
+            "type": "incorrect_minimum",
+            "found": "$1",
+            "correct": "$1,000,000"
+          }
+        ],
+        "corrections_needed": [
+          "Incorrect minimum investment: Found '$9', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$7', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$4', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$3', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$2', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$2', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$2', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$2', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$1', should be '$1,000,000'",
+          "Incorrect minimum investment: Found '$1', should be '$1,000,000'"
+        ],
+        "competitor_mentions": [
+          {
+            "name": "BlackRock",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Vanguard Group",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Fidelity Investments",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Morgan Stanley Investment Management",
+            "context": "Mentioned in response"
+          }
+        ],
+        "tracking_id": 68,
+        "wow_trends": {
+          "week": "2025-W37",
+          "current": {
+            "ugc_percentage": 0.5928571428571429,
+            "owned_percentage": 0.7928571428571428,
+            "authority_percentage": 17.321428571428573,
+            "total_analyses": 14
+          },
+          "previous": {
+            "ugc_percentage": 0.2851851851851852,
+            "owned_percentage": 0.1462962962962963,
+            "authority_percentage": 7.10925925925926,
+            "total_analyses": 54
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": 0.31,
+              "percentage": 107.88
+            },
+            "owned_percentage": {
+              "absolute": 0.65,
+              "percentage": 441.95
+            },
+            "authority_percentage": {
+              "absolute": 10.21,
+              "percentage": 143.65
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Google",
+      "response": "Identifying the \"top\" investment advisory companies depends heavily on what you mean by \"top\" and what your individual needs are. There isn't a single definitive list, as companies excel in different areas (e.g., AUM, specific client segments, fees, services offered, technology).\n\nHowever, here's a breakdown of some of the most prominent and highly regarded investment advisory companies, categorized by their typical client base and service model:\n\n---\n\n### I. Large, Full-Service Wealth Management Firms (often called \"Wirehouses\" or Private Banks)\n\nThese firms cater to a broad range of clients, from affluent to ultra-high net worth (UHNW), offering comprehensive services including investment management, financial planning, estate planning, tax advice, and banking services. They typically have vast resources and extensive research capabilities.\n\n1.  **Merrill Lynch (Bank of America):** One of the largest brokerage firms, offering a wide range of wealth management and advisory services.\n2.  **Morgan Stanley Wealth Management:** Another industry giant with a strong focus on high-net-worth individuals and families, offering comprehensive financial planning and investment solutions.\n3.  **UBS Wealth Management USA:** The U.S. arm of the Swiss global financial services company, known for catering to wealthy clients with complex financial needs.\n4.  **J.P. Morgan Private Bank:** Focuses exclusively on ultra-high-net-worth individuals and families, offering bespoke investment strategies, wealth transfer, and credit solutions.\n5.  **Goldman Sachs Private Wealth Management:** Similar to J.P. Morgan, this division targets very wealthy individuals and families with highly customized financial services.\n6.  **Fidelity Investments:** While known for its low-cost mutual funds and brokerage services, Fidelity also has a substantial wealth management and advisory arm for individuals and institutions.\n7.  **Charles Schwab:** A leader in discount brokerage, Schwab also provides extensive advisory services, including Schwab Private Client and Intelligent Portfolios (robo-advisor).\n\n---\n\n### II. Large Independent Registered Investment Advisors (RIAs)\n\nThese firms operate under a **fiduciary duty**, meaning they are legally obligated to act in their clients' best interests. Many have grown significantly and offer services comparable to the wirehouses but often with different fee structures and an emphasis on objective advice.\n\n1.  **Vanguard Personal Advisor Services:** Leverages Vanguard's low-cost index funds and ETFs to provide financial planning and investment management at a competitive price, combining digital tools with access to human advisors.\n2.  **Fisher Investments:** One of the largest independent fee-only RIAs, known for its extensive research and marketing, serving high-net-worth individuals and institutions.\n3.  **Edelman Financial Engines:** A merger of two large RIAs, offering comprehensive financial planning and investment management services, often through workplace retirement plans and direct to consumers.\n4.  **Creative Planning:** A rapidly growing independent RIA offering comprehensive wealth management, including financial planning, investment management, and tax planning.\n5.  **Captrust:** Primarily focuses on institutional clients (retirement plans, endowments, foundations) but also has a significant private wealth management practice.\n\n---\n\n### III. Robo-Advisors (Digital Investment Platforms)\n\nThese platforms use algorithms to manage diversified portfolios, typically at a lower cost than traditional human advisors. Many also offer access to human advisors for a hybrid approach.\n\n1.  **Betterment:** One of the original and largest independent robo-advisors, known for its goal-based planning, tax-loss harvesting, and access to human advisors.\n2.  **Wealthfront:** Another leading independent robo-advisor, popular for its focus on tax optimization strategies and automated financial planning.\n3.  **Schwab Intelligent Portfolios:** Charles Schwab's robo-advisor, offering portfolios managed with ETFs, often with no advisory fees (Schwab makes money from underlying funds and cash allocations).\n4.  **Fidelity Go:** Fidelity's automated investing service, offering professionally managed portfolios at a low cost, with digital tools and optional access to advisors.\n5.  **Vanguard Digital Advisor:** Vanguard's fully automated investing service, offering low-cost portfolios built with Vanguard ETFs.\n\n---\n\n### Key Factors to Consider When Choosing an Advisor:\n\n*   **Fiduciary Duty:** Does the advisor operate under a fiduciary standard (always acting in your best interest)? RIAs are fiduciaries; many brokers are not (they operate under a \"suitability\" standard).\n*   **Fee Structure:**\n    *   **AUM (Assets Under Management):** A percentage of the assets they manage for you (e.g., 0.5% - 1.5%).\n    *   **Hourly or Flat Fee:** For specific projects or ongoing planning.\n    *   **Commission-based:** The advisor earns commissions on products they sell (potential for conflicts of interest).\n    *   **Hybrid:** A mix of the above.\n*   **Minimum Investment:** Many top firms have high minimums ($250k, $500k, $1M+). Robo-advisors have very low or no minimums.\n*   **Services Offered:** Do you need just investment management, or comprehensive financial planning (retirement, college, estate, tax planning)?\n*   **Advisor's Specialization:** Do they have experience with clients in your specific situation (e.g., business owners, doctors, inheritors)?\n*   **Technology & Client Experience:** How easy is it to interact with them, access statements, and monitor your investments?\n*   **Personal Fit:** Do you feel comfortable and trusting of the advisor and their team?\n\n**How to Research:**\nAlways check an advisor's background through the **SEC's Investment Adviser Public Disclosure (IAPD) database** (adviserinfo.sec.gov) or **FINRA BrokerCheck** (brokercheck.finra.org) to review their Form ADV (for RIAs) and any disciplinary history.\n\nUltimately, the \"top\" investment advisory company for you will be the one that best aligns with your financial goals, preferences, and service needs.",
+      "model": "gemini-2.5-flash",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "Merrill Lynch",
+          "Bank of America",
+          "Morgan Stanley Wealth Management",
+          "UBS Wealth Management USA",
+          "UBS",
+          "J.P. Morgan Private Bank",
+          "Goldman Sachs Private Wealth Management",
+          "Fidelity Investments",
+          "Charles Schwab",
+          "Schwab Private Client",
+          "Schwab Intelligent Portfolios",
+          "Vanguard Personal Advisor Services",
+          "Vanguard",
+          "Fisher Investments",
+          "Edelman Financial Engines",
+          "Creative Planning",
+          "Captrust",
+          "Betterment",
+          "Wealthfront",
+          "Fidelity Go",
+          "Vanguard Digital Advisor",
+          "SEC",
+          "FINRA"
+        ],
+        "mention_reasons": {
+          "Merrill Lynch": "One of the largest brokerage firms, offering a wide range of wealth management and advisory services.",
+          "Bank of America": "Parent company of Merrill Lynch, indicating its backing and resources.",
+          "Morgan Stanley Wealth Management": "Industry giant with a strong focus on high-net-worth individuals and families, offering comprehensive financial planning and investment solutions.",
+          "UBS Wealth Management USA": "Known for catering to wealthy clients with complex financial needs; U.S. arm of Swiss global financial services company.",
+          "UBS": "Parent company of UBS Wealth Management USA, global financial services authority.",
+          "J.P. Morgan Private Bank": "Focuses exclusively on ultra-high-net-worth individuals and families, offering bespoke investment strategies, wealth transfer, and credit solutions.",
+          "Goldman Sachs Private Wealth Management": "Targets very wealthy individuals and families with highly customized financial services.",
+          "Fidelity Investments": "Known for low-cost mutual funds and brokerage services; also has substantial wealth management and advisory arm.",
+          "Charles Schwab": "Leader in discount brokerage, provides extensive advisory services including Schwab Private Client and Intelligent Portfolios.",
+          "Schwab Private Client": "Part of Charles Schwab's advisory offerings.",
+          "Schwab Intelligent Portfolios": "Charles Schwab's robo-advisor platform.",
+          "Vanguard Personal Advisor Services": "Leverages low-cost index funds and ETFs to provide financial planning and investment management at a competitive price.",
+          "Vanguard": "Parent company of Vanguard Personal Advisor Services and Vanguard Digital Advisor; known for low-cost index funds.",
+          "Fisher Investments": "One of the largest independent fee-only RIAs, known for extensive research and marketing.",
+          "Edelman Financial Engines": "A merger of two large RIAs, offering comprehensive financial planning and investment management services.",
+          "Creative Planning": "Rapidly growing independent RIA offering comprehensive wealth management.",
+          "Captrust": "Primarily focuses on institutional clients but also has significant private wealth management practice.",
+          "Betterment": "One of the original and largest independent robo-advisors, known for goal-based planning, tax-loss harvesting, and access to human advisors.",
+          "Wealthfront": "Leading independent robo-advisor, popular for tax optimization strategies and automated financial planning.",
+          "Fidelity Go": "Fidelity's automated investing service, offering professionally managed portfolios at a low cost.",
+          "Vanguard Digital Advisor": "Vanguard's fully automated investing service, offering low-cost portfolios built with Vanguard ETFs.",
+          "SEC": "Referenced as the regulator providing the Investment Adviser Public Disclosure (IAPD) database.",
+          "FINRA": "Referenced as the regulator providing BrokerCheck for advisor background checks."
+        },
+        "authority_signals": [
+          "most prominent",
+          "highly regarded",
+          "industry giant",
+          "known for",
+          "leader",
+          "largest",
+          "comprehensive",
+          "trusted",
+          "extensive research capabilities",
+          "fiduciary duty",
+          "competitive price",
+          "rapidly growing",
+          "original and largest",
+          "leading",
+          "popular",
+          "professionally managed"
+        ],
+        "key_features": [
+          "Comprehensive services (investment management, financial planning, estate planning, tax advice, banking services)",
+          "Vast resources and extensive research capabilities",
+          "Fiduciary duty (acting in client's best interest)",
+          "Different fee structures (AUM, hourly, flat fee, commission-based, hybrid)",
+          "Minimum investment requirements",
+          "Digital tools and technology",
+          "Access to human advisors",
+          "Goal-based planning",
+          "Tax optimization and tax-loss harvesting",
+          "Low-cost index funds and ETFs",
+          "Automated investing/robo-advisor platforms",
+          "Specialization for different client segments (affluent, UHNW, institutional, etc.)",
+          "Personal fit and trust"
+        ],
+        "sources_cited": [
+          "adviserinfo.sec.gov",
+          "brokercheck.finra.org",
+          "sec.gov",
+          "finra.org",
+          "merrilllynch.com",
+          "bankofamerica.com",
+          "morganstanley.com",
+          "ubs.com",
+          "jpmorgan.com",
+          "goldmansachs.com",
+          "fidelity.com",
+          "schwab.com",
+          "vanguard.com",
+          "fisherinvestments.com",
+          "edelmanfinancialengines.com",
+          "creativeplanning.com",
+          "captrust.com",
+          "betterment.com",
+          "wealthfront.com",
+          "Vanguard",
+          "Digital Investment Platforms",
+          "Schwab Intelligent Portfolios",
+          "Vanguard Personal Advisor Services"
+        ],
+        "ranking_factors": [
+          "Client base (affluent, UHNW, institutional, retail)",
+          "Service model (full-service, independent RIA, robo-advisor)",
+          "Reputation and prominence in the industry",
+          "Features offered (comprehensive planning, technology, fees)",
+          "Minimum investment requirements",
+          "Authority and trust signals (size, history, research capabilities)"
+        ],
+        "sentiment": "positive",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction",
+          "Multiple competitors mentioned (12) - Differentiate with unique value props",
+          "High source diversity - Focus on top-performing channels for optimization"
+        ],
+        "extracted_urls": [],
+        "url_statistics": {
+          "total_urls": 0,
+          "unique_domains": 0,
+          "domains": []
+        },
+        "timestamp": "2025-09-18T14:46:38.672833",
+        "query": "who are the top investment advisory companies?",
+        "provider": "Google",
+        "domain_statistics": {
+          "total_sources": 23,
+          "unique_domains": 23,
+          "categories": {
+            "competitor": 5,
+            "third-party": 13,
+            "institutional": 2,
+            "owned": 1,
+            "authority": 2
+          },
+          "platforms": {
+            "Charles Schwab": 1,
+            "Vanguard": 1,
+            "FINRA": 1,
+            "JPMorgan": 1,
+            "SEC": 1,
+            "Fidelity": 1,
+            "Morgan Stanley": 1
+          },
+          "ugc_count": 0,
+          "owned_count": 1,
+          "competitor_count": 5,
+          "authority_count": 2,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 9,
+            "medium": 0,
+            "low": 13,
+            "variable": 0,
+            "owned": 1
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 4.3,
+          "authority_percentage": 8.7
+        },
+        "domain_classifications": [
+          {
+            "url": "schwab.com",
+            "domain": "schwab.com",
+            "category": "competitor",
+            "platform": "Charles Schwab",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "ubs.com",
+            "domain": "ubs.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Vanguard",
+            "domain": "vanguard",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "brokercheck.finra.org",
+            "domain": "brokercheck.finra.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "merrilllynch.com",
+            "domain": "merrilllynch.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "bankofamerica.com",
+            "domain": "bankofamerica.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "vanguard.com",
+            "domain": "vanguard.com",
+            "category": "competitor",
+            "platform": "Vanguard",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "fisherinvestments.com",
+            "domain": "fisherinvestments.com",
+            "category": "owned",
+            "platform": null,
+            "authority_score": "owned",
+            "is_ugc": false,
+            "is_owned": true,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "finra.org",
+            "domain": "finra.org",
+            "category": "authority",
+            "platform": "FINRA",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "edelmanfinancialengines.com",
+            "domain": "edelmanfinancialengines.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "goldmansachs.com",
+            "domain": "goldmansachs.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "jpmorgan.com",
+            "domain": "jpmorgan.com",
+            "category": "competitor",
+            "platform": "JPMorgan",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Vanguard Personal Advisor Services",
+            "domain": "vanguard personal advisor services",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "adviserinfo.sec.gov",
+            "domain": "adviserinfo.sec.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "fidelity.com",
+            "domain": "fidelity.com",
+            "category": "competitor",
+            "platform": "Fidelity",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Digital Investment Platforms",
+            "domain": "digital investment platforms",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "captrust.com",
+            "domain": "captrust.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "creativeplanning.com",
+            "domain": "creativeplanning.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "Schwab Intelligent Portfolios",
+            "domain": "schwab intelligent portfolios",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "betterment.com",
+            "domain": "betterment.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "wealthfront.com",
+            "domain": "wealthfront.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "morganstanley.com",
+            "domain": "morganstanley.com",
+            "category": "competitor",
+            "platform": "Morgan Stanley",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": true,
+            "is_review_site": false,
+            "is_authority": false
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [],
+          "contextual_factors": [
+            {
+              "type": "amplifiers",
+              "modifier": "very"
+            },
+            {
+              "type": "amplifiers",
+              "modifier": "highly"
+            },
+            {
+              "type": "mitigators",
+              "modifier": "some"
+            }
+          ],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "Merrill Lynch": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Merrill Lynch (Bank of America):** One of the largest brokerage firms, offering a wide range of wealth management and advisory services"
+            ]
+          },
+          "Bank of America": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Merrill Lynch (Bank of America):** One of the largest brokerage firms, offering a wide range of wealth management and advisory services"
+            ]
+          },
+          "Morgan Stanley Wealth Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Morgan Stanley Wealth Management:** Another industry giant with a strong focus on high-net-worth individuals and families, offering comprehensive financial planning and investment solutions"
+            ]
+          },
+          "UBS Wealth Management USA": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**UBS Wealth Management USA:** The U"
+            ]
+          },
+          "UBS": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**UBS Wealth Management USA:** The U",
+              "**Fidelity Investments:** While known for its low-cost mutual funds and brokerage services, Fidelity also has a substantial wealth management and advisory arm for individuals and institutions"
+            ]
+          },
+          "J.P. Morgan Private Bank": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "Goldman Sachs Private Wealth Management": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Goldman Sachs Private Wealth Management:** Similar to J"
+            ]
+          },
+          "Fidelity Investments": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Fidelity Investments:** While known for its low-cost mutual funds and brokerage services, Fidelity also has a substantial wealth management and advisory arm for individuals and institutions"
+            ]
+          },
+          "Charles Schwab": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Charles Schwab:** A leader in discount brokerage, Schwab also provides extensive advisory services, including Schwab Private Client and Intelligent Portfolios (robo-advisor)",
+              "**Schwab Intelligent Portfolios:** Charles Schwab's robo-advisor, offering portfolios managed with ETFs, often with no advisory fees (Schwab makes money from underlying funds and cash allocations)"
+            ]
+          },
+          "Schwab Private Client": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Charles Schwab:** A leader in discount brokerage, Schwab also provides extensive advisory services, including Schwab Private Client and Intelligent Portfolios (robo-advisor)"
+            ]
+          },
+          "Schwab Intelligent Portfolios": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Schwab Intelligent Portfolios:** Charles Schwab's robo-advisor, offering portfolios managed with ETFs, often with no advisory fees (Schwab makes money from underlying funds and cash allocations)"
+            ]
+          },
+          "Vanguard Personal Advisor Services": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Vanguard Personal Advisor Services:** Leverages Vanguard's low-cost index funds and ETFs to provide financial planning and investment management at a competitive price, combining digital tools with access to human advisors"
+            ]
+          },
+          "Vanguard": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Vanguard Personal Advisor Services:** Leverages Vanguard's low-cost index funds and ETFs to provide financial planning and investment management at a competitive price, combining digital tools with access to human advisors",
+              "**Vanguard Digital Advisor:** Vanguard's fully automated investing service, offering low-cost portfolios built with Vanguard ETFs"
+            ]
+          },
+          "Fisher Investments": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Fisher Investments:** One of the largest independent fee-only RIAs, known for its extensive research and marketing, serving high-net-worth individuals and institutions"
+            ]
+          },
+          "Edelman Financial Engines": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Edelman Financial Engines:** A merger of two large RIAs, offering comprehensive financial planning and investment management services, often through workplace retirement plans and direct to consumers"
+            ]
+          },
+          "Creative Planning": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Creative Planning:** A rapidly growing independent RIA offering comprehensive wealth management, including financial planning, investment management, and tax planning"
+            ]
+          },
+          "Captrust": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Captrust:** Primarily focuses on institutional clients (retirement plans, endowments, foundations) but also has a significant private wealth management practice"
+            ]
+          },
+          "Betterment": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Betterment:** One of the original and largest independent robo-advisors, known for its goal-based planning, tax-loss harvesting, and access to human advisors"
+            ]
+          },
+          "Wealthfront": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Wealthfront:** Another leading independent robo-advisor, popular for its focus on tax optimization strategies and automated financial planning"
+            ]
+          },
+          "Fidelity Go": {
+            "mentioned": true,
+            "sentiment": "positive",
+            "negative_signals": [],
+            "positive_signals": [
+              "professional"
+            ],
+            "context": [
+              "**Fidelity Go:** Fidelity's automated investing service, offering professionally managed portfolios at a low cost, with digital tools and optional access to advisors"
+            ]
+          },
+          "Vanguard Digital Advisor": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "**Vanguard Digital Advisor:** Vanguard's fully automated investing service, offering low-cost portfolios built with Vanguard ETFs"
+            ]
+          },
+          "SEC": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "FINRA": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          }
+        },
+        "competitor_mentions": [
+          {
+            "name": "Charles Schwab",
+            "domain": "schwab.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Vanguard",
+            "domain": "vanguard.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "JPMorgan",
+            "domain": "jpmorgan.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Fidelity",
+            "domain": "fidelity.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Morgan Stanley",
+            "domain": "morganstanley.com",
+            "context": "Found in sources"
+          },
+          {
+            "name": "Morgan Stanley Wealth Management",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Fidelity Investments",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Schwab Private Client",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Schwab Intelligent Portfolios",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Vanguard Personal Advisor Services",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Fidelity Go",
+            "context": "Mentioned in response"
+          },
+          {
+            "name": "Vanguard Digital Advisor",
+            "context": "Mentioned in response"
+          }
+        ],
+        "tracking_id": 69,
+        "wow_trends": {
+          "week": "2025-W37",
+          "current": {
+            "ugc_percentage": 0.5533333333333333,
+            "owned_percentage": 1.0266666666666666,
+            "authority_percentage": 16.746666666666666,
+            "total_analyses": 15
+          },
+          "previous": {
+            "ugc_percentage": 0.2851851851851852,
+            "owned_percentage": 0.1462962962962963,
+            "authority_percentage": 7.10925925925926,
+            "total_analyses": 54
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": 0.27,
+              "percentage": 94.03
+            },
+            "owned_percentage": {
+              "absolute": 0.88,
+              "percentage": 601.77
+            },
+            "authority_percentage": {
+              "absolute": 9.64,
+              "percentage": 135.56
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Google Search",
+      "response": [
+        {
+          "title": "2025 Top 100 RIA Firms",
+          "link": "https://www.barrons.com/advisor/report/top-financial-advisors/ria",
+          "snippet": "Barron's is ranking the largest registered investment advisor firms separately from its broader RIA ranking. Our 2025 mega RIAs each manage over $90 billion\u00a0..."
+        },
+        {
+          "title": "Best Financial Advisors: Top Firms For 2025 | Bankrate",
+          "link": "https://www.bankrate.com/investing/financial-advisors/best-financial-advisors/",
+          "snippet": "Best financial advisors: Top firms to consider \u00b7 Charles Schwab \u00b7 Vanguard \u00b7 Fidelity Investments \u00b7 Facet \u00b7 J.P. Morgan Private Client Advisor \u00b7 Edward Jones\u00a0..."
+        },
+        {
+          "title": "2025 Top 100 Financial Advisors Ranked by Barron's",
+          "link": "https://www.barrons.com/advisor/report/top-financial-advisors/100",
+          "snippet": "Wealth Management Teams Are Getting Bigger. The Best Ones Are Also Getting Better. Large financial advisor teams often can offer more services and investment\u00a0..."
+        },
+        {
+          "title": "America's Top Financial Advisory Firms 2025",
+          "link": "https://rankings.newsweek.com/americas-top-financial-advisory-firms-2025",
+          "snippet": "Companies like Facet Wealth, Sarofim Trust Co. and Shade Tree Advisors exemplify what it means to be a financial leader in today's market. When clients feel\u00a0..."
+        },
+        {
+          "title": "FA 100: CNBC ranks the top-rated financial advisory firms of 2024",
+          "link": "https://www.cnbc.com/2024/10/02/fa-100-cnbc-ranks-the-top-rated-financial-advisory-firms-of-2024.html",
+          "snippet": "Oct 2, 2024 ... For the sixth year, CNBC unveils its ranking of top financial advisors. The CNBC FA 100 recognizes firms that best help clients navigate\u00a0..."
+        },
+        {
+          "title": "Best Financial Advisor Firms & Companies (2025) - unbiased.com",
+          "link": "https://www.unbiased.com/discover/financial-advice/best-financial-advisor",
+          "snippet": "Dec 22, 2023 ... Best financial advisor firms of September 2025 \u00b7 1. Fidelity Investments \u00b7 2. Fisher Investments \u00b7 3. Facet \u00b7 4. Vanguard \u00b7 5. Mercer \u00b7 6."
+        },
+        {
+          "title": "List of asset management firms - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_asset_management_firms",
+          "snippet": "Largest companies ; 2. United States \u00b7 Vanguard Group, United States ; 3. United States \u00b7 Fidelity Investments, United States ; 4. United States \u00b7 State Street\u00a0..."
+        },
+        {
+          "title": "The 5 Biggest Financial Advisory Firms in the U.S.",
+          "link": "https://www.investopedia.com/articles/professionals/080615/5-biggest-financial-advisory-firms-us.asp",
+          "snippet": "Merrill Lynch, Morgan Stanley, Edward Jones, LPL Financial, and Wells Fargo Advisors are the largest advisory firms by the number of investment advisers\u00a0..."
+        },
+        {
+          "title": "Investment Adviser Association - Home",
+          "link": "https://www.investmentadviser.org/",
+          "snippet": "As the leading organization for fiduciary investment advisers, the IAA advances the interests of member firms by providing essential expertise,\u00a0..."
+        },
+        {
+          "title": "Top 50 Financial Advisory firm in the United States (2025)",
+          "link": "https://www.50pros.com/top-50/financial-advisory",
+          "snippet": "Discover and find the official Top 50 listing by 50Pros of the highest-ranking Financial Advisory firms & agencies that our experts vetted."
+        }
+      ],
+      "query": "who are the top investment advisory companies?",
+      "total_results": "1750000000",
+      "success": true
+    }
+  ]
+}

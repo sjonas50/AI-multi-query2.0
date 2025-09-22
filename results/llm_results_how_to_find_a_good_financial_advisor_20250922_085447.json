@@ -1,0 +1,1735 @@
+{
+  "query": "How to find a good financial advisor?",
+  "timestamp": "2025-09-22T08:54:47.060441",
+  "date": "2025-09-22",
+  "time": "08:54:47",
+  "results": [
+    {
+      "provider": "OpenAI",
+      "response": "Finding a good financial advisor is an important step toward securing your financial future. Here are key steps, along with reputable sources you can consult for more detailed information:\n\n### 1. **Determine What Services You Need**\n- Identify if you need comprehensive financial planning, investment management, retirement planning, etc.\n- **Source:** [NerdWallet \u2013 What Is a Financial Advisor?](https://www.nerdwallet.com/article/investing/what-is-a-financial-advisor)\n\n### 2. **Check Credentials**\n- Look for recognized certifications such as CFP (Certified Financial Planner), CFA (Chartered Financial Analyst), or CPA (Certified Public Accountant).\n- **Source:** [CFP Board \u2013 Why Choose a CFP\u00ae Professional?](https://www.letsmakeaplan.org/why-choose-a-cfp-professional)\n\n### 3. **Understand How Advisors Get Paid**\n- Fee-only advisors have fewer conflicts of interest than commission-based advisors.\n- **Source:** [Investopedia \u2013 Fee-Only vs. Commission Financial Advisor](https://www.investopedia.com/articles/professionaleducation/09/fee-only-commission-financial-advisors.asp)\n\n### 4. **Check Regulatory Records and Disciplinary History**\n- Use official websites to verify the advisor\u2019s background and check for complaints:\n  - [SEC Investment Adviser Public Disclosure](https://adviserinfo.sec.gov/)\n  - [FINRA BrokerCheck](https://brokercheck.finra.org/)\n\n### 5. **Ask the Right Questions**\n- Ask about experience, services offered, investment philosophy, and typical clients.\n- **Source:** [Consumer Financial Protection Bureau \u2013 Choosing a Financial Professional](https://www.consumerfinance.gov/ask-cfpb/how-should-i-choose-a-financial-professional-en-1647/)\n\n### 6. **Get References and Compare Multiple Advisors**\n- Interview at least 2\u20133 advisors and ask for references from current clients.\n- **Source:** [Kiplinger \u2013 10 Questions to Ask When Choosing a Financial Advisor](https://www.kiplinger.com/retirement/financial-planning/602326/questions-to-ask-when-choosing-a-financial-advisor)\n\n### 7. **Ensure They Are Fiduciaries**\n- Fiduciary advisors are legally required to act in your best interest.\n- **Source:** [Investopedia \u2013 Fiduciary Definition](https://www.investopedia.com/terms/f/fiduciary.asp)\n\n---\n\n**Summary Table of Sources:**\n\n| Step                        | Source/URL                                                                 |\n|-----------------------------|----------------------------------------------------------------------------|\n| Services Needed             | https://www.nerdwallet.com/article/investing/what-is-a-financial-advisor   |\n| Credentials                 | https://www.letsmakeaplan.org/why-choose-a-cfp-professional               |\n| Fee Structure               | https://www.investopedia.com/articles/professionaleducation/09/fee-only-commission-financial-advisors.asp |\n| Regulatory Records          | https://adviserinfo.sec.gov/                                               |\n|                             | https://brokercheck.finra.org/                                             |\n| What to Ask                 | https://www.consumerfinance.gov/ask-cfpb/how-should-i-choose-a-financial-professional-en-1647/ |\n|                             | https://www.kiplinger.com/retirement/financial-planning/602326/questions-to-ask-when-choosing-a-financial-advisor |\n| Fiduciary                   | https://www.investopedia.com/terms/f/fiduciary.asp                         |\n\n---\n\n**Tip:** Always verify information on official regulatory sites and consider meeting advisors in person before making a decision.",
+      "model": "gpt-4.1-2025-04-14",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "NerdWallet",
+          "CFP Board",
+          "Investopedia",
+          "SEC (U.S. Securities and Exchange Commission)",
+          "FINRA (Financial Industry Regulatory Authority)",
+          "Consumer Financial Protection Bureau",
+          "Kiplinger"
+        ],
+        "mention_reasons": {
+          "NerdWallet": "Referenced as a reputable source for understanding what financial advisors do.",
+          "CFP Board": "Cited for information about the importance of CFP certification.",
+          "Investopedia": "Used as an authority for fee structures and fiduciary definitions.",
+          "SEC (U.S. Securities and Exchange Commission)": "Provided as an official source for checking regulatory records.",
+          "FINRA (Financial Industry Regulatory Authority)": "Provided as an official source for checking broker backgrounds.",
+          "Consumer Financial Protection Bureau": "Cited for guidance on choosing a financial professional.",
+          "Kiplinger": "Referenced for questions to ask when selecting a financial advisor."
+        },
+        "authority_signals": [
+          "reputable sources",
+          "official websites",
+          "legally required",
+          "recognized certifications"
+        ],
+        "key_features": [
+          "Comprehensive financial planning",
+          "Investment management",
+          "Retirement planning",
+          "Recognized certifications (CFP, CFA, CPA)",
+          "Fee-only vs. commission-based advisors",
+          "Regulatory record and disciplinary history checks",
+          "Asking about experience, services, investment philosophy",
+          "Interviewing multiple advisors",
+          "Fiduciary duty"
+        ],
+        "sources_cited": [
+          "https://www.nerdwallet.com/article/investing/what-is-a-financial-advisor",
+          "nerdwallet.com",
+          "https://www.letsmakeaplan.org/why-choose-a-cfp-professional",
+          "letsmakeaplan.org",
+          "https://www.investopedia.com/articles/professionaleducation/09/fee-only-commission-financial-advisors.asp",
+          "investopedia.com",
+          "https://adviserinfo.sec.gov/",
+          "sec.gov",
+          "https://brokercheck.finra.org/",
+          "finra.org",
+          "https://www.consumerfinance.gov/ask-cfpb/how-should-i-choose-a-financial-professional-en-1647/",
+          "consumerfinance.gov",
+          "https://www.kiplinger.com/retirement/financial-planning/602326/questions-to-ask-when-choosing-a-financial-advisor",
+          "kiplinger.com",
+          "https://sec.gov",
+          "https://finra.org",
+          "** [NerdWallet \u2013 What Is a Financial Advisor?](https://www.nerdwallet.com/article/investing/what-is-a-financial-advisor)",
+          "** [CFP Board \u2013 Why Choose a CFP\u00ae Professional?](https://www.letsmakeaplan.org/why-choose-a-cfp-professional)",
+          "** [Investopedia \u2013 Fee-Only vs. Commission Financial Advisor](https://www.investopedia.com/articles/professionaleducation/09/fee-only-commission-financial-advisors.asp)",
+          "** [Consumer Financial Protection Bureau \u2013 Choosing a Financial Professional](https://www.consumerfinance.gov/ask-cfpb/how-should-i-choose-a-financial-professional-en-1647/)",
+          "** [Kiplinger \u2013 10 Questions to Ask When Choosing a Financial Advisor](https://www.kiplinger.com/retirement/financial-planning/602326/questions-to-ask-when-choosing-a-financial-advisor)",
+          "** [Investopedia \u2013 Fiduciary Definition](https://www.investopedia.com/terms/f/fiduciary.asp)",
+          "Investopedia"
+        ],
+        "ranking_factors": [
+          "Logical order of steps in the advisor selection process",
+          "Reputation and authority of the cited sources",
+          "Relevance to the specific step or topic discussed"
+        ],
+        "sentiment": "positive",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction",
+          "High source diversity - Focus on top-performing channels for optimization"
+        ],
+        "extracted_urls": [
+          "https://www.nerdwallet.com/article/investing/what-is-a-financial-advisor",
+          "https://www.letsmakeaplan.org/why-choose-a-cfp-professional",
+          "https://www.investopedia.com/articles/professionaleducation/09/fee-only-commission-financial-advisors.asp",
+          "https://adviserinfo.sec.gov/",
+          "https://brokercheck.finra.org/",
+          "https://www.consumerfinance.gov/ask-cfpb/how-should-i-choose-a-financial-professional-en-1647/",
+          "https://www.kiplinger.com/retirement/financial-planning/602326/questions-to-ask-when-choosing-a-financial-advisor",
+          "https://www.investopedia.com/terms/f/fiduciary.asp",
+          "https://www.nerdwallet.com/article/investing/what-is-a-financial-advisor)",
+          "https://www.letsmakeaplan.org/why-choose-a-cfp-professional)",
+          "https://www.investopedia.com/articles/professionaleducation/09/fee-only-commission-financial-advisors.asp)",
+          "https://www.consumerfinance.gov/ask-cfpb/how-should-i-choose-a-financial-professional-en-1647/)",
+          "https://www.kiplinger.com/retirement/financial-planning/602326/questions-to-ask-when-choosing-a-financial-advisor)",
+          "https://www.investopedia.com/terms/f/fiduciary.asp)",
+          "https://nerdwallet.com",
+          "https://letsmakeaplan.org",
+          "https://investopedia.com",
+          "https://sec.gov",
+          "https://finra.org",
+          "https://consumerfinance.gov",
+          "https://kiplinger.com"
+        ],
+        "url_statistics": {
+          "total_urls": 35,
+          "unique_domains": 9,
+          "domains": [
+            "adviserinfo.sec.gov",
+            "kiplinger.com",
+            "consumerfinance.gov",
+            "nerdwallet.com",
+            "finra.org",
+            "sec.gov",
+            "brokercheck.finra.org",
+            "letsmakeaplan.org",
+            "investopedia.com"
+          ]
+        },
+        "timestamp": "2025-09-22T08:54:27.328849",
+        "query": "How to find a good financial advisor?",
+        "provider": "OpenAI",
+        "domain_statistics": {
+          "total_sources": 35,
+          "unique_domains": 14,
+          "categories": {
+            "institutional": 10,
+            "authority": 10,
+            "third-party": 13,
+            "unknown": 2
+          },
+          "platforms": {
+            "Investopedia": 6,
+            "FINRA": 2,
+            "SEC": 2
+          },
+          "ugc_count": 0,
+          "owned_count": 0,
+          "competitor_count": 0,
+          "authority_count": 10,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 20,
+            "medium": 0,
+            "low": 15,
+            "variable": 0,
+            "owned": 0
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 0.0,
+          "authority_percentage": 28.6
+        },
+        "domain_classifications": [
+          {
+            "url": "https://www.consumerfinance.gov/ask-cfpb/how-should-i-choose-a-financial-professional-en-1647/)",
+            "domain": "consumerfinance.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.investopedia.com/terms/f/fiduciary.asp)",
+            "domain": "investopedia.com",
+            "category": "authority",
+            "platform": "Investopedia",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "nerdwallet.com",
+            "domain": "nerdwallet.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "** [Kiplinger \u2013 10 Questions to Ask When Choosing a Financial Advisor](https://www.kiplinger.com/retirement/financial-planning/602326/questions-to-ask-when-choosing-a-financial-advisor)",
+            "domain": "** [kiplinger \u2013 10 questions to ask when choosing a financial advisor](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://adviserinfo.sec.gov/",
+            "domain": "adviserinfo.sec.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.nerdwallet.com/article/investing/what-is-a-financial-advisor",
+            "domain": "nerdwallet.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://letsmakeaplan.org",
+            "domain": "letsmakeaplan.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "kiplinger.com",
+            "domain": "kiplinger.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.investopedia.com/terms/f/fiduciary.asp",
+            "domain": "investopedia.com",
+            "category": "authority",
+            "platform": "Investopedia",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "finra.org",
+            "domain": "finra.org",
+            "category": "authority",
+            "platform": "FINRA",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "** [CFP Board \u2013 Why Choose a CFP\u00ae Professional?](https://www.letsmakeaplan.org/why-choose-a-cfp-professional)",
+            "domain": "",
+            "category": "unknown",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "** [Investopedia \u2013 Fee-Only vs. Commission Financial Advisor](https://www.investopedia.com/articles/professionaleducation/09/fee-only-commission-financial-advisors.asp)",
+            "domain": "** [investopedia \u2013 fee-only vs. commission financial advisor](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.consumerfinance.gov/ask-cfpb/how-should-i-choose-a-financial-professional-en-1647/",
+            "domain": "consumerfinance.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.letsmakeaplan.org/why-choose-a-cfp-professional)",
+            "domain": "letsmakeaplan.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "** [Consumer Financial Protection Bureau \u2013 Choosing a Financial Professional](https://www.consumerfinance.gov/ask-cfpb/how-should-i-choose-a-financial-professional-en-1647/)",
+            "domain": "** [consumer financial protection bureau \u2013 choosing a financial professional](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.letsmakeaplan.org/why-choose-a-cfp-professional",
+            "domain": "letsmakeaplan.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.nerdwallet.com/article/investing/what-is-a-financial-advisor)",
+            "domain": "nerdwallet.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://nerdwallet.com",
+            "domain": "nerdwallet.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://consumerfinance.gov",
+            "domain": "consumerfinance.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "Investopedia",
+            "domain": "investopedia",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://investopedia.com",
+            "domain": "investopedia.com",
+            "category": "authority",
+            "platform": "Investopedia",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "letsmakeaplan.org",
+            "domain": "letsmakeaplan.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "investopedia.com",
+            "domain": "investopedia.com",
+            "category": "authority",
+            "platform": "Investopedia",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://www.kiplinger.com/retirement/financial-planning/602326/questions-to-ask-when-choosing-a-financial-advisor)",
+            "domain": "kiplinger.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "** [NerdWallet \u2013 What Is a Financial Advisor?](https://www.nerdwallet.com/article/investing/what-is-a-financial-advisor)",
+            "domain": "",
+            "category": "unknown",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://brokercheck.finra.org/",
+            "domain": "brokercheck.finra.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.investopedia.com/articles/professionaleducation/09/fee-only-commission-financial-advisors.asp)",
+            "domain": "investopedia.com",
+            "category": "authority",
+            "platform": "Investopedia",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "** [Investopedia \u2013 Fiduciary Definition](https://www.investopedia.com/terms/f/fiduciary.asp)",
+            "domain": "** [investopedia \u2013 fiduciary definition](https:",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://www.investopedia.com/articles/professionaleducation/09/fee-only-commission-financial-advisors.asp",
+            "domain": "investopedia.com",
+            "category": "authority",
+            "platform": "Investopedia",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "consumerfinance.gov",
+            "domain": "consumerfinance.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://finra.org",
+            "domain": "finra.org",
+            "category": "authority",
+            "platform": "FINRA",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://www.kiplinger.com/retirement/financial-planning/602326/questions-to-ask-when-choosing-a-financial-advisor",
+            "domain": "kiplinger.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://kiplinger.com",
+            "domain": "kiplinger.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [
+            "Regulatory body mentioned: SEC",
+            "Regulatory body mentioned: FINRA"
+          ],
+          "contextual_factors": [],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "NerdWallet": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "- **Source:** [NerdWallet \u2013 What Is a Financial Advisor?](https://www",
+              "nerdwallet",
+              "nerdwallet"
+            ]
+          },
+          "CFP Board": {
+            "mentioned": true,
+            "sentiment": "positive",
+            "negative_signals": [],
+            "positive_signals": [
+              "professional"
+            ],
+            "context": [
+              "- **Source:** [CFP Board \u2013 Why Choose a CFP\u00ae Professional?](https://www"
+            ]
+          },
+          "Investopedia": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "- **Source:** [Investopedia \u2013 Fee-Only vs",
+              "investopedia",
+              "- **Source:** [Investopedia \u2013 Fiduciary Definition](https://www",
+              "investopedia",
+              "investopedia",
+              "investopedia"
+            ]
+          },
+          "SEC (U.S. Securities and Exchange Commission)": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "FINRA (Financial Industry Regulatory Authority)": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "Consumer Financial Protection Bureau": {
+            "mentioned": true,
+            "sentiment": "positive",
+            "negative_signals": [],
+            "positive_signals": [
+              "professional"
+            ],
+            "context": [
+              "- **Source:** [Consumer Financial Protection Bureau \u2013 Choosing a Financial Professional](https://www"
+            ]
+          },
+          "Kiplinger": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "- **Source:** [Kiplinger \u2013 10 Questions to Ask When Choosing a Financial Advisor](https://www",
+              "kiplinger",
+              "kiplinger"
+            ]
+          }
+        },
+        "tracking_id": 82,
+        "wow_trends": {
+          "week": "2025-W38",
+          "current": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 0,
+            "total_analyses": 0
+          },
+          "previous": {
+            "ugc_percentage": 0.5928571428571429,
+            "owned_percentage": 0.6785714285714286,
+            "authority_percentage": 20.867857142857144,
+            "total_analyses": 28
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": -0.59,
+              "percentage": -100.0
+            },
+            "owned_percentage": {
+              "absolute": -0.68,
+              "percentage": -100.0
+            },
+            "authority_percentage": {
+              "absolute": -20.87,
+              "percentage": -100.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Anthropic",
+      "response": "Here are key steps to find a good financial advisor:\n\n## Research Credentials and Qualifications\n- Look for advisors with recognized certifications like CFP (Certified Financial Planner), CFA (Chartered Financial Analyst), or ChFC (Chartered Financial Consultant)\n- Verify credentials through professional organizations' databases\n\n**Sources:**\n- CFP Board: cfp.net\n- CFA Institute: cfainstitute.org\n- Financial Planning Association: onefpa.org\n\n## Check Regulatory Records\n- Use FINRA's BrokerCheck to research investment advisors and brokers\n- Check the SEC's Investment Adviser Public Disclosure database for registered investment advisors\n- Review any disciplinary actions, complaints, or regulatory issues\n\n**Sources:**\n- FINRA BrokerCheck: brokercheck.finra.org\n- SEC Investment Adviser Search: adviserinfo.sec.gov\n\n## Understand Fee Structure\n- Fee-only advisors charge flat fees, hourly rates, or percentage of assets\n- Fee-based advisors may receive commissions plus fees\n- Commission-based advisors earn money from product sales\n- Ask for full disclosure of all fees and potential conflicts of interest\n\n## Determine Fiduciary Standard\n- Seek advisors who operate under fiduciary duty (legally required to act in your best interest)\n- Some advisors only follow suitability standard (recommendations must be suitable but not necessarily best)\n\n## Interview Multiple Candidates\n- Ask about their investment philosophy, typical client profile, and services offered\n- Discuss your specific financial goals and see how they would approach your situation\n- Request references from current clients\n\n**Sources:**\n- Securities and Exchange Commission investor guidance: investor.gov\n- National Association of Personal Financial Advisors: napfa.org\n\nThese sources provide official databases and regulatory information to help verify advisor qualifications and track records.",
+      "model": "claude-sonnet-4-20250514",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "CFP Board",
+          "CFA Institute",
+          "Financial Planning Association",
+          "FINRA",
+          "SEC",
+          "National Association of Personal Financial Advisors"
+        ],
+        "mention_reasons": {
+          "CFP Board": "Credential verification authority for Certified Financial Planner designation.",
+          "CFA Institute": "Credential verification authority for Chartered Financial Analyst designation.",
+          "Financial Planning Association": "Professional organization for financial planners.",
+          "FINRA": "Regulatory authority providing BrokerCheck for researching advisors and brokers.",
+          "SEC": "Regulatory authority providing Investment Adviser Public Disclosure database and investor guidance.",
+          "National Association of Personal Financial Advisors": "Professional association for fee-only financial advisors."
+        },
+        "authority_signals": [
+          "recognized certifications",
+          "professional organizations' databases",
+          "official databases",
+          "regulatory information",
+          "registered investment advisors"
+        ],
+        "key_features": [
+          "Recognized certifications (CFP, CFA, ChFC)",
+          "Credential verification through official databases",
+          "Regulatory record checks (disciplinary actions, complaints)",
+          "Understanding of fee structures (fee-only, fee-based, commission-based)",
+          "Fiduciary duty vs. suitability standard",
+          "Interviewing multiple candidates",
+          "Requesting references",
+          "Discussing investment philosophy and client profile"
+        ],
+        "sources_cited": [
+          "cfp.net",
+          "cfainstitute.org",
+          "onefpa.org",
+          "brokercheck.finra.org",
+          "adviserinfo.sec.gov",
+          "investor.gov",
+          "napfa.org",
+          "finra.org",
+          "sec.gov",
+          "https://cfp.net",
+          "https://cfainstitute.org",
+          "https://onefpa.org",
+          "https://finra.org",
+          "https://sec.gov",
+          "https://investor.gov",
+          "https://napfa.org"
+        ],
+        "ranking_factors": [
+          "Official regulatory and credentialing authority",
+          "Relevance to verifying advisor qualifications",
+          "Direct access to databases and guidance",
+          "Industry recognition of certifications and organizations"
+        ],
+        "sentiment": "positive",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction",
+          "High source diversity - Focus on top-performing channels for optimization"
+        ],
+        "extracted_urls": [
+          "https://cfp.net",
+          "https://cfainstitute.org",
+          "https://onefpa.org",
+          "https://finra.org",
+          "https://sec.gov",
+          "https://investor.gov",
+          "https://napfa.org"
+        ],
+        "url_statistics": {
+          "total_urls": 7,
+          "unique_domains": 7,
+          "domains": [
+            "investor.gov",
+            "finra.org",
+            "cfp.net",
+            "sec.gov",
+            "onefpa.org",
+            "cfainstitute.org",
+            "napfa.org"
+          ]
+        },
+        "timestamp": "2025-09-22T08:54:33.742566",
+        "query": "How to find a good financial advisor?",
+        "provider": "Anthropic",
+        "domain_statistics": {
+          "total_sources": 16,
+          "unique_domains": 9,
+          "categories": {
+            "institutional": 10,
+            "third-party": 2,
+            "authority": 4
+          },
+          "platforms": {
+            "SEC": 2,
+            "FINRA": 2
+          },
+          "ugc_count": 0,
+          "owned_count": 0,
+          "competitor_count": 0,
+          "authority_count": 4,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 14,
+            "medium": 0,
+            "low": 2,
+            "variable": 0,
+            "owned": 0
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 0.0,
+          "authority_percentage": 25.0
+        },
+        "domain_classifications": [
+          {
+            "url": "adviserinfo.sec.gov",
+            "domain": "adviserinfo.sec.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "investor.gov",
+            "domain": "investor.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://cfp.net",
+            "domain": "cfp.net",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://cfainstitute.org",
+            "domain": "cfainstitute.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://onefpa.org",
+            "domain": "onefpa.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://investor.gov",
+            "domain": "investor.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://napfa.org",
+            "domain": "napfa.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "finra.org",
+            "domain": "finra.org",
+            "category": "authority",
+            "platform": "FINRA",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "cfp.net",
+            "domain": "cfp.net",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://finra.org",
+            "domain": "finra.org",
+            "category": "authority",
+            "platform": "FINRA",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "onefpa.org",
+            "domain": "onefpa.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "brokercheck.finra.org",
+            "domain": "brokercheck.finra.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "cfainstitute.org",
+            "domain": "cfainstitute.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "napfa.org",
+            "domain": "napfa.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [
+            "Regulatory body mentioned: FINRA",
+            "Regulatory body mentioned: SEC",
+            "Regulatory body mentioned: FINRA",
+            "Regulatory body mentioned: SEC"
+          ],
+          "contextual_factors": [
+            {
+              "type": "mitigators",
+              "modifier": "some"
+            }
+          ],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "CFP Board": {
+            "mentioned": true,
+            "sentiment": "positive",
+            "negative_signals": [],
+            "positive_signals": [
+              "professional"
+            ],
+            "context": [
+              "Here are key steps to find a good financial advisor:\n\n## Research Credentials and Qualifications\n- Look for advisors with recognized certifications like CFP (Certified Financial Planner), CFA (Chartered Financial Analyst), or ChFC (Chartered Financial Consultant)\n- Verify credentials through professional organizations' databases\n\n**Sources:**\n- CFP Board: cfp"
+            ]
+          },
+          "CFA Institute": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "net\n- CFA Institute: cfainstitute"
+            ]
+          },
+          "Financial Planning Association": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "org\n- Financial Planning Association: onefpa"
+            ]
+          },
+          "FINRA": {
+            "mentioned": true,
+            "sentiment": "negative",
+            "negative_signals": [
+              "complaint",
+              "issue"
+            ],
+            "positive_signals": [],
+            "context": [
+              "org\n\n## Check Regulatory Records\n- Use FINRA's BrokerCheck to research investment advisors and brokers\n- Check the SEC's Investment Adviser Public Disclosure database for registered investment advisors\n- Review any disciplinary actions, complaints, or regulatory issues\n\n**Sources:**\n- FINRA BrokerCheck: brokercheck",
+              "finra"
+            ]
+          },
+          "SEC": {
+            "mentioned": true,
+            "sentiment": "negative",
+            "negative_signals": [
+              "complaint",
+              "issue"
+            ],
+            "positive_signals": [
+              "best"
+            ],
+            "context": [
+              "org\n\n## Check Regulatory Records\n- Use FINRA's BrokerCheck to research investment advisors and brokers\n- Check the SEC's Investment Adviser Public Disclosure database for registered investment advisors\n- Review any disciplinary actions, complaints, or regulatory issues\n\n**Sources:**\n- FINRA BrokerCheck: brokercheck",
+              "org\n- SEC Investment Adviser Search: adviserinfo",
+              "sec",
+              "gov\n\n## Understand Fee Structure\n- Fee-only advisors charge flat fees, hourly rates, or percentage of assets\n- Fee-based advisors may receive commissions plus fees\n- Commission-based advisors earn money from product sales\n- Ask for full disclosure of all fees and potential conflicts of interest\n\n## Determine Fiduciary Standard\n- Seek advisors who operate under fiduciary duty (legally required to act in your best interest)\n- Some advisors only follow suitability standard (recommendations must be suitable but not necessarily best)\n\n## Interview Multiple Candidates\n- Ask about their investment philosophy, typical client profile, and services offered\n- Discuss your specific financial goals and see how they would approach your situation\n- Request references from current clients\n\n**Sources:**\n- Securities and Exchange Commission investor guidance: investor"
+            ]
+          },
+          "National Association of Personal Financial Advisors": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "gov\n- National Association of Personal Financial Advisors: napfa"
+            ]
+          }
+        },
+        "tracking_id": 83,
+        "wow_trends": {
+          "week": "2025-W38",
+          "current": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 0,
+            "total_analyses": 0
+          },
+          "previous": {
+            "ugc_percentage": 0.5724137931034483,
+            "owned_percentage": 0.6551724137931034,
+            "authority_percentage": 21.01034482758621,
+            "total_analyses": 29
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": -0.57,
+              "percentage": -100.0
+            },
+            "owned_percentage": {
+              "absolute": -0.66,
+              "percentage": -100.0
+            },
+            "authority_percentage": {
+              "absolute": -21.01,
+              "percentage": -100.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Google",
+      "response": "Finding a good financial advisor is a significant decision that can greatly impact your financial future. It requires careful research and a clear understanding of your own needs. Here's a comprehensive guide:\n\n## 1. Understand What Makes a \"Good\" Financial Advisor\n\nBefore you even start looking, know what to look for:\n\n*   **Fiduciary Duty (THIS IS CRITICAL):** A good advisor should *always* act as a fiduciary. This means they are legally and ethically obligated to put your best interests ahead of their own, or their firm's. Many advisors only operate under a \"suitability standard,\" which means they can recommend products that are suitable for you, but might earn them a higher commission (and not be the absolute best for you). **Always ask: \"Are you a fiduciary at all times when working with me?\"**\n*   **Qualifications & Certifications:**\n    *   **Certified Financial Planner (CFP\u00ae):** This is the gold standard. CFPs have met rigorous education, examination, experience, and ethical requirements.\n    *   **Chartered Financial Analyst (CFA\u00ae):** Focuses heavily on investment analysis and portfolio management.\n    *   **Certified Public Accountant (CPA) with Personal Financial Specialist (PFS):** CPAs often have a strong tax background, and the PFS designation adds financial planning expertise.\n    *   **Other designations:** While others exist, CFP\u00ae is generally the most comprehensive for holistic financial planning.\n*   **Transparent Fee Structure:** A good advisor will be upfront and clear about how they get paid. Common structures include:\n    *   **Fee-Only:** Advisors are paid *only* by you (hourly, retainer, or a percentage of assets under management - AUM). This significantly reduces conflicts of interest as they don't earn commissions from selling products. **This is generally preferred.**\n    *   **Fee-Based:** A hybrid model where they earn fees from you *and* commissions from selling products. This introduces potential conflicts of interest.\n    *   **Commission-Based:** Advisors are paid solely through commissions from selling financial products (e.g., mutual funds, annuities, insurance). This creates the highest potential for conflicts of interest.\n*   **Experience & Specialization:** Look for an advisor with experience relevant to your situation (e.g., retirement planning, small business owners, high net worth, divorce, specific tax situations).\n*   **Communication & Personality:** You'll be sharing sensitive information. Find someone you trust, feel comfortable talking to, and who communicates clearly and regularly.\n*   **Independent Advice:** While not always a deal-breaker, independent advisors (who aren't tied to a specific brokerage firm or product provider) may have a wider range of investment options and fewer conflicts of interest.\n\n## 2. Before You Start Your Search: Self-Assessment\n\n*   **Define Your Goals:** What do you want help with? (e.g., saving for retirement, investing, paying off debt, buying a home, estate planning, college savings, budgeting, tax planning).\n*   **Assess Your Current Situation:** How much do you have to invest? What's your income, debt, and overall financial picture?\n*   **Understand Your Needs:** Do you need comprehensive planning, or just investment management? Do you want someone to handle everything, or just provide guidance?\n*   **Consider Your Budget:** How much are you willing to pay in fees? This will influence the type of advisor you can afford.\n*   **Your Preferred Communication Style:** Do you prefer in-person meetings, phone calls, or virtual meetings?\n\n## 3. Where to Look for Advisors\n\n*   **Referrals:** Ask friends, family, colleagues, accountants, or attorneys who they use and trust. *Still do your own due diligence!*\n*   **Professional Organizations (Highly Recommended for Fiduciaries):**\n    *   **National Association of Personal Financial Advisors (NAPFA):** A leading organization for fee-only financial advisors who commit to a fiduciary oath. (napfa.org)\n    *   **XY Planning Network (XYPN):** Focuses on advisors serving Gen X and Gen Y clients, primarily with a fee-only model. (xyplanningnetwork.com)\n    *   **Garrett Planning Network:** Advisors offer hourly, as-needed financial planning. (garrettplanningnetwork.com)\n    *   **Certified Financial Planner Board of Standards:** You can search for CFP\u00ae professionals in your area. (cfp.net)\n*   **Online Search Engines:**\n    *   **FINRA BrokerCheck:** Crucial for checking an advisor's disciplinary history, licenses, and employment history. (brokercheck.finra.org)\n    *   **SEC Investment Adviser Public Disclosure (IAPD):** For registered investment advisors (RIAs). You can view their Form ADV, which contains details about their business, services, and fees. (adviserinfo.sec.gov)\n    *   **Google Search:** Use terms like \"fee-only financial advisor [your city/state],\" \"fiduciary financial advisor,\" or \"financial planner for [your specific need].\"\n\n## 4. Screening and Interviewing Potential Advisors\n\nOnce you have a shortlist (aim for 3-5 advisors), conduct initial phone calls, then schedule in-person or virtual meetings.\n\n**Key Questions to Ask During Interviews:**\n\n1.  **\"Are you a fiduciary at all times when working with me?\"** (Reiterate this one!)\n2.  **\"What are your qualifications and certifications (e.g., CFP\u00ae)?\"**\n3.  **\"How do you get paid? Can you provide a detailed breakdown of all fees, charges, and commissions?\"** Get this in writing.\n4.  **\"What services do you provide?\"** (e.g., investment management, retirement planning, tax planning, estate planning, insurance analysis, budgeting).\n5.  **\"What is your investment philosophy?\"** Do they believe in active trading or passive investing? How do they manage risk?\n6.  **\"What types of clients do you typically work with?\"** Do they have experience with people in your situation?\n7.  **\"How often will we meet or communicate?\"** What is their communication style?\n8.  **\"Who will I be working with directly? Will it always be you, or a team?\"**\n9.  **\"Can you provide me with a copy of your Form ADV Part 2A and 2B?\"** (Required for RIAs, it outlines their business practices, fees, conflicts of interest, and any disciplinary actions).\n10. **\"Have you ever had any disciplinary actions or complaints filed against you?\"** (You'll also verify this yourself).\n11. **\"Can you provide client references?\"** (Some advisors may be hesitant due to privacy, but it's worth asking).\n12. **\"What do you expect from me as a client?\"**\n\n## 5. Due Diligence: Verify Everything\n\n*   **Check Backgrounds:** Use **FINRA BrokerCheck** and **SEC IAPD** (as mentioned above) to confirm licenses, disciplinary history, and any past complaints.\n*   **Read Form ADV:** Carefully review the advisor's Form ADV. This document is a goldmine of information about their business, services, fees, and potential conflicts of interest.\n*   **Verify Certifications:** Check the CFP Board website to ensure their CFP\u00ae certification is active and in good standing.\n*   **Google Search:** Do a general search of the advisor's name and their firm's name. Look for news articles, reviews, or any red flags.\n\n## 6. Making Your Decision\n\n*   **Compare:** Review your notes from each interview. Which advisor best aligns with your goals, communication preferences, and financial philosophy?\n*   **Trust Your Gut:** Beyond the technical details, you need to feel comfortable and confident in the advisor you choose.\n*   **Get Everything in Writing:** Ensure all agreements, fee schedules, and service offerings are clearly documented.\n\n## Red Flags to Watch Out For\n\n*   **Not a Fiduciary:** The biggest red flag.\n*   **Guaranteed Returns:** No legitimate advisor can guarantee returns.\n*   **High-Pressure Sales Tactics:** Rushing you into decisions or specific products.\n*   **Unclear or Evasive Answers About Fees:** If they won't give you a clear, written breakdown, walk away.\n*   **Pushing Proprietary Products:** Advisors who primarily recommend their company's own products might have conflicts of interest.\n*   **Suggesting You Move Money to Their Personal Account:** Absolutely never do this.\n*   **Promising \"Exclusive\" or \"Secret\" Investments:** Be wary of anything that sounds too good to be true.\n*   **Lack of Transparency:** If they avoid discussing conflicts of interest or disciplinary history.\n\nBy following these steps, you significantly increase your chances of finding a good, trustworthy financial advisor who can help you achieve your financial goals.",
+      "model": "gemini-2.5-flash",
+      "success": true,
+      "analysis": {
+        "companies_mentioned": [
+          "Certified Financial Planner Board of Standards",
+          "National Association of Personal Financial Advisors",
+          "XY Planning Network",
+          "Garrett Planning Network",
+          "FINRA",
+          "SEC",
+          "Google",
+          "CFP Board",
+          "Chartered Financial Analyst",
+          "Certified Public Accountant",
+          "Personal Financial Specialist"
+        ],
+        "mention_reasons": {
+          "Certified Financial Planner Board of Standards": "Authority for CFP\u00ae certification; provides a search tool for CFP\u00ae professionals.",
+          "National Association of Personal Financial Advisors": "Professional organization for fee-only fiduciary advisors.",
+          "XY Planning Network": "Network of fee-only advisors specializing in Gen X and Gen Y clients.",
+          "Garrett Planning Network": "Network of advisors offering hourly, as-needed financial planning.",
+          "FINRA": "Regulatory authority; provides BrokerCheck tool for background checks.",
+          "SEC": "Regulatory authority; provides IAPD database for registered investment advisors.",
+          "Google": "Search engine for finding advisors and researching backgrounds.",
+          "CFP Board": "Certifying body for CFP\u00ae designation; used to verify certification status.",
+          "Chartered Financial Analyst": "Professional designation for investment analysis and portfolio management.",
+          "Certified Public Accountant": "Professional designation for tax expertise.",
+          "Personal Financial Specialist": "Specialist designation for CPAs with financial planning expertise."
+        },
+        "authority_signals": [
+          "gold standard",
+          "rigorous education, examination, experience, and ethical requirements",
+          "leading organization",
+          "highly recommended",
+          "crucial",
+          "required",
+          "comprehensive",
+          "trusted"
+        ],
+        "key_features": [
+          "Fiduciary duty",
+          "Professional certifications (CFP\u00ae, CFA\u00ae, CPA/PFS)",
+          "Transparent fee structure (fee-only, fee-based, commission-based)",
+          "Relevant experience and specialization",
+          "Clear and regular communication",
+          "Independence from product providers",
+          "Background checks and disciplinary history",
+          "Written documentation of agreements and fees",
+          "Client references",
+          "Form ADV review"
+        ],
+        "sources_cited": [
+          "napfa.org",
+          "xyplanningnetwork.com",
+          "garrettplanningnetwork.com",
+          "cfp.net",
+          "brokercheck.finra.org",
+          "adviserinfo.sec.gov",
+          "google.com",
+          "finra.org",
+          "sec.gov",
+          "cfpboard.net",
+          "cfpboard.org",
+          "https://napfa.org",
+          "https://xyplanningnetwork.com",
+          "https://garrettplanningnetwork.com",
+          "https://cfp.net",
+          "https://brokercheck.finra.org",
+          "https://adviserinfo.sec.gov",
+          "https://finra.org",
+          "https://sec.gov"
+        ],
+        "ranking_factors": [
+          "Fiduciary status",
+          "Professional certifications",
+          "Fee structure transparency",
+          "Reputation and authority of professional organizations",
+          "Regulatory oversight and background checks",
+          "Relevance to client needs and specialization",
+          "Communication and trust"
+        ],
+        "sentiment": "positive",
+        "optimization_insights": [
+          "Low owned content visibility - Optimize existing content for AI extraction",
+          "High source diversity - Focus on top-performing channels for optimization"
+        ],
+        "extracted_urls": [
+          "https://napfa.org",
+          "https://xyplanningnetwork.com",
+          "https://garrettplanningnetwork.com",
+          "https://cfp.net",
+          "https://finra.org",
+          "https://sec.gov"
+        ],
+        "url_statistics": {
+          "total_urls": 6,
+          "unique_domains": 6,
+          "domains": [
+            "garrettplanningnetwork.com",
+            "xyplanningnetwork.com",
+            "finra.org",
+            "cfp.net",
+            "sec.gov",
+            "napfa.org"
+          ]
+        },
+        "timestamp": "2025-09-22T08:54:47.047901",
+        "query": "How to find a good financial advisor?",
+        "provider": "Google",
+        "domain_statistics": {
+          "total_sources": 19,
+          "unique_domains": 11,
+          "categories": {
+            "third-party": 8,
+            "institutional": 7,
+            "authority": 4
+          },
+          "platforms": {
+            "FINRA": 2,
+            "SEC": 2
+          },
+          "ugc_count": 0,
+          "owned_count": 0,
+          "competitor_count": 0,
+          "authority_count": 4,
+          "review_count": 0,
+          "ugc_platforms": {},
+          "authority_distribution": {
+            "high": 11,
+            "medium": 0,
+            "low": 8,
+            "variable": 0,
+            "owned": 0
+          },
+          "ugc_percentage": 0.0,
+          "owned_percentage": 0.0,
+          "authority_percentage": 21.1
+        },
+        "domain_classifications": [
+          {
+            "url": "garrettplanningnetwork.com",
+            "domain": "garrettplanningnetwork.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "cfp.net",
+            "domain": "cfp.net",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://adviserinfo.sec.gov",
+            "domain": "adviserinfo.sec.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://brokercheck.finra.org",
+            "domain": "brokercheck.finra.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "adviserinfo.sec.gov",
+            "domain": "adviserinfo.sec.gov",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://cfp.net",
+            "domain": "cfp.net",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://napfa.org",
+            "domain": "napfa.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "finra.org",
+            "domain": "finra.org",
+            "category": "authority",
+            "platform": "FINRA",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "https://xyplanningnetwork.com",
+            "domain": "xyplanningnetwork.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "xyplanningnetwork.com",
+            "domain": "xyplanningnetwork.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "cfpboard.org",
+            "domain": "cfpboard.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "sec.gov",
+            "domain": "sec.gov",
+            "category": "authority",
+            "platform": "SEC",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "napfa.org",
+            "domain": "napfa.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://garrettplanningnetwork.com",
+            "domain": "garrettplanningnetwork.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "google.com",
+            "domain": "google.com",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "https://finra.org",
+            "domain": "finra.org",
+            "category": "authority",
+            "platform": "FINRA",
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": true
+          },
+          {
+            "url": "brokercheck.finra.org",
+            "domain": "brokercheck.finra.org",
+            "category": "institutional",
+            "platform": null,
+            "authority_score": "high",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          },
+          {
+            "url": "cfpboard.net",
+            "domain": "cfpboard.net",
+            "category": "third-party",
+            "platform": null,
+            "authority_score": "low",
+            "is_ugc": false,
+            "is_owned": false,
+            "is_competitor": false,
+            "is_review_site": false,
+            "is_authority": false
+          }
+        ],
+        "negative_signals": {
+          "has_negative_content": false,
+          "categories_detected": [],
+          "signals": [],
+          "severity_score": 0,
+          "misattribution_detected": false,
+          "specific_issues": [
+            "Regulatory body mentioned: FINRA",
+            "Regulatory body mentioned: SEC"
+          ],
+          "contextual_factors": [
+            {
+              "type": "amplifiers",
+              "modifier": "very"
+            },
+            {
+              "type": "amplifiers",
+              "modifier": "highly"
+            },
+            {
+              "type": "mitigators",
+              "modifier": "small"
+            },
+            {
+              "type": "mitigators",
+              "modifier": "some"
+            }
+          ],
+          "recommendations": []
+        },
+        "negative_score": 0,
+        "entity_sentiment": {
+          "Certified Financial Planner Board of Standards": {
+            "mentioned": true,
+            "sentiment": "positive",
+            "negative_signals": [],
+            "positive_signals": [
+              "professional"
+            ],
+            "context": [
+              "com)\n    *   **Certified Financial Planner Board of Standards:** You can search for CFP\u00ae professionals in your area"
+            ]
+          },
+          "National Association of Personal Financial Advisors": {
+            "mentioned": true,
+            "sentiment": "positive",
+            "negative_signals": [],
+            "positive_signals": [
+              "professional",
+              "recommended"
+            ],
+            "context": [
+              "*Still do your own due diligence!*\n*   **Professional Organizations (Highly Recommended for Fiduciaries):**\n    *   **National Association of Personal Financial Advisors (NAPFA):** A leading organization for fee-only financial advisors who commit to a fiduciary oath"
+            ]
+          },
+          "XY Planning Network": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "org)\n    *   **XY Planning Network (XYPN):** Focuses on advisors serving Gen X and Gen Y clients, primarily with a fee-only model"
+            ]
+          },
+          "Garrett Planning Network": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "com)\n    *   **Garrett Planning Network:** Advisors offer hourly, as-needed financial planning"
+            ]
+          },
+          "FINRA": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "net)\n*   **Online Search Engines:**\n    *   **FINRA BrokerCheck:** Crucial for checking an advisor's disciplinary history, licenses, and employment history",
+              "finra"
+            ]
+          },
+          "SEC": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "org)\n    *   **SEC Investment Adviser Public Disclosure (IAPD):** For registered investment advisors (RIAs)",
+              "sec"
+            ]
+          },
+          "Google": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "gov)\n    *   **Google Search:** Use terms like \"fee-only financial advisor [your city/state],\" \"fiduciary financial advisor,\" or \"financial planner for [your specific need]"
+            ]
+          },
+          "CFP Board": {
+            "mentioned": false,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": []
+          },
+          "Chartered Financial Analyst": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Chartered Financial Analyst (CFA\u00ae):** Focuses heavily on investment analysis and portfolio management"
+            ]
+          },
+          "Certified Public Accountant": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Certified Public Accountant (CPA) with Personal Financial Specialist (PFS):** CPAs often have a strong tax background, and the PFS designation adds financial planning expertise"
+            ]
+          },
+          "Personal Financial Specialist": {
+            "mentioned": true,
+            "sentiment": "neutral",
+            "negative_signals": [],
+            "positive_signals": [],
+            "context": [
+              "*   **Certified Public Accountant (CPA) with Personal Financial Specialist (PFS):** CPAs often have a strong tax background, and the PFS designation adds financial planning expertise"
+            ]
+          }
+        },
+        "tracking_id": 84,
+        "wow_trends": {
+          "week": "2025-W38",
+          "current": {
+            "ugc_percentage": 0,
+            "owned_percentage": 0,
+            "authority_percentage": 0,
+            "total_analyses": 0
+          },
+          "previous": {
+            "ugc_percentage": 0.5533333333333333,
+            "owned_percentage": 0.6333333333333333,
+            "authority_percentage": 21.013333333333335,
+            "total_analyses": 30
+          },
+          "changes": {
+            "ugc_percentage": {
+              "absolute": -0.55,
+              "percentage": -100.0
+            },
+            "owned_percentage": {
+              "absolute": -0.63,
+              "percentage": -100.0
+            },
+            "authority_percentage": {
+              "absolute": -21.01,
+              "percentage": -100.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "provider": "Google Search",
+      "response": [
+        {
+          "title": "How to find a financial advisor : r/FinancialPlanning",
+          "link": "https://www.reddit.com/r/FinancialPlanning/comments/13md15b/how_to_find_a_financial_advisor/",
+          "snippet": "May 20, 2023 ... Finding someone who has their CFP is a good start. It means they have at least the minimum required knowledge to be able to provide\u00a0..."
+        },
+        {
+          "title": "How to Choose a Financial Advisor - NerdWallet",
+          "link": "https://www.nerdwallet.com/article/investing/how-to-choose-a-financial-advisor",
+          "snippet": "5 days ago ... A human financial advisor can be good when: You want specialized services, your situation is complex or you want a long-term relationship with\u00a0..."
+        },
+        {
+          "title": "What is the best way to find a financial advisor? : r/personalfinance",
+          "link": "https://www.reddit.com/r/personalfinance/comments/1ja3zwy/what_is_the_best_way_to_find_a_financial_advisor/",
+          "snippet": "Mar 13, 2025 ... You'll want a fee-only (NOT fee-based, there's a sneaky difference) Certified Financial Planner (CFP). I recommend looking at the NAPFA search and https://www.\u00a0..."
+        },
+        {
+          "title": "How to find a financial advisor or financial planner | Fidelity",
+          "link": "https://www.fidelity.com/learning-center/smart-money/how-to-find-a-financial-advisor",
+          "snippet": "Key takeaways \u00b7 Learn the meaning of fiduciary \u00b7 Know the difference between fee-only and fee-based \u00b7 Use your network and online resources \u00b7 Consider the\u00a0..."
+        },
+        {
+          "title": "Find an Advisor | NAPFA",
+          "link": "https://www.napfa.org/find-an-advisor",
+          "snippet": "Find a fee-only financial advisor near you with the Find an Advisor tool from the National Association of Personal Financial Advisors."
+        },
+        {
+          "title": "What's the best way to find a financial advisor? - Quora",
+          "link": "https://www.quora.com/Whats-the-best-way-to-find-a-financial-advisor",
+          "snippet": "Apr 19, 2010 ... Asking friends and family is definitely a starting point. One could also find an advisor in their particular area using the Financial Planning\u00a0..."
+        },
+        {
+          "title": "How to Find a Good Financial Planner - Consumer Reports",
+          "link": "https://www.consumerreports.org/money/financial-planning/how-to-find-a-good-financial-planner-a5822372703/",
+          "snippet": "Oct 6, 2022 ... How to Find a Good Financial Planner \u00b7 1. Consider Your Priorities \u00b7 2. Identify Planners Who Fit Your Needs \u00b7 3. Figure Out the Costs \u00b7 4. Vet\u00a0..."
+        },
+        {
+          "title": "NAPFA: The National Association of Personal Financial Advisors",
+          "link": "https://www.napfa.org/",
+          "snippet": "The National Association of Personal Financial Advisors is the leading association of fee-only financial advisors. Visit us today to find an advisor near\u00a0..."
+        },
+        {
+          "title": "BrokerCheck - Find a broker, investment or financial advisor",
+          "link": "https://brokercheck.finra.org/",
+          "snippet": "BrokerCheck is a trusted tool that shows you employment history, certifications, licenses, and any violations for brokers and investment advisors."
+        },
+        {
+          "title": "How to pick the best financial adviser for your needs | Financial ...",
+          "link": "https://www.theguardian.com/money/article/2024/jul/31/how-to-pick-the-best-financial-adviser-quotes-costs-fees",
+          "snippet": "Jul 31, 2024 ... A personal recommendation from a family member or a friend is one of the best ways to find a financial adviser."
+        }
+      ],
+      "query": "How to find a good financial advisor?",
+      "total_results": "792000000",
+      "success": true
+    }
+  ]
+}
