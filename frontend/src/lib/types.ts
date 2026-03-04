@@ -50,6 +50,10 @@ export interface ProviderResult {
   response_length?: number;
   web_search?: boolean;
   deep_research?: boolean;
+  thinking?: string;
+  streaming?: boolean;
+  streamingThinking?: boolean;
+  statusMessage?: string;
 }
 
 export interface QueryResultData {
@@ -79,6 +83,9 @@ export interface SSEEvent {
     query_id?: string;
     filename?: string;
     attempt?: number;
+    text?: string;
+    message?: string;
+    conversation_id?: string;
   };
 }
 
@@ -87,4 +94,37 @@ export interface ProviderHealth {
   status: "ok" | "error" | "not_configured";
   latency?: number;
   error?: string;
+}
+
+export interface Claim {
+  claim: string;
+  category: string;
+  providers: Record<string, "agrees" | "disagrees" | "not_mentioned" | "partially">;
+  details: Record<string, string>;
+}
+
+export interface ProviderRanking {
+  completeness: number;
+  accuracy_signals: number;
+  sourcing: number;
+  unique_value: string;
+}
+
+export interface ComparisonResult {
+  summary: string;
+  claims: Claim[];
+  provider_rankings: Record<string, ProviderRanking>;
+  generated_at: string;
+  model_used: string;
+}
+
+export interface SavedSearch {
+  id: string;
+  query: string;
+  result_filename: string;
+  tags: string[];
+  pinned: boolean;
+  notes: string;
+  created_at: string;
+  updated_at: string;
 }

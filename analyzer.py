@@ -41,7 +41,7 @@ except ImportError:
 class ResponseAnalyzer:
     def __init__(self):
         self.csv_path = os.getenv('ANALYSIS_CSV_PATH', 'analysis_results.csv')
-        self.analysis_model = os.getenv('ANALYSIS_MODEL', 'gpt-4.1')
+        self.analysis_model = os.getenv('ANALYSIS_MODEL', 'gpt-5.2')
         self.api_key = os.getenv('OPENAI_API_KEY')
         self.analyze_enabled = os.getenv('ANALYZE_RESPONSES', 'false').lower() == 'true'
         

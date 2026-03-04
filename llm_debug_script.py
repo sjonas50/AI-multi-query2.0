@@ -66,10 +66,10 @@ PERPLEXITY_API_KEY=pplx-your-perplexity-key-here
 GOOGLE_API_KEY=your-google-key-here
 
 # Optional: Model configurations
-OPENAI_MODEL=gpt-4o-mini
-ANTHROPIC_MODEL=claude-3-5-sonnet-20241022
-PERPLEXITY_MODEL=llama-3.1-sonar-small-128k-online
-GOOGLE_MODEL=gemini-1.5-flash
+OPENAI_MODEL=gpt-5.2
+ANTHROPIC_MODEL=claude-sonnet-4-6
+PERPLEXITY_MODEL=sonar-pro
+GOOGLE_MODEL=gemini-2.5-flash
 """
     
     with open(".env", "w") as f:
@@ -191,7 +191,7 @@ class SimpleLLMTester:
                     'Content-Type': 'application/json'
                 },
                 json={
-                    'model': os.getenv('PERPLEXITY_MODEL', 'llama-3.1-sonar-small-128k-online'),
+                    'model': os.getenv('PERPLEXITY_MODEL', 'sonar-pro'),
                     'messages': [{'role': 'user', 'content': prompt}],
                     'max_tokens': 100
                 },
@@ -226,7 +226,7 @@ class SimpleLLMTester:
             print("Testing Google...")
             
             genai.configure(api_key=api_keys['google'])
-            model = genai.GenerativeModel(os.getenv('GOOGLE_MODEL', 'gemini-1.5-flash'))
+            model = genai.GenerativeModel(os.getenv('GOOGLE_MODEL', 'gemini-2.5-flash'))
             
             response = model.generate_content(prompt)
             

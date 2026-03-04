@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from fastapi import Request
 from backend.auth import LoginRequest, TokenResponse, create_token, verify_password, check_rate_limit
-from backend.routers import queries, providers, results, analysis, reports
+from backend.routers import queries, providers, results, analysis, reports, collections, comparisons
 
 app = FastAPI(title="AI Multi-Query", version="1.0.0")
 
@@ -23,6 +23,8 @@ app.include_router(providers.router)
 app.include_router(results.router)
 app.include_router(analysis.router)
 app.include_router(reports.router)
+app.include_router(collections.router)
+app.include_router(comparisons.router)
 
 
 @app.post("/api/auth/login", response_model=TokenResponse)

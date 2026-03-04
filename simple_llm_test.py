@@ -50,7 +50,7 @@ if api_keys['anthropic']:
         client = anthropic.Anthropic(api_key=api_keys['anthropic'])
         
         response = client.messages.create(
-            model="claude-3-5-sonnet-20241022",
+            model="claude-sonnet-4-6",
             max_tokens=100,
             messages=[{"role": "user", "content": test_prompt}]
         )
@@ -79,7 +79,7 @@ if api_keys['openai']:
             # New version (1.0+)
             client = openai.OpenAI(api_key=api_keys['openai'])
             response = client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model="gpt-5.2",
                 messages=[{"role": "user", "content": test_prompt}],
                 max_tokens=100
             )
@@ -95,7 +95,7 @@ if api_keys['openai']:
             print("  Using old OpenAI API...")
             openai.api_key = api_keys['openai']
             response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="gpt-5.2",
                 messages=[{"role": "user", "content": test_prompt}],
                 max_tokens=100
             )
@@ -125,7 +125,7 @@ if api_keys['perplexity']:
                 'Content-Type': 'application/json'
             },
             json={
-                'model': 'llama-3.1-sonar-small-128k-online',
+                'model': 'sonar-pro',
                 'messages': [{'role': 'user', 'content': test_prompt}],
                 'max_tokens': 100
             }
@@ -155,7 +155,7 @@ if api_keys['google']:
     try:
         import google.generativeai as genai
         genai.configure(api_key=api_keys['google'])
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         
         response = model.generate_content(test_prompt)
         
@@ -222,7 +222,7 @@ if user_input:
                     import anthropic
                     client = anthropic.Anthropic(api_key=api_keys['anthropic'])
                     response = client.messages.create(
-                        model="claude-3-5-sonnet-20241022",
+                        model="claude-sonnet-4-6",
                         max_tokens=500,
                         messages=[{"role": "user", "content": user_input}]
                     )
@@ -234,7 +234,7 @@ if user_input:
                         # Try new API
                         client = openai.OpenAI(api_key=api_keys['openai'])
                         response = client.chat.completions.create(
-                            model="gpt-3.5-turbo",
+                            model="gpt-5.2",
                             messages=[{"role": "user", "content": user_input}],
                             max_tokens=500
                         )
@@ -243,7 +243,7 @@ if user_input:
                         # Old API
                         openai.api_key = api_keys['openai']
                         response = openai.ChatCompletion.create(
-                            model="gpt-3.5-turbo",
+                            model="gpt-5.2",
                             messages=[{"role": "user", "content": user_input}],
                             max_tokens=500
                         )

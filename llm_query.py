@@ -88,7 +88,7 @@ class LLMQuerier:
             return {'provider': 'OpenAI', 'error': 'Not configured or library not installed'}
         
         if model is None:
-            model = os.getenv('OPENAI_MODEL', 'gpt-3.5-turbo')  # Use gpt-3.5-turbo as fallback
+            model = os.getenv('OPENAI_MODEL', 'gpt-5.2')  # Use gpt-5.2 as fallback
         
         try:
             import openai
@@ -177,7 +177,7 @@ class LLMQuerier:
             print("⚠️  Perplexity API key should start with 'pplx-'")
         
         if model is None:
-            model = os.getenv('PERPLEXITY_MODEL', 'llama-3.1-sonar-small-128k-online')
+            model = os.getenv('PERPLEXITY_MODEL', 'sonar-pro')
         
         try:
             import requests
@@ -225,7 +225,7 @@ class LLMQuerier:
             return {'provider': 'Google', 'error': 'Not configured or library not installed'}
         
         if model is None:
-            model = os.getenv('GOOGLE_MODEL', 'gemini-1.5-flash')
+            model = os.getenv('GOOGLE_MODEL', 'gemini-2.5-flash')
         
         try:
             import google.generativeai as genai

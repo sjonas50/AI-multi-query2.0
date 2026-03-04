@@ -59,9 +59,9 @@ API keys are managed through a `.env` file with the following structure:
 - `GOOGLE_SEARCH_CX` - Google Custom Search Engine ID
 
 Optional model configurations:
-- `OPENAI_MODEL` (default: gpt-4o-mini)
-- `ANTHROPIC_MODEL` (default: claude-3-5-sonnet-20241022)
-- `PERPLEXITY_MODEL` (default: llama-3.1-sonar-small-128k-online)
+- `OPENAI_MODEL` (default: gpt-5.2)
+- `ANTHROPIC_MODEL` (default: claude-sonnet-4-6)
+- `PERPLEXITY_MODEL` (default: sonar-pro)
 - `GOOGLE_MODEL` (default: gemini-2.5-flash)
 
 Settings:
@@ -71,7 +71,7 @@ Settings:
 
 AI Analysis Settings (run.py only):
 - `ANALYZE_RESPONSES` (default: false) - Enable AI-powered analysis
-- `ANALYSIS_MODEL` (default: gpt-4) - Model for analysis (uses OpenAI API)
+- `ANALYSIS_MODEL` (default: gpt-5.2) - Model for analysis (uses OpenAI API)
 - `ANALYSIS_CSV_PATH` (default: analysis_results.csv) - CSV output path
 
 ### Testing Flow

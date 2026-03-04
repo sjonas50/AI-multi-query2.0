@@ -5,12 +5,19 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
 
-export function ResponseViewer({ content }: { content: string }) {
+export function StreamingCursor() {
+  return (
+    <span className="inline-block w-2 h-4 ml-0.5 bg-foreground/70 animate-pulse rounded-sm align-text-bottom" />
+  );
+}
+
+export function ResponseViewer({ content, streaming }: { content: string; streaming?: boolean }) {
   return (
     <div className="prose prose-sm dark:prose-invert max-w-none">
       <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeHighlight]}>
         {content}
       </ReactMarkdown>
+      {streaming && <StreamingCursor />}
     </div>
   );
 }

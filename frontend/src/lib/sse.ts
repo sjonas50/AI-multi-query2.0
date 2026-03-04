@@ -1,6 +1,7 @@
 import { fetchEventSource } from "@microsoft/fetch-event-source";
 import type { SSEEvent } from "./types";
 
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 const MAX_RECONNECT_ATTEMPTS = 3;
 const RECONNECT_DELAYS = [1000, 3000, 5000];
 
@@ -16,7 +17,7 @@ export function streamQuery(
   let completed = false;
 
   const connect = () => {
-    fetchEventSource(`/api/queries/${queryId}/stream`, {
+    fetchEventSource(`${API_BASE}/api/queries/${queryId}/stream`, {
       signal: controller.signal,
       headers: {
         Authorization: `Bearer ${token}`,

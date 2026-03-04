@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { api } from "@/lib/api";
+import { useAppModeContext } from "@/components/layout/AppModeProvider";
 import type { ProviderInfo } from "@/lib/types";
 import type { HistoryEntry } from "@/hooks/useQueryHistory";
 
@@ -32,6 +33,7 @@ export function QueryForm({
   history = [],
   onClearHistory,
 }: QueryFormProps) {
+  const { aiseoMode } = useAppModeContext();
   const [query, setQuery] = useState("");
   const [providers, setProviders] = useState<ProviderInfo[]>([]);
   const [selected, setSelected] = useState<Set<string>>(new Set());
@@ -196,28 +198,30 @@ export function QueryForm({
         </div>
       </div>
 
-      <div className="flex flex-wrap items-center gap-4">
-        <label className="flex items-center gap-2 text-sm">
-          <input
-            type="checkbox"
-            checked={analyze}
-            onChange={(e) => setAnalyze(e.target.checked)}
-            disabled={isRunning}
-            className="rounded"
-          />
-          Run AISEO analysis
-        </label>
-        <label className="flex items-center gap-2 text-sm">
-          <input
-            type="checkbox"
-            checked={requestSources}
-            onChange={(e) => setRequestSources(e.target.checked)}
-            disabled={isRunning}
-            className="rounded"
-          />
-          Request sources
-        </label>
-      </div>
+      {aiseoMode && (
+        <div className="flex flex-wrap items-center gap-4">
+          <label className="flex items-center gap-2 text-sm">
+            <input
+              type="checkbox"
+              checked={analyze}
+              onChange={(e) => setAnalyze(e.target.checked)}
+              disabled={isRunning}
+              className="rounded"
+            />
+            Run AISEO analysis
+          </label>
+          <label className="flex items-center gap-2 text-sm">
+            <input
+              type="checkbox"
+              checked={requestSources}
+              onChange={(e) => setRequestSources(e.target.checked)}
+              disabled={isRunning}
+              className="rounded"
+            />
+            Request sources
+          </label>
+        </div>
+      )}
 
       {(anyWebSearchSupported || anyDeepResearchSupported) && (
         <div className="rounded-md border p-3 space-y-3">

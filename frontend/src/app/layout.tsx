@@ -5,13 +5,14 @@ import { AuthProvider } from "@/components/layout/AuthProvider";
 import { Sidebar } from "@/components/layout/Sidebar";
 import { LayoutShell } from "@/components/layout/LayoutShell";
 import { ThemeProvider } from "@/components/layout/ThemeProvider";
+import { AppModeProvider } from "@/components/layout/AppModeProvider";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI Multi-Query",
-  description: "Multi-LLM query testing and comparison tool",
+  title: "AI Search",
+  description: "Multi-LLM search and comparison tool",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -20,7 +21,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider>
           <AuthProvider>
-            <LayoutShell>{children}</LayoutShell>
+            <AppModeProvider>
+              <LayoutShell>{children}</LayoutShell>
+            </AppModeProvider>
           </AuthProvider>
         </ThemeProvider>
       </body>

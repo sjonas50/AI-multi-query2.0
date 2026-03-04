@@ -12,6 +12,7 @@ class QueryRequest(BaseModel):
     request_sources: bool = False
     web_search: Optional[bool] = None  # None = use .env default per provider
     deep_research: Optional[bool] = None  # None = use .env default per provider
+    conversation_id: Optional[str] = None  # link to existing conversation for follow-ups
 
 
 class SearchResult(BaseModel):
@@ -82,3 +83,8 @@ class PaginatedResults(BaseModel):
     total: int
     page: int
     limit: int
+
+
+class ComparisonRequest(BaseModel):
+    query: str
+    responses: dict[str, str]  # provider_name → response_text

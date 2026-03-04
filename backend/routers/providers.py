@@ -1,7 +1,10 @@
 """Provider configuration endpoint."""
 
 import asyncio
+from typing import Optional
+
 from fastapi import APIRouter, Depends
+from pydantic import BaseModel
 
 from backend.auth import get_current_user
 from backend.config import CONFIGURED_PROVIDERS, MODELS, WEB_SEARCH, DEEP_RESEARCH, MAX_TOKENS, TEMPERATURE, API_KEYS
@@ -13,14 +16,15 @@ PROVIDER_DISPLAY = {
     "anthropic": "Anthropic",
     "perplexity": "Perplexity",
     "google": "Google",
+    "xai": "Grok",
     "google_search": "Google Search",
 }
 
-ALL_PROVIDERS = ["openai", "anthropic", "perplexity", "google", "google_search"]
+ALL_PROVIDERS = ["openai", "anthropic", "perplexity", "google", "xai", "google_search"]
 
 # Which providers support web search / deep research
-WEB_SEARCH_SUPPORTED = {"openai", "anthropic", "google", "perplexity"}
-DEEP_RESEARCH_SUPPORTED = {"google", "perplexity"}
+WEB_SEARCH_SUPPORTED = {"openai", "anthropic", "google", "perplexity", "xai"}
+DEEP_RESEARCH_SUPPORTED = {"openai", "anthropic", "google", "perplexity"}
 
 
 @router.get("/providers")
@@ -49,6 +53,28 @@ async def get_config(_user=Depends(get_current_user)):
         "max_tokens": MAX_TOKENS,
         "temperature": TEMPERATURE,
         "configured_providers": [PROVIDER_DISPLAY.get(p, p) for p in CONFIGURED_PROVIDERS],
+        "web_search": WEB_SEARCH,
+        "deep_research": DEEP_RESEARCH,
+    }
+
+
+class ConfigUpdateRequest(BaseModel):
+    web_search: Optional[dict[str, bool]] = None
+    deep_research: Optional[dict[str, bool]] = None
+
+
+@router.post("/config/defaults")
+async def update_config_defaults(body: ConfigUpdateRequest, _user=Depends(get_current_user)):
+    """Update runtime web_search / deep_research defaults (in-memory, resets on restart)."""
+    if body.web_search:
+        for provider_id, enabled in body.web_search.items():
+            if provider_id in WEB_SEARCH_SUPPORTED and provider_id in WEB_SEARCH:
+                WEB_SEARCH[provider_id] = enabled
+    if body.deep_research:
+        for provider_id, enabled in body.deep_research.items():
+            if provider_id in DEEP_RESEARCH_SUPPORTED and provider_id in DEEP_RESEARCH:
+                DEEP_RESEARCH[provider_id] = enabled
+    return {
         "web_search": WEB_SEARCH,
         "deep_research": DEEP_RESEARCH,
     }
@@ -97,6 +123,16 @@ async def _check_provider_health(provider: str) -> dict:
                 from google import genai
                 client = genai.Client(api_key=API_KEYS["google"])
                 client.models.get(model=MODELS["google"])
+            await asyncio.wait_for(loop.run_in_executor(None, check), timeout=10)
+
+        elif provider == "xai":
+            def check():
+                from openai import OpenAI
+                client = OpenAI(api_key=API_KEYS["xai"], base_url="https://api.x.ai/v1")
+                client.chat.completions.create(
+                    model=MODELS["xai"], max_tokens=1,
+                    messages=[{"role": "user", "content": "hi"}],
+                )
             await asyncio.wait_for(loop.run_in_executor(None, check), timeout=10)
 
         elif provider == "google_search":

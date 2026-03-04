@@ -78,9 +78,9 @@ PERPLEXITY_API_KEY=pplx-your-perplexity-key-here
 GOOGLE_API_KEY=your-google-key-here
 
 # Optional: Model configurations
-OPENAI_MODEL=gpt-4o-mini
-ANTHROPIC_MODEL=claude-3-5-sonnet-20241022
-PERPLEXITY_MODEL=llama-3.1-sonar-small-128k-online
+OPENAI_MODEL=gpt-5.2
+ANTHROPIC_MODEL=claude-sonnet-4-6
+PERPLEXITY_MODEL=sonar-pro
 GOOGLE_MODEL=gemini-2.5-flash
 """
     
@@ -292,7 +292,7 @@ class FixedLLMTester:
                     )
                     
                     response = client.chat.completions.create(
-                        model=os.getenv('PERPLEXITY_MODEL', 'llama-3.1-sonar-small-128k-online'),
+                        model=os.getenv('PERPLEXITY_MODEL', 'sonar-pro'),
                         messages=[{"role": "user", "content": enhanced_prompt}],
                         max_tokens=int(os.getenv('MAX_TOKENS', 1000))
                     )

@@ -13,6 +13,7 @@ from backend.auth import get_current_user
 from backend.config import CONFIGURED_PROVIDERS, ANALYZE_RESPONSES
 from backend.models.schemas import QueryRequest
 from backend.services.query_service import QueryService
+from backend.services import conversation_service
 
 router = APIRouter(prefix="/api/queries", tags=["queries"])
 
@@ -70,6 +71,7 @@ def _is_retryable(error: str) -> bool:
 async def submit_query(request: QueryRequest, _user=Depends(get_current_user)):
     """Submit a new query. Returns a query_id for SSE streaming."""
     _ensure_cleanup_running()
+    conversation_service.cleanup_expired()
 
     query_id = str(uuid.uuid4())
     queue: asyncio.Queue = asyncio.Queue()
@@ -82,12 +84,17 @@ async def submit_query(request: QueryRequest, _user=Depends(get_current_user)):
     if not providers:
         raise HTTPException(status_code=400, detail="No configured providers selected")
 
+    # Conversation management: reuse or create
+    conv_id = request.conversation_id
+    if not conv_id:
+        conv_id = conversation_service.create_conversation()
+
     task = asyncio.create_task(
-        _execute_query(query_id, request.query, providers, request, queue)
+        _execute_query(query_id, request.query, providers, request, queue, conv_id)
     )
     _query_tasks[query_id] = task
 
-    return {"query_id": query_id, "providers": providers}
+    return {"query_id": query_id, "providers": providers, "conversation_id": conv_id}
 
 
 @router.delete("/{query_id}")
@@ -116,11 +123,19 @@ async def _execute_query(
     providers: list[str],
     request: QueryRequest,
     queue: asyncio.Queue,
+    conv_id: str = "",
 ):
     """Run providers in parallel with retry, push results to queue."""
     service = QueryService()
     loop = asyncio.get_event_loop()
     all_results = []
+
+    # Build conversation context for follow-ups
+    context_messages = None
+    if conv_id:
+        conv = conversation_service.get_conversation(conv_id)
+        if conv and conv.turns:
+            context_messages = conversation_service.build_messages_for_openai(conv_id, query)
 
     async def run_one(provider: str):
         if query_id in _cancelled:
@@ -128,6 +143,28 @@ async def _execute_query(
 
         display_name = service.get_provider_display_name(provider)
         await queue.put({"event": "provider_start", "data": {"provider": display_name}})
+
+        # Streaming callbacks — fire from executor thread, push to async queue
+        def on_token(text: str):
+            if query_id not in _cancelled:
+                loop.call_soon_threadsafe(
+                    queue.put_nowait,
+                    {"event": "provider_token", "data": {"provider": display_name, "text": text}},
+                )
+
+        def on_thinking(text: str):
+            if query_id not in _cancelled:
+                loop.call_soon_threadsafe(
+                    queue.put_nowait,
+                    {"event": "provider_thinking", "data": {"provider": display_name, "text": text}},
+                )
+
+        def on_status(message: str):
+            if query_id not in _cancelled:
+                loop.call_soon_threadsafe(
+                    queue.put_nowait,
+                    {"event": "provider_status", "data": {"provider": display_name, "message": message}},
+                )
 
         last_error = None
         for attempt in range(_MAX_RETRIES + 1):
@@ -137,8 +174,9 @@ async def _execute_query(
             try:
                 start_time = time.time()
                 result = await loop.run_in_executor(
-                    None, service.test_provider, provider, query,
+                    None, service.stream_provider, provider, query,
                     request.request_sources, request.web_search, request.deep_research,
+                    on_token, on_thinking, context_messages, on_status,
                 )
                 elapsed = round(time.time() - start_time, 2)
                 result["response_time"] = elapsed
@@ -193,6 +231,15 @@ async def _execute_query(
 
     filename = service.save_results(query, all_results) if all_results else None
 
+    # Save conversation turn for follow-ups
+    if conv_id and all_results:
+        responses = {}
+        for r in all_results:
+            if r.get("success") and isinstance(r.get("response"), str):
+                responses[r["provider"]] = r["response"]
+        if responses:
+            conversation_service.add_turn(conv_id, query, responses)
+
     _query_results[query_id] = {
         "query": query,
         "results": all_results,
@@ -200,7 +247,7 @@ async def _execute_query(
     }
     _query_timestamps[query_id] = time.time()
 
-    await queue.put({"event": "all_complete", "data": {"query_id": query_id, "filename": filename}})
+    await queue.put({"event": "all_complete", "data": {"query_id": query_id, "filename": filename, "conversation_id": conv_id}})
 
 
 async def _run_analysis(queue, loop, result, query, display_name):
@@ -259,6 +306,27 @@ async def stream_results(query_id: str, _user=Depends(get_current_user)):
             _query_queues.pop(query_id, None)
 
     return EventSourceResponse(event_generator())
+
+
+@router.get("/{query_id}/suggestions")
+async def get_suggestions(query_id: str, _user=Depends(get_current_user)):
+    """Generate follow-up question suggestions for a completed query."""
+    data = _query_results.get(query_id)
+    if not data:
+        raise HTTPException(status_code=404, detail="Query not found")
+
+    responses = {}
+    for r in data.get("results", []):
+        if r.get("success") and isinstance(r.get("response"), str):
+            responses[r["provider"]] = str(r["response"])[:2000]
+
+    if len(responses) < 1:
+        return {"questions": []}
+
+    from backend.services.suggestions_service import generate_suggestions
+    loop = asyncio.get_event_loop()
+    questions = await loop.run_in_executor(None, generate_suggestions, data["query"], responses)
+    return {"questions": questions}
 
 
 @router.get("/{query_id}")

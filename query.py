@@ -68,9 +68,9 @@ PERPLEXITY_API_KEY=pplx-your-perplexity-key-here
 GOOGLE_API_KEY=your-google-key-here
 
 # Optional: Model configurations
-OPENAI_MODEL=gpt-4o-mini
-ANTHROPIC_MODEL=claude-3-5-sonnet-20241022
-PERPLEXITY_MODEL=llama-3.1-sonar-small-128k-online
+OPENAI_MODEL=gpt-5.2
+ANTHROPIC_MODEL=claude-sonnet-4-6
+PERPLEXITY_MODEL=sonar-pro
 GOOGLE_MODEL=gemini-2.5-flash
 """
     
@@ -157,7 +157,7 @@ class FixedLLMTester:
                     client = OpenAI(api_key=self.api_keys['openai'])
                     
                     response = client.chat.completions.create(
-                        model=os.getenv('OPENAI_MODEL', 'gpt-4o-mini'),
+                        model=os.getenv('OPENAI_MODEL', 'gpt-5.2'),
                         messages=[{"role": "user", "content": prompt}],
                         max_tokens=int(os.getenv('MAX_TOKENS', 1000)),
                         temperature=0.7
@@ -173,12 +173,12 @@ class FixedLLMTester:
                     # Fallback to old style if import fails
                     openai.api_key = self.api_keys['openai']
                     response = openai.ChatCompletion.create(
-                        model=os.getenv('OPENAI_MODEL', 'gpt-3.5-turbo'),
+                        model=os.getenv('OPENAI_MODEL', 'gpt-5.2'),
                         messages=[{"role": "user", "content": prompt}],
                         max_tokens=int(os.getenv('MAX_TOKENS', 1000)),
                         temperature=0.7
                     )
-                    
+
                     result = {
                         'provider': 'OpenAI',
                         'response': response.choices[0].message.content,
@@ -189,7 +189,7 @@ class FixedLLMTester:
                 # Old OpenAI library (v0.x)
                 openai.api_key = self.api_keys['openai']
                 response = openai.ChatCompletion.create(
-                    model=os.getenv('OPENAI_MODEL', 'gpt-3.5-turbo'),
+                    model=os.getenv('OPENAI_MODEL', 'gpt-5.2'),
                     messages=[{"role": "user", "content": prompt}],
                     max_tokens=int(os.getenv('MAX_TOKENS', 1000)),
                     temperature=0.7
@@ -221,7 +221,7 @@ class FixedLLMTester:
             client = anthropic.Anthropic(api_key=self.api_keys['anthropic'])
             
             response = client.messages.create(
-                model=os.getenv('ANTHROPIC_MODEL', 'claude-3-5-sonnet-20241022'),
+                model=os.getenv('ANTHROPIC_MODEL', 'claude-sonnet-4-6'),
                 max_tokens=int(os.getenv('MAX_TOKENS', 1000)),
                 messages=[{"role": "user", "content": prompt}]
             )
@@ -262,7 +262,7 @@ class FixedLLMTester:
                     )
                     
                     response = client.chat.completions.create(
-                        model=os.getenv('PERPLEXITY_MODEL', 'llama-3.1-sonar-small-128k-online'),
+                        model=os.getenv('PERPLEXITY_MODEL', 'sonar-pro'),
                         messages=[{"role": "user", "content": prompt}],
                         max_tokens=int(os.getenv('MAX_TOKENS', 1000))
                     )
@@ -328,14 +328,14 @@ class FixedLLMTester:
                 print("Using legacy google.generativeai library...")
                 
                 genai.configure(api_key=self.api_keys['google'])
-                model = genai.GenerativeModel(os.getenv('GOOGLE_MODEL', 'gemini-1.5-flash'))
+                model = genai.GenerativeModel(os.getenv('GOOGLE_MODEL', 'gemini-2.5-flash'))
                 
                 response = model.generate_content(prompt)
                 
                 result = {
                     'provider': 'Google',
                     'response': response.text,
-                    'model': os.getenv('GOOGLE_MODEL', 'gemini-1.5-flash'),
+                    'model': os.getenv('GOOGLE_MODEL', 'gemini-2.5-flash'),
                     'success': True
                 }
                 print(f"[OK] Google responded successfully (legacy client)")

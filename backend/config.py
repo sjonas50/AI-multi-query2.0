@@ -35,6 +35,7 @@ API_KEYS = {
     "anthropic": os.getenv("ANTHROPIC_API_KEY", ""),
     "perplexity": os.getenv("PERPLEXITY_API_KEY", ""),
     "google": os.getenv("GOOGLE_API_KEY", ""),
+    "xai": os.getenv("XAI_API_KEY", ""),
     "google_search": os.getenv("GOOGLE_SEARCH_API_KEY", ""),
     "google_cx": os.getenv("GOOGLE_SEARCH_CX", ""),
 }
@@ -49,7 +50,7 @@ def _is_configured(key: str) -> bool:
 
 def get_configured_providers() -> list[str]:
     providers = []
-    for name in ("openai", "anthropic", "perplexity", "google"):
+    for name in ("openai", "anthropic", "perplexity", "google", "xai"):
         if _is_configured(API_KEYS[name]):
             providers.append(name)
     if _is_configured(API_KEYS["google_search"]) and _is_configured(API_KEYS["google_cx"]):
@@ -65,6 +66,7 @@ MODELS = {
     "anthropic": os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6"),
     "perplexity": os.getenv("PERPLEXITY_MODEL", "sonar-pro"),
     "google": os.getenv("GOOGLE_MODEL", "gemini-2.5-flash"),
+    "xai": os.getenv("XAI_MODEL", "grok-4"),
 }
 
 # Per-provider web search toggle
@@ -73,18 +75,20 @@ WEB_SEARCH = {
     "anthropic": os.getenv("ANTHROPIC_WEB_SEARCH", "false").lower() == "true",
     "google": os.getenv("GOOGLE_WEB_SEARCH", "false").lower() == "true",
     "perplexity": True,  # Perplexity always searches the web
+    "xai": os.getenv("XAI_WEB_SEARCH", "false").lower() == "true",
 }
 
 # Per-provider deep research toggle (uses different model/mode)
 DEEP_RESEARCH = {
     "openai": os.getenv("OPENAI_DEEP_RESEARCH", "false").lower() == "true",
-    "anthropic": False,  # No deep research API for Anthropic yet
+    "anthropic": os.getenv("ANTHROPIC_DEEP_RESEARCH", "false").lower() == "true",
     "google": os.getenv("GOOGLE_DEEP_RESEARCH", "false").lower() == "true",
     "perplexity": os.getenv("PERPLEXITY_DEEP_RESEARCH", "false").lower() == "true",
+    "xai": os.getenv("XAI_DEEP_RESEARCH", "false").lower() == "true",
 }
 
 # Settings
-MAX_TOKENS = int(os.getenv("MAX_TOKENS", "4000"))
+MAX_TOKENS = int(os.getenv("MAX_TOKENS", "8000"))
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.7"))
 REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT", "30"))
 

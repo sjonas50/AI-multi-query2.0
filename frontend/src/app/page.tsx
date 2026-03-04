@@ -1,129 +1,194 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import { api } from "@/lib/api";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { useState } from "react";
+import { SearchBar } from "@/components/search/SearchBar";
+import { ConsensusAnswer } from "@/components/results/ConsensusAnswer";
+import { ComparisonGrid } from "@/components/results/ComparisonGrid";
+import { useQueryExecution } from "@/hooks/useQueryExecution";
+import { useQueryHistory } from "@/hooks/useQueryHistory";
+import { useAppModeContext } from "@/components/layout/AppModeProvider";
 import { Badge } from "@/components/ui/badge";
-import type { ResultListItem, ProviderInfo } from "@/lib/types";
+import { Button } from "@/components/ui/button";
+import { exportAsJSON, exportAsCSV } from "@/lib/export";
+import { useSavedSearches } from "@/hooks/useSavedSearches";
+import type { ProviderResult } from "@/lib/types";
 
-export default function DashboardPage() {
-  const [results, setResults] = useState<ResultListItem[]>([]);
-  const [providers, setProviders] = useState<ProviderInfo[]>([]);
-  const [totalResults, setTotalResults] = useState(0);
+export default function SearchPage() {
+  const { aiseoMode } = useAppModeContext();
+  const {
+    execute,
+    cancel,
+    reset,
+    results,
+    activeProviders,
+    retryingProviders,
+    status,
+    error,
+    savedFilename,
+    reconnecting,
+  } = useQueryExecution();
+  const { history, addEntry, clearHistory } = useQueryHistory();
+  const { items: pinnedSearches } = useSavedSearches({ pinned: true });
+  const [query, setQuery] = useState("");
 
-  useEffect(() => {
-    api
-      .get<{ items: ResultListItem[]; total: number }>("/api/results?limit=5")
-      .then((d) => {
-        setResults(d.items);
-        setTotalResults(d.total);
-      });
-    api
-      .get<{ providers: ProviderInfo[] }>("/api/providers")
-      .then((d) => setProviders(d.providers));
-  }, []);
+  const hasResults = results.size > 0 || activeProviders.size > 0;
+  const isIdle = status === "idle";
+  const isDone = status === "complete" || status === "cancelled";
 
-  const configuredCount = providers.filter((p) => p.configured).length;
+  const handleSubmit = (options: {
+    providers: string[];
+    analyze: boolean;
+    request_sources: boolean;
+    web_search: boolean | null;
+    deep_research: boolean | null;
+  }) => {
+    if (!query.trim()) return;
+    addEntry(query, options.providers);
+    execute(query, options.providers, {
+      analyze: options.analyze,
+      request_sources: options.request_sources,
+      web_search: options.web_search,
+      deep_research: options.deep_research,
+    });
+  };
+
+  const handleNewSearch = () => {
+    setQuery("");
+    reset();
+  };
+
+  const resultsArray: ProviderResult[] = [...results.values()];
 
   return (
-    <div className="space-y-6">
-      <h2 className="text-2xl font-bold">Dashboard</h2>
+    <div className={hasResults ? "space-y-6" : "flex min-h-[80vh] flex-col items-center justify-center"}>
+      {/* Title — only when idle */}
+      {!hasResults && (
+        <div className="mb-6 text-center">
+          <h1 className="text-3xl font-bold tracking-tight">AI Search</h1>
+          <p className="mt-1 text-sm text-muted-foreground">
+            Compare answers from multiple AI models
+          </p>
+        </div>
+      )}
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-        <Card>
-          <CardHeader className="pb-2">
-            <CardTitle className="text-sm font-medium text-muted-foreground">
-              Total Results
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="text-3xl font-bold">{totalResults}</div>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardHeader className="pb-2">
-            <CardTitle className="text-sm font-medium text-muted-foreground">
-              Configured Providers
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="text-3xl font-bold">
-              {configuredCount}/{providers.length}
-            </div>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardHeader className="pb-2">
-            <CardTitle className="text-sm font-medium text-muted-foreground">
-              Quick Actions
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <Link
-              href="/query"
-              className="inline-block rounded-md bg-primary px-4 py-2 text-sm text-primary-foreground hover:opacity-90"
-            >
-              New Query
-            </Link>
-          </CardContent>
-        </Card>
+      {/* Search bar */}
+      <div className={hasResults ? "" : ""}>
+        <SearchBar
+          value={query}
+          onChange={setQuery}
+          onSubmit={handleSubmit}
+          onCancel={cancel}
+          isRunning={status === "running"}
+          compact={hasResults}
+        />
       </div>
 
-      <div>
-        <div className="mb-3 flex items-center justify-between">
-          <h3 className="text-lg font-semibold">Recent Results</h3>
-          <Link href="/results" className="text-sm text-blue-600 hover:underline dark:text-blue-400">
-            View all
-          </Link>
+      {/* Pinned searches — only when idle */}
+      {isIdle && pinnedSearches.length > 0 && (
+        <div className="mt-6 w-full max-w-2xl mx-auto">
+          <span className="text-xs font-medium text-muted-foreground mb-2 block">Pinned</span>
+          <div className="flex flex-wrap gap-2">
+            {pinnedSearches.slice(0, 6).map((item) => (
+              <button
+                key={item.id}
+                onClick={() => setQuery(item.query)}
+                className="rounded-full border border-yellow-300 bg-yellow-50 dark:border-yellow-800 dark:bg-yellow-950 px-3 py-1 text-xs hover:bg-yellow-100 dark:hover:bg-yellow-900 transition-colors truncate max-w-[250px]"
+              >
+                {item.query}
+              </button>
+            ))}
+          </div>
         </div>
-        <div className="space-y-2">
-          {results.map((item) => (
-            <Link
-              key={item.filename}
-              href={`/results/${encodeURIComponent(item.filename)}`}
-              className="flex items-center justify-between rounded-md border p-3 hover:bg-muted/30"
+      )}
+
+      {/* Recent searches — only when idle */}
+      {isIdle && history.length > 0 && (
+        <div className="mt-6 w-full max-w-2xl mx-auto">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-xs font-medium text-muted-foreground">Recent</span>
+            <button
+              onClick={clearHistory}
+              className="text-xs text-muted-foreground hover:text-foreground"
             >
-              <div className="flex items-center gap-2">
-                <span className="line-clamp-1 text-sm">{item.query}</span>
-                {item.is_batch && (
-                  <Badge variant="secondary" className="text-xs">
-                    Batch
-                  </Badge>
-                )}
-              </div>
-              <span className="text-xs text-muted-foreground whitespace-nowrap">
-                {item.timestamp ? new Date(item.timestamp).toLocaleDateString() : "—"}
-              </span>
-            </Link>
-          ))}
-          {results.length === 0 && (
-            <p className="text-sm text-muted-foreground">
-              No results yet.{" "}
-              <Link href="/query" className="text-blue-600 hover:underline">
-                Run your first query
-              </Link>
-            </p>
+              Clear
+            </button>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {history.slice(0, 8).map((entry, i) => (
+              <button
+                key={i}
+                onClick={() => setQuery(entry.query)}
+                className="rounded-full border bg-background px-3 py-1 text-xs hover:bg-muted transition-colors truncate max-w-[250px]"
+              >
+                {entry.query}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Status messages */}
+      {reconnecting && (
+        <div className="rounded-md border border-yellow-300 bg-yellow-50 p-3 text-sm text-yellow-700 dark:border-yellow-800 dark:bg-yellow-950 dark:text-yellow-300">
+          Reconnecting to server...
+        </div>
+      )}
+
+      {error && (
+        <div className="rounded-md border border-red-300 bg-red-50 p-3 text-sm text-red-700 dark:border-red-800 dark:bg-red-950 dark:text-red-300">
+          {error}
+        </div>
+      )}
+
+      {status === "cancelled" && (
+        <div className="rounded-md border border-orange-300 bg-orange-50 p-3 text-sm text-orange-700 dark:border-orange-800 dark:bg-orange-950 dark:text-orange-300">
+          Search cancelled.
+        </div>
+      )}
+
+      {/* Completion bar */}
+      {isDone && (
+        <div className="flex items-center gap-3 text-sm text-muted-foreground">
+          {savedFilename && (
+            <>
+              <Badge variant="outline">Saved</Badge>
+              <span className="text-xs">results/{savedFilename}</span>
+            </>
           )}
+          <div className="flex gap-1 ml-auto">
+            <Button variant="ghost" size="sm" onClick={() => exportAsJSON(query, resultsArray)}>
+              Export JSON
+            </Button>
+            <Button variant="ghost" size="sm" onClick={() => exportAsCSV(query, resultsArray)}>
+              Export CSV
+            </Button>
+            <Button variant="outline" size="sm" onClick={handleNewSearch}>
+              New Search
+            </Button>
+          </div>
         </div>
-      </div>
+      )}
 
-      <div>
-        <h3 className="mb-3 text-lg font-semibold">Providers</h3>
-        <div className="flex flex-wrap gap-2">
-          {providers.map((p) => (
-            <Badge
-              key={p.id}
-              variant={p.configured ? "default" : "outline"}
-              className="text-sm"
-            >
-              {p.name}
-              {p.model && <span className="ml-1 opacity-70">({p.model})</span>}
-              {!p.configured && <span className="ml-1 opacity-50">Not configured</span>}
-            </Badge>
-          ))}
+      {/* Consensus answer — only in general search mode */}
+      {!aiseoMode && hasResults && (
+        <ConsensusAnswer results={results} activeProviders={activeProviders} />
+      )}
+
+      {/* Provider results */}
+      {hasResults && (
+        <div>
+          <div className="mb-2 flex items-center justify-between">
+            <span className="text-sm font-medium text-muted-foreground">
+              {aiseoMode ? "Provider Responses" : "All Providers"}
+            </span>
+          </div>
+          <ComparisonGrid
+            results={results}
+            activeProviders={activeProviders}
+            retryingProviders={retryingProviders}
+          />
         </div>
-      </div>
+      )}
     </div>
   );
 }
