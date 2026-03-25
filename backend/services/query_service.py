@@ -136,7 +136,7 @@ class QueryService:
                 response = client.chat.completions.create(
                     model=self.models["openai"],
                     messages=[{"role": "user", "content": enhanced}],
-                    max_tokens=self.max_tokens,
+                    max_completion_tokens=self.max_tokens,
                     temperature=self.temperature,
                 )
                 return {
@@ -402,7 +402,7 @@ class QueryService:
                 response = client.chat.completions.create(
                     model=self.models["xai"],
                     messages=[{"role": "user", "content": enhanced}],
-                    max_tokens=self.max_tokens,
+                    max_completion_tokens=self.max_tokens,
                     temperature=self.temperature,
                 )
                 return {
@@ -571,7 +571,7 @@ class QueryService:
                 stream = client.chat.completions.create(
                     model=self.models["openai"],
                     messages=messages,
-                    max_tokens=self.max_tokens,
+                    max_completion_tokens=self.max_tokens,
                     temperature=self.temperature,
                     stream=True,
                 )
@@ -900,7 +900,7 @@ class QueryService:
                 stream = client.chat.completions.create(
                     model=self.models["xai"],
                     messages=messages,
-                    max_tokens=self.max_tokens,
+                    max_completion_tokens=self.max_tokens,
                     temperature=self.temperature,
                     stream=True,
                 )

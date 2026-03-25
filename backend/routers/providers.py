@@ -157,7 +157,7 @@ async def _check_provider_health(provider: str) -> dict:
                 from openai import OpenAI
                 client = OpenAI(api_key=API_KEYS["xai"], base_url="https://api.x.ai/v1")
                 client.chat.completions.create(
-                    model=get_models()["xai"], max_tokens=1,
+                    model=get_models()["xai"], max_completion_tokens=1,
                     messages=[{"role": "user", "content": "hi"}],
                 )
             await asyncio.wait_for(loop.run_in_executor(None, check), timeout=10)
