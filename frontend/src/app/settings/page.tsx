@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useAppModeContext } from "@/components/layout/AppModeProvider";
+import { useAuth } from "@/hooks/useAuth";
 import type { ProviderInfo, ProviderHealth } from "@/lib/types";
 
 interface Config {
@@ -27,6 +28,7 @@ interface AiseoConfig {
 
 export default function SettingsPage() {
   const { aiseoMode, toggleAiseoMode } = useAppModeContext();
+  const { isAdmin } = useAuth();
   const [providers, setProviders] = useState<ProviderInfo[]>([]);
   const [config, setConfig] = useState<Config | null>(null);
   const [health, setHealth] = useState<Map<string, ProviderHealth>>(new Map());
@@ -275,8 +277,9 @@ export default function SettingsPage() {
             <CardHeader>
               <CardTitle className="text-base">Company Profile</CardTitle>
               <CardDescription>
-                Configure the company you&apos;re tracking across AI search results. This drives
-                analysis, competitor detection, and accuracy verification.
+                {isAdmin
+                  ? "Configure the company you're tracking across AI search results. This drives analysis, competitor detection, and accuracy verification."
+                  : "Company profile configured by your admin. This drives analysis, competitor detection, and accuracy verification."}
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -288,6 +291,7 @@ export default function SettingsPage() {
                     placeholder="e.g. Acme Corp"
                     value={targetCompany}
                     onChange={(e) => setTargetCompany(e.target.value)}
+                    disabled={!isAdmin}
                   />
                 </div>
                 <div className="space-y-2">
@@ -297,6 +301,7 @@ export default function SettingsPage() {
                     placeholder="e.g. Financial Services, SaaS, Healthcare"
                     value={industry}
                     onChange={(e) => setIndustry(e.target.value)}
+                    disabled={!isAdmin}
                   />
                 </div>
               </div>
@@ -307,21 +312,29 @@ export default function SettingsPage() {
                   placeholder="e.g. acme.com, careers.acme.com"
                   value={companyDomains}
                   onChange={(e) => setCompanyDomains(e.target.value)}
+                  disabled={!isAdmin}
                 />
                 <p className="text-xs text-muted-foreground">
                   Comma-separated list of domains owned by the company. Used to classify sources as &quot;owned&quot; in analysis.
                 </p>
               </div>
-              <div className="flex items-center gap-2">
-                <Button onClick={saveCompanyConfig} disabled={aiseoSaving} size="sm">
-                  {aiseoSaving ? "Saving..." : "Save Company Profile"}
-                </Button>
-                {aiseoStatus && (
-                  <span className={`text-xs ${aiseoStatus === "Saved" ? "text-green-600 dark:text-green-400" : "text-red-500 dark:text-red-400"}`}>
-                    {aiseoStatus}
-                  </span>
-                )}
-              </div>
+              {isAdmin && (
+                <div className="flex items-center gap-2">
+                  <Button onClick={saveCompanyConfig} disabled={aiseoSaving} size="sm">
+                    {aiseoSaving ? "Saving..." : "Save Company Profile"}
+                  </Button>
+                  {aiseoStatus && (
+                    <span className={`text-xs ${aiseoStatus === "Saved" ? "text-green-600 dark:text-green-400" : "text-red-500 dark:text-red-400"}`}>
+                      {aiseoStatus}
+                    </span>
+                  )}
+                </div>
+              )}
+              {!isAdmin && (
+                <p className="text-xs text-muted-foreground italic">
+                  Only admins can edit the company profile.
+                </p>
+              )}
             </CardContent>
           </Card>
 
@@ -376,12 +389,12 @@ export default function SettingsPage() {
             <CardHeader>
               <CardTitle className="text-base">Competitors</CardTitle>
               <CardDescription>
-                Companies to track as competitors in analysis. Their domains will be flagged when
+                Companies tracked as competitors in analysis. Their domains are flagged when
                 cited as sources in AI responses.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
-              {aiseoConfig?.competitors && aiseoConfig.competitors.length > 0 && (
+              {aiseoConfig?.competitors && aiseoConfig.competitors.length > 0 ? (
                 <div className="space-y-2">
                   {aiseoConfig.competitors.map((c) => (
                     <div key={c.id} className="flex items-center justify-between rounded-md border px-3 py-2">
@@ -400,6 +413,8 @@ export default function SettingsPage() {
                     </div>
                   ))}
                 </div>
+              ) : (
+                <p className="text-sm text-muted-foreground">No competitors configured yet.</p>
               )}
               <div className="flex gap-2">
                 <Input
@@ -431,7 +446,7 @@ export default function SettingsPage() {
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
-              {aiseoConfig?.accuracy_facts && aiseoConfig.accuracy_facts.length > 0 && (
+              {aiseoConfig?.accuracy_facts && aiseoConfig.accuracy_facts.length > 0 ? (
                 <div className="space-y-2">
                   {aiseoConfig.accuracy_facts.map((f) => (
                     <div key={f.id} className="flex items-center justify-between rounded-md border px-3 py-2">
@@ -451,6 +466,8 @@ export default function SettingsPage() {
                     </div>
                   ))}
                 </div>
+              ) : (
+                <p className="text-sm text-muted-foreground">No accuracy facts configured yet.</p>
               )}
               <div className="flex gap-2">
                 <Input
@@ -613,8 +630,7 @@ export default function SettingsPage() {
           <CardHeader>
             <CardTitle className="text-base">Models & Parameters</CardTitle>
             <CardDescription>
-              Configure which model each provider uses and adjust generation parameters.
-              API keys remain in your .env file.
+              Configure which model each provider uses and adjust generation parameters. API keys remain in your .env file.
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-5">
@@ -653,6 +669,7 @@ export default function SettingsPage() {
                   type="number"
                   value={editMaxTokens}
                   onChange={(e) => setEditMaxTokens(e.target.value)}
+                  disabled={!isAdmin}
                   className="h-8 font-mono text-sm"
                 />
               </div>
@@ -668,6 +685,7 @@ export default function SettingsPage() {
                   max="2"
                   value={editTemperature}
                   onChange={(e) => setEditTemperature(e.target.value)}
+                  disabled={!isAdmin}
                   className="h-8 font-mono text-sm"
                 />
               </div>

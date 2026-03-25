@@ -70,7 +70,7 @@ async def list_competitors(_user=Depends(get_current_user)):
 
 
 @router.post("/competitors")
-async def add_competitor(body: CompetitorCreate, _user=Depends(require_admin)):
+async def add_competitor(body: CompetitorCreate, _user=Depends(get_current_user)):
     try:
         competitor = ccs.add_competitor(body.name, body.domain)
         return competitor
@@ -79,7 +79,7 @@ async def add_competitor(body: CompetitorCreate, _user=Depends(require_admin)):
 
 
 @router.delete("/competitors/{competitor_id}")
-async def remove_competitor(competitor_id: int, _user=Depends(require_admin)):
+async def remove_competitor(competitor_id: int, _user=Depends(get_current_user)):
     if not ccs.remove_competitor(competitor_id):
         raise HTTPException(status_code=404, detail="Competitor not found")
     return {"ok": True}
@@ -91,7 +91,7 @@ async def list_accuracy_facts(_user=Depends(get_current_user)):
 
 
 @router.post("/accuracy-facts")
-async def add_accuracy_fact(body: AccuracyFactCreate, _user=Depends(require_admin)):
+async def add_accuracy_fact(body: AccuracyFactCreate, _user=Depends(get_current_user)):
     try:
         fact = ccs.add_accuracy_fact(body.label, body.field_key, body.correct_value)
         return fact
@@ -100,14 +100,14 @@ async def add_accuracy_fact(body: AccuracyFactCreate, _user=Depends(require_admi
 
 
 @router.put("/accuracy-facts/{fact_id}")
-async def update_accuracy_fact(fact_id: int, body: AccuracyFactCreate, _user=Depends(require_admin)):
+async def update_accuracy_fact(fact_id: int, body: AccuracyFactCreate, _user=Depends(get_current_user)):
     if not ccs.update_accuracy_fact(fact_id, body.label, body.field_key, body.correct_value):
         raise HTTPException(status_code=404, detail="Fact not found")
     return {"ok": True}
 
 
 @router.delete("/accuracy-facts/{fact_id}")
-async def remove_accuracy_fact(fact_id: int, _user=Depends(require_admin)):
+async def remove_accuracy_fact(fact_id: int, _user=Depends(get_current_user)):
     if not ccs.remove_accuracy_fact(fact_id):
         raise HTTPException(status_code=404, detail="Fact not found")
     return {"ok": True}
