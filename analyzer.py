@@ -281,7 +281,7 @@ Return ONLY valid JSON with these exact keys."""
                     {"role": "system", "content": "You are an AI optimization expert analyzing responses for AISEO insights. Always return valid JSON."},
                     {"role": "user", "content": analysis_prompt}
                 ],
-                max_tokens=4000,
+                max_completion_tokens=4000,
                 temperature=0.3,  # Lower temperature for more consistent analysis
                 response_format={"type": "json_object"}  # Force JSON response
             )
@@ -344,7 +344,10 @@ Return ONLY valid JSON with these exact keys."""
             # Add enhanced analysis if enabled
             if self.enhanced_analysis:
                 analysis = self._add_enhanced_analysis(analysis, response_str, query, provider)
-            
+            else:
+                # Always scan for competitor mentions even without full enhanced analysis
+                analysis = self._add_competitor_scan(analysis, response_str)
+
             return analysis
             
         except Exception as e:
@@ -404,32 +407,59 @@ Return ONLY valid JSON with these exact keys."""
                     analysis['accuracy_issues'] = accuracy_check['issues']
                     analysis['corrections_needed'] = accuracy_check['corrections_needed']
         
-        # Competitor analysis
+        # Competitor analysis — always run when we have competitor config
+        competitor_mentions = []
+
+        # Method 1: Check domain classifications for competitor URLs
+        for classification in analysis.get('domain_classifications', []):
+            if classification.get('is_competitor'):
+                competitor_mentions.append({
+                    'name': classification.get('platform'),
+                    'domain': classification.get('domain'),
+                    'context': 'Found in sources'
+                })
+
+        # Build competitor name list from DB (primary) with domain_classifier fallback
+        known_competitors = {}  # name_lower -> display_name
+        if self._db_competitors:
+            for domain, name in self._db_competitors.items():
+                known_competitors[name.lower()] = name
         if self.domain_classifier:
-            competitor_mentions = []
-            for classification in analysis.get('domain_classifications', []):
-                if classification.get('is_competitor'):
-                    competitor_mentions.append({
-                        'name': classification.get('platform'),
-                        'domain': classification.get('domain'),
-                        'context': 'Found in sources'
-                    })
-            
-            # Also check for competitor mentions in text
-            known_competitor_names = [n.lower() for n in self._db_competitors.values()] if self._db_competitors else [
-                'vanguard', 'fidelity', 'schwab', 'blackrock', 'morgan stanley']
-            companies = analysis.get('companies_mentioned', [])
-            for company in companies:
-                if company.lower() != self.target_company.lower():
-                    is_competitor = any(comp in company.lower() for comp in known_competitor_names)
-                    if is_competitor and company not in [c['name'] for c in competitor_mentions]:
+            for domain, name in self.domain_classifier.competitor_domains.items():
+                if name.lower() not in known_competitors:
+                    known_competitors[name.lower()] = name
+
+        if known_competitors:
+            already_found = {c['name'].lower() for c in competitor_mentions}
+
+            # Method 2: Check AI-extracted companies_mentioned
+            for company in analysis.get('companies_mentioned', []):
+                if company.lower() == self.target_company.lower():
+                    continue
+                for comp_lower, comp_display in known_competitors.items():
+                    if comp_lower in company.lower() or company.lower() in comp_lower:
+                        if comp_display.lower() not in already_found:
+                            competitor_mentions.append({
+                                'name': comp_display,
+                                'context': 'Mentioned in response'
+                            })
+                            already_found.add(comp_display.lower())
+                        break
+
+            # Method 3: Scan full response text for competitor names
+            response_lower = response_text.lower()
+            for comp_lower, comp_display in known_competitors.items():
+                if comp_display.lower() not in already_found:
+                    # Use word boundary matching to avoid false positives
+                    if re.search(r'\b' + re.escape(comp_lower) + r'\b', response_lower):
                         competitor_mentions.append({
-                            'name': company,
-                            'context': 'Mentioned in response'
+                            'name': comp_display,
+                            'context': 'Found in response text'
                         })
-            
-            if competitor_mentions:
-                analysis['competitor_mentions'] = competitor_mentions
+                        already_found.add(comp_display.lower())
+
+        if competitor_mentions:
+            analysis['competitor_mentions'] = competitor_mentions
         
         # Historical tracking
         if self.tracker and self.track_history:
@@ -454,6 +484,44 @@ Return ONLY valid JSON with these exact keys."""
         
         return analysis
     
+    def _add_competitor_scan(self, analysis: Dict, response_text: str) -> Dict:
+        """Lightweight competitor scan that runs even without full enhanced analysis."""
+        if not self._db_competitors:
+            return analysis
+
+        competitor_mentions = []
+        already_found = set()
+        response_lower = response_text.lower()
+
+        for domain, name in self._db_competitors.items():
+            name_lower = name.lower()
+            if name_lower not in already_found:
+                if re.search(r'\b' + re.escape(name_lower) + r'\b', response_lower):
+                    competitor_mentions.append({
+                        'name': name,
+                        'context': 'Found in response text'
+                    })
+                    already_found.add(name_lower)
+
+        # Also check AI-extracted companies
+        for company in analysis.get('companies_mentioned', []):
+            if company.lower() == self.target_company.lower():
+                continue
+            for domain, name in self._db_competitors.items():
+                if name.lower() in company.lower() or company.lower() in name.lower():
+                    if name.lower() not in already_found:
+                        competitor_mentions.append({
+                            'name': name,
+                            'context': 'Mentioned in response'
+                        })
+                        already_found.add(name.lower())
+                    break
+
+        if competitor_mentions:
+            analysis['competitor_mentions'] = competitor_mentions
+
+        return analysis
+
     def _extract_additional_sources(self, response_text, existing_sources):
         """Extract additional sources from response text that may have been missed"""
         

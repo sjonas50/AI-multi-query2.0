@@ -150,7 +150,7 @@ def get_domain_trends() -> list[dict]:
 
 
 def get_competitor_mentions() -> list[dict]:
-    """Get competitor mention data."""
+    """Get aggregated competitor mention data for the dashboard."""
     if not DATABASE_PATH.exists():
         return []
 
@@ -158,9 +158,22 @@ def get_competitor_mentions() -> list[dict]:
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
 
+    # Check if table exists
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='competitor_mentions'")
+    if not cursor.fetchone():
+        conn.close()
+        return []
+
     cursor.execute(
-        """SELECT timestamp, query, provider, competitor_name, mention_context, sentiment
-           FROM competitor_mentions ORDER BY timestamp DESC LIMIT 100"""
+        """SELECT competitor_name AS name,
+                  COUNT(*) AS mentions,
+                  -- Most common sentiment for this competitor
+                  (SELECT sentiment FROM competitor_mentions cm2
+                   WHERE cm2.competitor_name = competitor_mentions.competitor_name
+                   GROUP BY sentiment ORDER BY COUNT(*) DESC LIMIT 1) AS sentiment
+           FROM competitor_mentions
+           GROUP BY competitor_name
+           ORDER BY mentions DESC"""
     )
 
     results = [dict(row) for row in cursor.fetchall()]
