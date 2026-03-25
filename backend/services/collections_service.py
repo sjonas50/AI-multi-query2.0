@@ -1,14 +1,14 @@
 """Saved searches / collections persistence using SQLite."""
 
 import json
-import os
 import sqlite3
 import uuid
 from datetime import datetime, timezone
 from typing import Optional
 
+from backend.config import COLLECTIONS_DB
 
-DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "collections.db")
+DB_PATH = str(COLLECTIONS_DB)
 
 
 def _get_db() -> sqlite3.Connection:

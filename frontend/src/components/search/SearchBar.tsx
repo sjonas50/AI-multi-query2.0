@@ -115,7 +115,7 @@ export function SearchBar({
               <button
                 type="button"
                 onClick={onCancel}
-                className="rounded-lg px-2 py-1 text-xs text-red-600 hover:bg-red-50 dark:hover:bg-red-950"
+                className="rounded-lg px-2 py-1 text-xs text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950"
               >
                 Cancel
               </button>

@@ -7,7 +7,11 @@ from fastapi import APIRouter, Depends
 from pydantic import BaseModel
 
 from backend.auth import get_current_user
-from backend.config import CONFIGURED_PROVIDERS, MODELS, WEB_SEARCH, DEEP_RESEARCH, MAX_TOKENS, TEMPERATURE, API_KEYS
+from backend.config import CONFIGURED_PROVIDERS, API_KEYS
+from backend.services.company_config_service import (
+    get_models, get_max_tokens, get_temperature,
+    get_web_search, get_deep_research, set_config,
+)
 
 router = APIRouter(prefix="/api", tags=["config"])
 
@@ -29,6 +33,9 @@ DEEP_RESEARCH_SUPPORTED = {"openai", "anthropic", "google", "perplexity"}
 
 @router.get("/providers")
 async def get_providers(_user=Depends(get_current_user)):
+    models = get_models()
+    ws = get_web_search()
+    dr = get_deep_research()
     providers = []
     for p in ALL_PROVIDERS:
         providers.append(
@@ -36,11 +43,11 @@ async def get_providers(_user=Depends(get_current_user)):
                 "name": PROVIDER_DISPLAY.get(p, p),
                 "id": p,
                 "configured": p in CONFIGURED_PROVIDERS,
-                "model": MODELS.get(p),
+                "model": models.get(p),
                 "web_search_supported": p in WEB_SEARCH_SUPPORTED,
-                "web_search_default": WEB_SEARCH.get(p, False),
+                "web_search_default": ws.get(p, False),
                 "deep_research_supported": p in DEEP_RESEARCH_SUPPORTED,
-                "deep_research_default": DEEP_RESEARCH.get(p, False),
+                "deep_research_default": dr.get(p, False),
             }
         )
     return {"providers": providers}
@@ -49,34 +56,54 @@ async def get_providers(_user=Depends(get_current_user)):
 @router.get("/config")
 async def get_config(_user=Depends(get_current_user)):
     return {
-        "models": MODELS,
-        "max_tokens": MAX_TOKENS,
-        "temperature": TEMPERATURE,
+        "models": get_models(),
+        "max_tokens": get_max_tokens(),
+        "temperature": get_temperature(),
         "configured_providers": [PROVIDER_DISPLAY.get(p, p) for p in CONFIGURED_PROVIDERS],
-        "web_search": WEB_SEARCH,
-        "deep_research": DEEP_RESEARCH,
+        "web_search": get_web_search(),
+        "deep_research": get_deep_research(),
     }
 
 
 class ConfigUpdateRequest(BaseModel):
     web_search: Optional[dict[str, bool]] = None
     deep_research: Optional[dict[str, bool]] = None
+    models: Optional[dict[str, str]] = None
+    max_tokens: Optional[int] = None
+    temperature: Optional[float] = None
 
 
 @router.post("/config/defaults")
 async def update_config_defaults(body: ConfigUpdateRequest, _user=Depends(get_current_user)):
-    """Update runtime web_search / deep_research defaults (in-memory, resets on restart)."""
+    """Update model config, parameters, and feature toggles. Persisted to DB."""
+    updates: dict[str, str] = {}
+
     if body.web_search:
         for provider_id, enabled in body.web_search.items():
-            if provider_id in WEB_SEARCH_SUPPORTED and provider_id in WEB_SEARCH:
-                WEB_SEARCH[provider_id] = enabled
+            if provider_id in WEB_SEARCH_SUPPORTED:
+                updates[f"web_search_{provider_id}"] = "true" if enabled else "false"
     if body.deep_research:
         for provider_id, enabled in body.deep_research.items():
-            if provider_id in DEEP_RESEARCH_SUPPORTED and provider_id in DEEP_RESEARCH:
-                DEEP_RESEARCH[provider_id] = enabled
+            if provider_id in DEEP_RESEARCH_SUPPORTED:
+                updates[f"deep_research_{provider_id}"] = "true" if enabled else "false"
+    if body.models:
+        for provider_id, model_name in body.models.items():
+            if provider_id in ("openai", "anthropic", "perplexity", "google", "xai") and model_name.strip():
+                updates[f"model_{provider_id}"] = model_name.strip()
+    if body.max_tokens is not None:
+        updates["max_tokens"] = str(body.max_tokens)
+    if body.temperature is not None:
+        updates["temperature"] = str(body.temperature)
+
+    if updates:
+        set_config(updates)
+
     return {
-        "web_search": WEB_SEARCH,
-        "deep_research": DEEP_RESEARCH,
+        "models": get_models(),
+        "max_tokens": get_max_tokens(),
+        "temperature": get_temperature(),
+        "web_search": get_web_search(),
+        "deep_research": get_deep_research(),
     }
 
 
@@ -103,7 +130,7 @@ async def _check_provider_health(provider: str) -> dict:
                 import anthropic
                 client = anthropic.Anthropic(api_key=API_KEYS["anthropic"])
                 client.messages.create(
-                    model=MODELS["anthropic"], max_tokens=1,
+                    model=get_models()["anthropic"], max_tokens=1,
                     messages=[{"role": "user", "content": "hi"}],
                 )
             await asyncio.wait_for(loop.run_in_executor(None, check), timeout=10)
@@ -113,7 +140,7 @@ async def _check_provider_health(provider: str) -> dict:
                 from openai import OpenAI
                 client = OpenAI(api_key=API_KEYS["perplexity"], base_url="https://api.perplexity.ai")
                 client.chat.completions.create(
-                    model=MODELS["perplexity"], max_tokens=1,
+                    model=get_models()["perplexity"], max_tokens=1,
                     messages=[{"role": "user", "content": "hi"}],
                 )
             await asyncio.wait_for(loop.run_in_executor(None, check), timeout=10)
@@ -122,7 +149,7 @@ async def _check_provider_health(provider: str) -> dict:
             def check():
                 from google import genai
                 client = genai.Client(api_key=API_KEYS["google"])
-                client.models.get(model=MODELS["google"])
+                client.models.get(model=get_models()["google"])
             await asyncio.wait_for(loop.run_in_executor(None, check), timeout=10)
 
         elif provider == "xai":
@@ -130,7 +157,7 @@ async def _check_provider_health(provider: str) -> dict:
                 from openai import OpenAI
                 client = OpenAI(api_key=API_KEYS["xai"], base_url="https://api.x.ai/v1")
                 client.chat.completions.create(
-                    model=MODELS["xai"], max_tokens=1,
+                    model=get_models()["xai"], max_tokens=1,
                     messages=[{"role": "user", "content": "hi"}],
                 )
             await asyncio.wait_for(loop.run_in_executor(None, check), timeout=10)

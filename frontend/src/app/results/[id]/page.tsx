@@ -97,7 +97,7 @@ export default function ResultDetailPage() {
   }
 
   if (!data) {
-    return <div className="text-red-600">Result not found.</div>;
+    return <div className="text-red-600 dark:text-red-400">Result not found.</div>;
   }
 
   const isBatch = "all_results" in data;

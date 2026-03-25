@@ -1,0 +1,8 @@
+.env
+.git
+__pycache__
+frontend/node_modules
+frontend/.next
+*.pyc
+data/
+.claude/

@@ -36,9 +36,15 @@ const icons: Record<string, React.ReactNode> = {
   ),
 };
 
+const shieldIcon = (
+  <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+  </svg>
+);
+
 export function Sidebar() {
   const pathname = usePathname();
-  const { logout } = useAuth();
+  const { logout, user, isAdmin } = useAuth();
   const { aiseoMode, toggleAiseoMode } = useAppModeContext();
 
   const navItems = [
@@ -74,6 +80,20 @@ export function Sidebar() {
         ))}
       </nav>
       <div className="border-t p-2 space-y-1">
+        {isAdmin && (
+          <Link
+            href="/admin"
+            className={cn(
+              "flex items-center gap-2 rounded-md px-3 py-2 text-sm transition-colors",
+              pathname === "/admin"
+                ? "bg-primary text-primary-foreground"
+                : "text-muted-foreground hover:bg-muted hover:text-foreground",
+            )}
+          >
+            {shieldIcon}
+            Admin
+          </Link>
+        )}
         <button
           onClick={toggleAiseoMode}
           className={cn(
@@ -89,6 +109,11 @@ export function Sidebar() {
           AISEO {aiseoMode ? "ON" : "OFF"}
         </button>
         <ThemeToggle />
+        {user && (
+          <div className="px-3 py-1.5 text-xs text-muted-foreground truncate" title={user.email}>
+            {user.display_name}
+          </div>
+        )}
         <button
           onClick={logout}
           className="flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-muted hover:text-foreground"

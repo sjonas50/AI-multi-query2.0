@@ -29,7 +29,34 @@ except ImportError:
 def get_analyzer() -> Optional["ResponseAnalyzer"]:
     if not ANALYZER_AVAILABLE:
         return None
+    # Apply DB-stored AISEO config so the analyzer uses dynamic settings
+    _apply_aiseo_env()
     return ResponseAnalyzer()
+
+
+def _apply_aiseo_env():
+    """Push DB-stored AISEO config into env vars so the analyzer picks them up."""
+    import os
+    try:
+        from backend.services import company_config_service as ccs
+        config = ccs.get_config()
+        env_map = {
+            "target_company": "TARGET_COMPANY",
+            "company_domains": "COMPANY_DOMAINS",
+            "analyze_responses": "ANALYZE_RESPONSES",
+            "enable_enhanced_analysis": "ENABLE_ENHANCED_ANALYSIS",
+            "track_history": "TRACK_HISTORY",
+            "domain_classification": "DOMAIN_CLASSIFICATION",
+            "negative_signal_detection": "NEGATIVE_SIGNAL_DETECTION",
+            "accuracy_verification": "ACCURACY_VERIFICATION",
+            "weekly_reporting": "WEEKLY_REPORTING",
+        }
+        for db_key, env_key in env_map.items():
+            val = config.get(db_key, "")
+            if val:
+                os.environ[env_key] = val
+    except Exception:
+        pass  # Fall back to .env values
 
 
 def get_tracker() -> Optional["HistoricalTracker"]:
@@ -146,10 +173,7 @@ def generate_weekly_report() -> Optional[str]:
     if not ANALYZER_AVAILABLE or not TRACKER_AVAILABLE or not REPORTER_AVAILABLE:
         return None
 
-    import os
-    os.environ["ENABLE_ENHANCED_ANALYSIS"] = "true"
-    os.environ["TRACK_HISTORY"] = "true"
-    os.environ["WEEKLY_REPORTING"] = "true"
+    _apply_aiseo_env()
 
     analyzer = ResponseAnalyzer()
     if analyzer.tracker and analyzer.reporter:

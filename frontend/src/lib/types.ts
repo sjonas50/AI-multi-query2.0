@@ -118,6 +118,26 @@ export interface ComparisonResult {
   model_used: string;
 }
 
+export interface User {
+  id: string;
+  email: string;
+  display_name: string;
+  role: "admin" | "user";
+  created_at: string;
+  last_login?: string | null;
+}
+
+export interface InviteCode {
+  code: string;
+  created_by: string;
+  creator_email: string;
+  email: string | null;
+  used_by: string | null;
+  expires_at: string;
+  used_at: string | null;
+  active: boolean;
+}
+
 export interface SavedSearch {
   id: string;
   query: string;

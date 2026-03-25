@@ -88,3 +88,38 @@ class PaginatedResults(BaseModel):
 class ComparisonRequest(BaseModel):
     query: str
     responses: dict[str, str]  # provider_name → response_text
+
+
+# --- Auth schemas ---
+
+
+class LoginRequest(BaseModel):
+    email: str
+    password: str
+
+
+class RegisterRequest(BaseModel):
+    invite_code: str
+    email: str
+    password: str
+    display_name: str
+
+
+class TokenResponse(BaseModel):
+    token: str
+    expires_in: int
+    user: dict
+
+
+class UserResponse(BaseModel):
+    id: str
+    email: str
+    display_name: str
+    role: str
+    created_at: str
+    last_login: Optional[str] = None
+
+
+class InviteCreate(BaseModel):
+    email: Optional[str] = None
+    expires_hours: int = 72

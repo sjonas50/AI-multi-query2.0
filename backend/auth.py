@@ -1,4 +1,4 @@
-"""Simple JWT auth for small team use, with rate limiting."""
+"""JWT auth with per-user accounts, rate limiting, and admin guard."""
 
 import time
 from collections import defaultdict
@@ -6,9 +6,9 @@ from collections import defaultdict
 import jwt
 from fastapi import Depends, HTTPException, Request
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-from pydantic import BaseModel
 
-from backend.config import AUTH_SECRET, JWT_SECRET
+from backend.config import JWT_SECRET
+from backend.services import user_service
 
 security = HTTPBearer()
 
@@ -20,25 +20,17 @@ _LOGIN_WINDOW_SECONDS = 60
 _login_attempts: dict[str, list[float]] = defaultdict(list)
 
 
-class LoginRequest(BaseModel):
-    password: str
-
-
-class TokenResponse(BaseModel):
-    token: str
-    expires_in: int = TOKEN_EXPIRY_SECONDS
-
-
-def create_token() -> str:
+def create_token(user_id: str, role: str) -> str:
     return jwt.encode(
-        {"exp": time.time() + TOKEN_EXPIRY_SECONDS, "iat": time.time()},
+        {
+            "sub": user_id,
+            "role": role,
+            "exp": time.time() + TOKEN_EXPIRY_SECONDS,
+            "iat": time.time(),
+        },
         JWT_SECRET,
         algorithm="HS256",
     )
-
-
-def verify_password(password: str) -> bool:
-    return password == AUTH_SECRET
 
 
 def check_rate_limit(request: Request):
@@ -46,7 +38,6 @@ def check_rate_limit(request: Request):
     ip = request.client.host if request.client else "unknown"
     now = time.time()
 
-    # Prune old attempts outside the window
     _login_attempts[ip] = [
         t for t in _login_attempts[ip] if now - t < _LOGIN_WINDOW_SECONDS
     ]
@@ -64,10 +55,27 @@ def check_rate_limit(request: Request):
 def get_current_user(
     credentials: HTTPAuthorizationCredentials = Depends(security),
 ) -> dict:
+    """Decode JWT and return the user dict from the database."""
     try:
         payload = jwt.decode(credentials.credentials, JWT_SECRET, algorithms=["HS256"])
-        return payload
     except jwt.ExpiredSignatureError:
         raise HTTPException(status_code=401, detail="Token expired")
     except jwt.InvalidTokenError:
         raise HTTPException(status_code=401, detail="Invalid token")
+
+    user_id = payload.get("sub")
+    if not user_id:
+        raise HTTPException(status_code=401, detail="Invalid token payload")
+
+    user = user_service.get_user(user_id)
+    if not user:
+        raise HTTPException(status_code=401, detail="User not found")
+
+    return user
+
+
+def require_admin(user: dict = Depends(get_current_user)) -> dict:
+    """Dependency that ensures the current user is an admin."""
+    if user.get("role") != "admin":
+        raise HTTPException(status_code=403, detail="Admin access required")
+    return user

@@ -1,13 +1,29 @@
 """FastAPI application entry point."""
 
-from fastapi import FastAPI
+from contextlib import asynccontextmanager
+
+from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 
-from fastapi import Request
-from backend.auth import LoginRequest, TokenResponse, create_token, verify_password, check_rate_limit
-from backend.routers import queries, providers, results, analysis, reports, collections, comparisons
+from backend.auth import (
+    TOKEN_EXPIRY_SECONDS,
+    check_rate_limit,
+    create_token,
+    get_current_user,
+)
+from backend.models.schemas import LoginRequest, RegisterRequest, TokenResponse
+from backend.routers import queries, providers, results, analysis, reports, collections, comparisons, admin, aiseo
+from backend.services import user_service, company_config_service
 
-app = FastAPI(title="AI Multi-Query", version="1.0.0")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    user_service.init_db()
+    company_config_service.init_db()
+    yield
+
+
+app = FastAPI(title="AI Multi-Query", version="1.0.0", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -25,15 +41,39 @@ app.include_router(analysis.router)
 app.include_router(reports.router)
 app.include_router(collections.router)
 app.include_router(comparisons.router)
+app.include_router(admin.router)
+app.include_router(aiseo.router)
 
 
 @app.post("/api/auth/login", response_model=TokenResponse)
 async def login(body: LoginRequest, request: Request):
     check_rate_limit(request)
-    if not verify_password(body.password):
-        from fastapi import HTTPException
-        raise HTTPException(status_code=401, detail="Invalid password")
-    return TokenResponse(token=create_token())
+    user = user_service.authenticate(body.email, body.password)
+    if not user:
+        raise HTTPException(status_code=401, detail="Invalid email or password")
+    token = create_token(user["id"], user["role"])
+    return TokenResponse(token=token, expires_in=TOKEN_EXPIRY_SECONDS, user=user)
+
+
+@app.post("/api/auth/register", response_model=TokenResponse)
+async def register(body: RegisterRequest, request: Request):
+    check_rate_limit(request)
+    try:
+        user = user_service.redeem_invite(
+            code=body.invite_code,
+            email=body.email,
+            password=body.password,
+            display_name=body.display_name,
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    token = create_token(user["id"], user["role"])
+    return TokenResponse(token=token, expires_in=TOKEN_EXPIRY_SECONDS, user=user)
+
+
+@app.get("/api/auth/me")
+async def get_me(user: dict = Depends(get_current_user)):
+    return user
 
 
 @app.get("/api/health")

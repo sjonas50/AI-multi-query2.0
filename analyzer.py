@@ -63,11 +63,25 @@ class ResponseAnalyzer:
         self.tracker = None
         self.reporter = None
         
+        # Load dynamic competitor/accuracy config from DB if available
+        self._db_competitors = {}
+        self._db_accuracy_facts = {}
+        try:
+            from backend.services import company_config_service as ccs
+            aiseo_cfg = ccs.get_aiseo_config()
+            self._db_competitors = aiseo_cfg.get("competitor_domains", {})
+            self._db_accuracy_facts = aiseo_cfg.get("accuracy_facts", {})
+        except Exception:
+            pass
+
         if self.enhanced_analysis:
             if DOMAIN_CLASSIFIER_AVAILABLE and self.domain_classification:
                 self.domain_classifier = DomainClassifier(self.company_domains)
+                # Merge DB-configured competitors into the classifier
+                if self._db_competitors:
+                    self.domain_classifier.competitor_domains.update(self._db_competitors)
                 print("[OK] Domain classifier initialized")
-            
+
             if NEGATIVE_DETECTOR_AVAILABLE and self.negative_detection:
                 self.negative_detector = NegativeSignalDetector(self.target_company)
                 print("[OK] Negative signal detector initialized")
@@ -382,7 +396,7 @@ Return ONLY valid JSON with these exact keys."""
             
             # Accuracy verification
             if self.accuracy_verification:
-                facts_to_verify = {
+                facts_to_verify = dict(self._db_accuracy_facts) if self._db_accuracy_facts else {
                     'minimum_investment': os.getenv('CORRECT_MINIMUM_INVESTMENT', '$1,000,000')
                 }
                 accuracy_check = self.negative_detector.check_accuracy_issues(response_text, facts_to_verify)
@@ -402,12 +416,12 @@ Return ONLY valid JSON with these exact keys."""
                     })
             
             # Also check for competitor mentions in text
+            known_competitor_names = [n.lower() for n in self._db_competitors.values()] if self._db_competitors else [
+                'vanguard', 'fidelity', 'schwab', 'blackrock', 'morgan stanley']
             companies = analysis.get('companies_mentioned', [])
             for company in companies:
                 if company.lower() != self.target_company.lower():
-                    # Check if it's a known competitor
-                    is_competitor = any(comp in company.lower() for comp in 
-                                       ['vanguard', 'fidelity', 'schwab', 'blackrock', 'morgan stanley'])
+                    is_competitor = any(comp in company.lower() for comp in known_competitor_names)
                     if is_competitor and company not in [c['name'] for c in competitor_mentions]:
                         competitor_mentions.append({
                             'name': company,

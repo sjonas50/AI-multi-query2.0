@@ -155,7 +155,7 @@ export default function ResultsPage() {
                         onClick={() => handlePinToggle(item)}
                         className={`p-1 rounded hover:bg-muted transition-colors ${
                           saved?.pinned
-                            ? "text-yellow-500"
+                            ? "text-yellow-500 dark:text-yellow-400"
                             : "text-muted-foreground"
                         }`}
                         title={saved?.pinned ? "Unpin" : "Pin"}
@@ -168,7 +168,7 @@ export default function ResultsPage() {
                         onClick={() => handleSaveToggle(item)}
                         className={`p-1 rounded hover:bg-muted transition-colors ${
                           saved
-                            ? "text-blue-500"
+                            ? "text-blue-500 dark:text-blue-400"
                             : "text-muted-foreground"
                         }`}
                         title={saved ? "Unsave" : "Save"}

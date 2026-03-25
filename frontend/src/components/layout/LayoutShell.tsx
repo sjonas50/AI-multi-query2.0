@@ -8,7 +8,7 @@ export function LayoutShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const { isLoggedIn } = useAuth();
 
-  if (pathname === "/login" || !isLoggedIn) {
+  if (pathname === "/login" || pathname === "/register" || !isLoggedIn) {
     return <>{children}</>;
   }
 

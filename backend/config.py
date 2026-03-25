@@ -97,10 +97,17 @@ ANALYZE_RESPONSES = os.getenv("ANALYZE_RESPONSES", "false").lower() == "true"
 ANALYSIS_MODEL = os.getenv("ANALYSIS_MODEL", "gpt-5.2")
 
 # Auth
-AUTH_SECRET = os.getenv("AUTH_SECRET", "change-me")
 JWT_SECRET = os.getenv("JWT_SECRET", "jwt-secret-change-me")
+ADMIN_EMAIL = os.getenv("ADMIN_EMAIL", "admin@example.com")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "change-me")
+
+# Data directory — all persistent storage lives here
+DATA_DIR = Path(os.getenv("DATA_DIR", str(PROJECT_ROOT / "data")))
+DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # Paths
-RESULTS_DIR = PROJECT_ROOT / "results"
-REPORTS_DIR = PROJECT_ROOT / "reports"
-DATABASE_PATH = PROJECT_ROOT / os.getenv("DATABASE_PATH", "tracking.db")
+RESULTS_DIR = DATA_DIR / "results"
+REPORTS_DIR = DATA_DIR / "reports"
+DATABASE_PATH = DATA_DIR / os.getenv("DATABASE_PATH", "tracking.db")
+USERS_DB = DATA_DIR / "users.db"
+COLLECTIONS_DB = DATA_DIR / "collections.db"

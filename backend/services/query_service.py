@@ -12,14 +12,16 @@ from backend.config import (
     HAS_OPENAI,
     HAS_ANTHROPIC,
     HAS_GOOGLE,
-    MAX_TOKENS,
-    TEMPERATURE,
-    REQUEST_TIMEOUT,
-    MODELS,
-    WEB_SEARCH,
-    DEEP_RESEARCH,
     RESULTS_DIR,
     PROJECT_ROOT,
+)
+from backend.services.company_config_service import (
+    get_models,
+    get_max_tokens,
+    get_temperature,
+    get_request_timeout,
+    get_web_search,
+    get_deep_research,
 )
 
 
@@ -37,6 +39,13 @@ class QueryService:
             "SOURCE_INSTRUCTION",
             "Please cite your sources with specific URLs or domain names where this information can be verified.",
         )
+        # Load effective config from DB (falls back to .env)
+        self.models = get_models()
+        self.max_tokens = get_max_tokens()
+        self.temperature = get_temperature()
+        self.request_timeout = get_request_timeout()
+        self.web_search = get_web_search()
+        self.deep_research = get_deep_research()
 
     def _enhance_prompt(self, prompt: str, request_sources: bool = False) -> str:
         if request_sources or self.request_sources:
@@ -85,8 +94,8 @@ class QueryService:
         if "openai" not in self.configured_providers or not self.has_openai:
             return {"provider": "OpenAI", "error": "Not configured or library not installed"}
 
-        use_web = web_search if web_search is not None else WEB_SEARCH["openai"]
-        use_deep = deep_research if deep_research is not None else DEEP_RESEARCH["openai"]
+        use_web = web_search if web_search is not None else self.web_search["openai"]
+        use_deep = deep_research if deep_research is not None else self.deep_research["openai"]
 
         try:
             from openai import OpenAI
@@ -111,24 +120,24 @@ class QueryService:
             elif use_web:
                 # Responses API with web_search tool
                 response = client.responses.create(
-                    model=MODELS["openai"],
+                    model=self.models["openai"],
                     tools=[{"type": "web_search"}],
                     input=enhanced,
                 )
                 return {
                     "provider": "OpenAI",
                     "response": response.output_text,
-                    "model": MODELS["openai"],
+                    "model": self.models["openai"],
                     "web_search": True,
                     "success": True,
                 }
             else:
                 # Standard Chat Completions API
                 response = client.chat.completions.create(
-                    model=MODELS["openai"],
+                    model=self.models["openai"],
                     messages=[{"role": "user", "content": enhanced}],
-                    max_tokens=MAX_TOKENS,
-                    temperature=TEMPERATURE,
+                    max_tokens=self.max_tokens,
+                    temperature=self.temperature,
                 )
                 return {
                     "provider": "OpenAI",
@@ -150,8 +159,8 @@ class QueryService:
         if "anthropic" not in self.configured_providers or not self.has_anthropic:
             return {"provider": "Anthropic", "error": "Not configured or library not installed"}
 
-        use_web = web_search if web_search is not None else WEB_SEARCH["anthropic"]
-        use_deep = deep_research if deep_research is not None else DEEP_RESEARCH["anthropic"]
+        use_web = web_search if web_search is not None else self.web_search["anthropic"]
+        use_deep = deep_research if deep_research is not None else self.deep_research["anthropic"]
 
         try:
             import anthropic
@@ -159,8 +168,8 @@ class QueryService:
             enhanced = self._enhance_prompt(prompt, request_sources)
 
             kwargs = {
-                "model": MODELS["anthropic"],
-                "max_tokens": MAX_TOKENS,
+                "model": self.models["anthropic"],
+                "max_tokens": self.max_tokens,
                 "messages": [{"role": "user", "content": enhanced}],
             }
 
@@ -201,8 +210,8 @@ class QueryService:
         if "perplexity" not in self.configured_providers:
             return {"provider": "Perplexity", "error": "Not configured"}
 
-        use_deep = deep_research if deep_research is not None else DEEP_RESEARCH["perplexity"]
-        model = "sonar-deep-research" if use_deep else MODELS["perplexity"]
+        use_deep = deep_research if deep_research is not None else self.deep_research["perplexity"]
+        model = "sonar-deep-research" if use_deep else self.models["perplexity"]
 
         try:
             from openai import OpenAI
@@ -214,7 +223,7 @@ class QueryService:
             response = client.chat.completions.create(
                 model=model,
                 messages=[{"role": "user", "content": enhanced}],
-                max_tokens=MAX_TOKENS,
+                max_tokens=self.max_tokens,
             )
             return {
                 "provider": "Perplexity",
@@ -237,8 +246,8 @@ class QueryService:
         if "google" not in self.configured_providers or not self.has_google:
             return {"provider": "Google", "error": "Not configured or library not installed"}
 
-        use_web = web_search if web_search is not None else WEB_SEARCH["google"]
-        use_deep = deep_research if deep_research is not None else DEEP_RESEARCH["google"]
+        use_web = web_search if web_search is not None else self.web_search["google"]
+        use_deep = deep_research if deep_research is not None else self.deep_research["google"]
 
         try:
             from google import genai
@@ -249,7 +258,7 @@ class QueryService:
                 # Deep research via Interactions API (polling-based)
                 return self._google_deep_research(client, enhanced)
 
-            model = MODELS["google"]
+            model = self.models["google"]
             config_kwargs = {}
 
             if use_web:
@@ -278,13 +287,13 @@ class QueryService:
             try:
                 import google.generativeai as genai
                 genai.configure(api_key=self.api_keys["google"])
-                model_obj = genai.GenerativeModel(MODELS["google"])
+                model_obj = genai.GenerativeModel(self.models["google"])
                 enhanced = self._enhance_prompt(prompt, request_sources)
                 response = model_obj.generate_content(enhanced)
                 return {
                     "provider": "Google",
                     "response": response.text,
-                    "model": MODELS["google"],
+                    "model": self.models["google"],
                     "web_search": False,
                     "success": True,
                 }
@@ -365,7 +374,7 @@ class QueryService:
         if "xai" not in self.configured_providers:
             return {"provider": "Grok", "error": "Not configured"}
 
-        use_web = web_search if web_search is not None else WEB_SEARCH.get("xai", False)
+        use_web = web_search if web_search is not None else self.web_search.get("xai", False)
 
         try:
             from openai import OpenAI
@@ -378,23 +387,23 @@ class QueryService:
             if use_web:
                 # Grok supports web search via the Responses API with search tool
                 response = client.responses.create(
-                    model=MODELS["xai"],
+                    model=self.models["xai"],
                     tools=[{"type": "web_search"}],
                     input=enhanced,
                 )
                 return {
                     "provider": "Grok",
                     "response": response.output_text,
-                    "model": MODELS["xai"],
+                    "model": self.models["xai"],
                     "web_search": True,
                     "success": True,
                 }
             else:
                 response = client.chat.completions.create(
-                    model=MODELS["xai"],
+                    model=self.models["xai"],
                     messages=[{"role": "user", "content": enhanced}],
-                    max_tokens=MAX_TOKENS,
-                    temperature=TEMPERATURE,
+                    max_tokens=self.max_tokens,
+                    temperature=self.temperature,
                 )
                 return {
                     "provider": "Grok",
@@ -425,7 +434,7 @@ class QueryService:
                 "q": prompt,
                 "num": 10,
             }
-            response = requests.get(url, params=params, timeout=REQUEST_TIMEOUT)
+            response = requests.get(url, params=params, timeout=self.request_timeout)
             if response.status_code != 200:
                 return {
                     "provider": "Google Search",
@@ -493,8 +502,8 @@ class QueryService:
         if "openai" not in self.configured_providers or not self.has_openai:
             return {"provider": "OpenAI", "error": "Not configured or library not installed"}
 
-        use_web = web_search if web_search is not None else WEB_SEARCH["openai"]
-        use_deep = deep_research if deep_research is not None else DEEP_RESEARCH["openai"]
+        use_web = web_search if web_search is not None else self.web_search["openai"]
+        use_deep = deep_research if deep_research is not None else self.deep_research["openai"]
 
         try:
             from openai import OpenAI
@@ -525,7 +534,7 @@ class QueryService:
                 parts = []
                 started_text = False
                 stream = client.responses.create(
-                    model=MODELS["openai"],
+                    model=self.models["openai"],
                     tools=[{"type": "web_search"}],
                     input=web_input,
                     stream=True,
@@ -543,7 +552,7 @@ class QueryService:
                 return {
                     "provider": "OpenAI",
                     "response": "".join(parts),
-                    "model": MODELS["openai"],
+                    "model": self.models["openai"],
                     "web_search": True,
                     "success": True,
                 }
@@ -560,13 +569,13 @@ class QueryService:
                         last = messages[-1]
                         messages[-1] = {**last, "content": self._enhance_prompt(last["content"], True)}
                 stream = client.chat.completions.create(
-                    model=MODELS["openai"],
+                    model=self.models["openai"],
                     messages=messages,
-                    max_tokens=MAX_TOKENS,
-                    temperature=TEMPERATURE,
+                    max_tokens=self.max_tokens,
+                    temperature=self.temperature,
                     stream=True,
                 )
-                model_name = MODELS["openai"]
+                model_name = self.models["openai"]
                 for chunk in stream:
                     if chunk.model:
                         model_name = chunk.model
@@ -596,8 +605,8 @@ class QueryService:
         if "anthropic" not in self.configured_providers or not self.has_anthropic:
             return {"provider": "Anthropic", "error": "Not configured or library not installed"}
 
-        use_web = web_search if web_search is not None else WEB_SEARCH["anthropic"]
-        use_deep = deep_research if deep_research is not None else DEEP_RESEARCH["anthropic"]
+        use_web = web_search if web_search is not None else self.web_search["anthropic"]
+        use_deep = deep_research if deep_research is not None else self.deep_research["anthropic"]
 
         try:
             import anthropic
@@ -613,8 +622,8 @@ class QueryService:
                 messages = [{"role": "user", "content": enhanced}]
 
             kwargs = {
-                "model": MODELS["anthropic"],
-                "max_tokens": MAX_TOKENS,
+                "model": self.models["anthropic"],
+                "max_tokens": self.max_tokens,
                 "messages": messages,
             }
 
@@ -656,7 +665,7 @@ class QueryService:
             result = {
                 "provider": "Anthropic",
                 "response": "".join(text_parts),
-                "model": final_message.model if final_message else MODELS["anthropic"],
+                "model": final_message.model if final_message else self.models["anthropic"],
                 "web_search": use_web or use_deep,
                 "deep_research": use_deep,
                 "success": True,
@@ -678,8 +687,8 @@ class QueryService:
         if "perplexity" not in self.configured_providers:
             return {"provider": "Perplexity", "error": "Not configured"}
 
-        use_deep = deep_research if deep_research is not None else DEEP_RESEARCH["perplexity"]
-        model = "sonar-deep-research" if use_deep else MODELS["perplexity"]
+        use_deep = deep_research if deep_research is not None else self.deep_research["perplexity"]
+        model = "sonar-deep-research" if use_deep else self.models["perplexity"]
 
         if use_deep:
             # Deep research — non-streaming fallback
@@ -708,7 +717,7 @@ class QueryService:
             stream = client.chat.completions.create(
                 model=model,
                 messages=messages,
-                max_tokens=MAX_TOKENS,
+                max_tokens=self.max_tokens,
                 stream=True,
             )
             for chunk in stream:
@@ -741,8 +750,8 @@ class QueryService:
         if "google" not in self.configured_providers or not self.has_google:
             return {"provider": "Google", "error": "Not configured or library not installed"}
 
-        use_web = web_search if web_search is not None else WEB_SEARCH["google"]
-        use_deep = deep_research if deep_research is not None else DEEP_RESEARCH["google"]
+        use_web = web_search if web_search is not None else self.web_search["google"]
+        use_deep = deep_research if deep_research is not None else self.deep_research["google"]
 
         if use_deep:
             # Deep research — uses Interactions API (non-streaming, polling)
@@ -773,7 +782,7 @@ class QueryService:
             else:
                 enhanced = self._enhance_prompt(prompt, request_sources)
 
-            model = MODELS["google"]
+            model = self.models["google"]
             config_kwargs = {}
 
             if use_web:
@@ -827,7 +836,7 @@ class QueryService:
         if "xai" not in self.configured_providers:
             return {"provider": "Grok", "error": "Not configured"}
 
-        use_web = web_search if web_search is not None else WEB_SEARCH.get("xai", False)
+        use_web = web_search if web_search is not None else self.web_search.get("xai", False)
 
         try:
             from openai import OpenAI
@@ -855,7 +864,7 @@ class QueryService:
                     web_input = "\n".join(ctx_parts)
                 parts = []
                 stream = client.responses.create(
-                    model=MODELS["xai"],
+                    model=self.models["xai"],
                     tools=[{"type": "web_search"}],
                     input=web_input,
                     stream=True,
@@ -870,7 +879,7 @@ class QueryService:
                 return {
                     "provider": "Grok",
                     "response": "".join(parts),
-                    "model": MODELS["xai"],
+                    "model": self.models["xai"],
                     "web_search": True,
                     "success": True,
                 }
@@ -887,12 +896,12 @@ class QueryService:
                     messages = [{"role": "user", "content": enhanced}]
 
                 parts = []
-                model_name = MODELS["xai"]
+                model_name = self.models["xai"]
                 stream = client.chat.completions.create(
-                    model=MODELS["xai"],
+                    model=self.models["xai"],
                     messages=messages,
-                    max_tokens=MAX_TOKENS,
-                    temperature=TEMPERATURE,
+                    max_tokens=self.max_tokens,
+                    temperature=self.temperature,
                     stream=True,
                 )
                 for chunk in stream:

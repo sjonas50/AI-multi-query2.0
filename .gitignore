@@ -10,6 +10,7 @@ analysis_results.csv
 /reports/
 /tracking.db
 /collections.db
+/data/
 
 # Python
 __pycache__/
