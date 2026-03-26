@@ -1,6 +1,6 @@
 # AI Multi-Query: Multi-LLM Comparison Platform
 
-A full-stack platform for querying, comparing, and analyzing responses from multiple LLM providers side-by-side. Includes a Next.js web frontend with real-time streaming, cross-provider comparison powered by Claude Opus, follow-up conversations, and CLI scripts for batch testing.
+A full-stack platform for querying, comparing, and analyzing responses from multiple LLM providers side-by-side. Includes a Next.js web frontend with real-time streaming, cross-provider comparison powered by Claude Opus, and follow-up conversations.
 
 ## Supported Providers
 
@@ -43,19 +43,6 @@ cd frontend && npm run dev
 ```
 
 Open http://localhost:3000 and log in with your `AUTH_SECRET` password.
-
-### 4. Or use the CLI
-
-```bash
-# Interactive mode
-python3 run.py
-
-# Single query
-python3 run.py --query "What are the best ETFs?"
-
-# Batch mode
-python3 run.py --batch
-```
 
 ## Web App Features
 
@@ -122,6 +109,12 @@ AI-multi-query/
 │   │   ├── suggestions_service.py  # Follow-up question generation
 │   │   ├── collections_service.py  # Saved search persistence
 │   │   └── analysis_service.py     # AISEO response analysis
+│   ├── lib/                       # AISEO analysis library
+│   │   ├── analyzer.py            # AI-powered response analysis
+│   │   ├── tracker.py             # Historical tracking (SQLite)
+│   │   ├── reporter.py            # Weekly report generation
+│   │   ├── domain_classifier.py   # Domain classification
+│   │   └── negative_detector.py   # Negative signal detection
 │   └── models/
 │       └── schemas.py       # Pydantic request/response models
 ├── frontend/                 # Next.js 14 frontend
@@ -133,8 +126,6 @@ AI-multi-query/
 │       │   └── layout/      # Sidebar, AuthProvider
 │       ├── hooks/           # useQueryExecution, useComparison, etc.
 │       └── lib/             # API client, SSE, types, citations, export
-├── query.py                 # CLI: basic multi-LLM testing
-├── run.py                   # CLI: testing with AI analysis
 └── .env.example             # Template environment config
 ```
 
@@ -175,28 +166,6 @@ See `.env.example` for all options. Key settings:
 - **Google Gemini**: [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
 - **xAI Grok**: [console.x.ai](https://console.x.ai)
 - **Google Search**: [Google Cloud Console](https://console.cloud.google.com/apis/credentials) + [Programmable Search Engine](https://programmablesearchengine.google.com)
-
-## CLI Scripts
-
-### run.py (recommended)
-
-Full-featured CLI with analysis:
-
-```bash
-python3 run.py                           # Interactive mode
-python3 run.py --query "your question"   # Single query
-python3 run.py --batch                   # Run all questions from questions.txt
-python3 run.py --select                  # Pick from question list
-python3 run.py --batch --enhanced-analysis --track-history --request-sources
-```
-
-### query.py
-
-Basic testing without analysis:
-
-```bash
-python3 query.py
-```
 
 ## License
 

@@ -8,19 +8,19 @@ from backend.config import DATABASE_PATH, PROJECT_ROOT
 
 # Import the existing modules (they're safe to import — no module-level side effects)
 try:
-    from analyzer import ResponseAnalyzer
+    from backend.lib.analyzer import ResponseAnalyzer
     ANALYZER_AVAILABLE = True
 except ImportError:
     ANALYZER_AVAILABLE = False
 
 try:
-    from tracker import HistoricalTracker
+    from backend.lib.tracker import HistoricalTracker
     TRACKER_AVAILABLE = True
 except ImportError:
     TRACKER_AVAILABLE = False
 
 try:
-    from reporter import WeeklyReporter
+    from backend.lib.reporter import WeeklyReporter
     REPORTER_AVAILABLE = True
 except ImportError:
     REPORTER_AVAILABLE = False

@@ -1,7 +1,6 @@
 """Centralized configuration — loads .env and builds provider config without side effects."""
 
 import os
-import sys
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -10,10 +9,6 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Load .env from project root
 load_dotenv(PROJECT_ROOT / ".env", override=True)
-
-# Add project root to sys.path so we can import analyzer, tracker, etc.
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
 
 
 def _check_import(module_name: str) -> bool:

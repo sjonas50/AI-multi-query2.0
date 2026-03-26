@@ -14,25 +14,25 @@ from typing import Dict, List, Optional
 
 # Import enhanced modules if available (for backward compatibility)
 try:
-    from domain_classifier import DomainClassifier, extract_domains_from_response
+    from backend.lib.domain_classifier import DomainClassifier, extract_domains_from_response
     DOMAIN_CLASSIFIER_AVAILABLE = True
 except ImportError:
     DOMAIN_CLASSIFIER_AVAILABLE = False
 
 try:
-    from negative_detector import NegativeSignalDetector, calculate_negative_score
+    from backend.lib.negative_detector import NegativeSignalDetector, calculate_negative_score
     NEGATIVE_DETECTOR_AVAILABLE = True
 except ImportError:
     NEGATIVE_DETECTOR_AVAILABLE = False
 
 try:
-    from tracker import HistoricalTracker
+    from backend.lib.tracker import HistoricalTracker
     TRACKER_AVAILABLE = True
 except ImportError:
     TRACKER_AVAILABLE = False
 
 try:
-    from reporter import WeeklyReporter, InsightsGenerator
+    from backend.lib.reporter import WeeklyReporter, InsightsGenerator
     REPORTER_AVAILABLE = True
 except ImportError:
     REPORTER_AVAILABLE = False
